@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "80d4b28161732fea",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ff9862525de9190",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ecd93b33a85b6a12",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d2ce833a18e04c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09069a2707faa54c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "311d8b74e2e9d5b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "15e4bb10c8d30edf",
+    "type": "split",
+    "children": [
+      {
+        "id": "b74d49933cbc38e7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acc11179f6cb8e34",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "36d2800e7c856dec",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4ff9862525de9190",
+  "lastOpenFiles": [
+    "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Numerical Python.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/NumPy Arrays.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Symbolic Computation.md",
+    "Car/Timing Gear and Timing Belt.md",
+    "Indonesian/Affixes with Numbers.md",
+    "Indonesian/Classifiers.md",
+    "Indonesian/Informal.md",
+    "Indonesian/Peribahasa.md",
+    "Indonesian/Telephone Phrases.md"
+  ]
+}
