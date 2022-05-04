@@ -7,9 +7,11 @@
         "id": "5d2769e280fc8733",
         "type": "leaf",
         "state": {
-          "type": "pdf",
+          "type": "markdown",
           "state": {
-            "file": "Indonesian/Assignments/Ciri-ciri fisik dan kepribadian.pdf"
+            "file": "Indonesian/Me- Kan.md",
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indonesian/Assignments/Ciri-ciri fisik dan kepribadian.pdf",
+                "file": "Indonesian/Me- Kan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indonesian/Assignments/Ciri-ciri fisik dan kepribadian.pdf",
+                "file": "Indonesian/Me- Kan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,15 +101,15 @@
   },
   "active": "5d2769e280fc8733",
   "lastOpenFiles": [
+    "Indonesian/Me- Kan.md",
+    "Indonesian/Ke-.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Numerical Python.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
     "Indonesian/Assignments/Ciri-ciri fisik dan kepribadian.pdf",
     "Computer Analysis and Visualisation/NumPy and SymPy/Symbolic Computation.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/Temp to give code.md",
     "Computer Analysis and Visualisation/Module.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/Solving Equations.md",
-    "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
-    "Indonesian/Passive.md",
-    "Indonesian/Classifiers.md",
-    "Indonesian/Affixes with Numbers.md",
-    "Indonesian/Tests/INDO3A Test 3.pdf"
+    "Indonesian/Passive.md"
   ]
 }
