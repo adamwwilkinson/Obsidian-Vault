@@ -10,4 +10,3 @@
 *Potong* - objects partitioned
 *Pucuk* - objects with sharp ends
 
-BIG DOG
