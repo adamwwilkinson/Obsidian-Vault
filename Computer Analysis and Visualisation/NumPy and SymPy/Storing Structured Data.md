@@ -22,14 +22,3 @@ people[1]['name']
 people[np.where(people['age'] < 30)]
 > Alice
 ```
-
-### Java Example
-```java
-public static void main(String[] args){
-	System.out.println("Hello World")
-}
-```
-
-```python
-print("Hello World")
-```
