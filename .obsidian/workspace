@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "4ff9862525de9190",
+        "id": "5d2769e280fc8733",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Computer Analysis and Visualisation/NumPy and SymPy/Untitled.md",
-            "mode": "source",
+            "file": "Indonesian/Peribahasa.md",
+            "mode": "preview",
             "source": true
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Analysis and Visualisation/NumPy and SymPy/Untitled.md",
+                "file": "Indonesian/Peribahasa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Analysis and Visualisation/NumPy and SymPy/Untitled.md",
+                "file": "Indonesian/Peribahasa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -99,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "4ff9862525de9190",
+  "active": "5d2769e280fc8733",
   "lastOpenFiles": [
-    "Computer Analysis and Visualisation/NumPy and SymPy/Untitled.md",
-    "Car/Engine Block.md",
-    "Car/Crankshaft.md",
-    "Car/Piston.md",
     "Indonesian/Peribahasa.md",
     "Indonesian/Telephone Phrases.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Solving Equations.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
-    "Computer Analysis and Visualisation/NumPy and SymPy/Numerical Python.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/NumPy Arrays.md",
-    "Computer Analysis and Visualisation/NumPy and SymPy/Symbolic Computation.md"
+    "Computer Analysis and Visualisation/NumPy and SymPy/Numerical Python.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Symbolic Computation.md",
+    "Car/Engine Block.md",
+    "Car/Crankshaft.md",
+    "Car/Piston.md"
   ]
 }
