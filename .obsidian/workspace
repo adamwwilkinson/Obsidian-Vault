@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5d2769e280fc8733",
+        "id": "617cb3fb311354e4",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Car/Crankshaft.md",
+            "mode": "source",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Car/Crankshaft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Car/Crankshaft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -93,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5d2769e280fc8733",
+  "active": "617cb3fb311354e4",
   "lastOpenFiles": [
-    "Computer Analysis and Visualisation/NumPy and SymPy/Temp to give code.md",
-    "Computer Analysis and Visualisation/Module.md",
-    "Computer Analysis and Visualisation/NumPy and SymPy/Solving Equations.md",
+    "Car/Crankshaft.md",
+    "Car/Head Gasket.md",
+    "Car/Piston.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
-    "Indonesian/Passive.md",
-    "Indonesian/Classifiers.md",
-    "Indonesian/Affixes with Numbers.md",
-    "Indonesian/Tests/INDO3A Test 3.pdf",
-    "Indonesian/Me- and Ber- Verbs.md",
-    "Car/Water Pump.md"
+    "Indonesian/Me- I.md",
+    "Indonesian/Tests/INDO3 Mid-Sem.pdf",
+    "Computer Analysis and Visualisation/NumPy and SymPy/NumPy Arrays.md",
+    "Indonesian/Me- Kan.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Temp to give code.md",
+    "Computer Analysis and Visualisation/Module.md"
   ]
 }
