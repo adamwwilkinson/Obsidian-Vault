@@ -7,8 +7,12 @@
         "id": "617cb3fb311354e4",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Indonesian/Passive.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Indonesian/Passive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Indonesian/Passive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,15 +101,15 @@
   },
   "active": "617cb3fb311354e4",
   "lastOpenFiles": [
+    "Indonesian/Passive.md",
+    "Indonesian/Tests/INDO3 Mid-Sem.pdf",
     "Indonesian/Tests/INDO3A Test 3.pdf",
-    "Indonesian/Ter-.md",
-    "Indonesian/Tests/Drawing 2022-05-04 16.57.47.excalidraw.md",
+    "Indonesian/Peribahasa.md",
+    "Indonesian/Telephone Phrases.md",
+    "Indonesian/Me- Kan.md",
+    "Indonesian/Me- I.md",
+    "Indonesian/Assignments/Ciri-ciri fisik dan kepribadian.pdf",
     "Indonesian/Ke-.md",
-    "Pasted Image 20220504165906_999.png",
-    "Pasted Image 20220504165840_350.png",
-    "Indonesian/Tests/Drawing 2022-05-04 16.55.19.excalidraw.md",
-    "Indonesian/Tests/Untitled.md",
-    "Car/Water Pump.md",
-    "Car/Valves.md"
+    "Indonesian/Me- and Ber- Verbs.md"
   ]
 }
