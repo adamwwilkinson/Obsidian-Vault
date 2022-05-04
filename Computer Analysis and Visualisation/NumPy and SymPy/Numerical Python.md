@@ -2,7 +2,7 @@
 Is a [[Module|module]] that contains n-dimension array objects, better maths functions and is useful for linear algebra.
 
 ### Arrays
-Arrays are homogenous, multidimension, fast, and mutable. A 1-d array is a vector and 2-d array's are matrices. Can add arrays together and can use scalers on arrays.
+Arrays are *homogenous, multidimension, fast, and mutable*. A 1-d array is a vector and 2-d array's are matrices. Can add arrays together and can use scalers on arrays.
 
 #### Creating Arrays
 ```python

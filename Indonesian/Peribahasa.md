@@ -9,4 +9,3 @@ Or general phrases. For telephone phrases, see [[Telephone Phrases|telephone pha
 | *Panas-panas tahi ayam* | Hot chicken poo | Situation that is initially active, but will eventually die out |
 |*Sekali lancung ke ujian, seumur hidup orang tak percaya* | Once a person was tempted, all of their life people would not believe them. |Boy who cried wolf|
 
-KE UJIAN - to be tempted
