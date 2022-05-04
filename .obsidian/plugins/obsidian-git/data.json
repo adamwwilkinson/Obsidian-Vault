@@ -1,6 +1,6 @@
 {
-  "commitMessage": "manual vault backup: {{date}}",
-  "autoCommitMessage": "vault backup: {{date}}",
+  "commitMessage": "PC manual vault backup: {{date}}",
+  "autoCommitMessage": "PC vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPullInterval": 0,
