@@ -1,5 +1,5 @@
 # Affixes with [[Numbers]]
-### [[Ke-]] followed by [[Numbers]]
+### [[Ke- an]] followed by [[Numbers]]
 1. Indicates ordinals ("number-th") and proceeds the modifiee
    Dunia *ketiga* - "The third world"
    Anak saya yang *kedua*. "My second child."
