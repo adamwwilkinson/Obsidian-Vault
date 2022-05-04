@@ -1,12 +1,12 @@
 # Engine Block
-Largest part of an engine, made of aluminium or cast iron.
+Largest part of an engine, made of *aluminium* or *cast iron*.
 Primarily used to house pistons. 
 Also holds accessories powered by the [[Timing Gear and Timing Belt#Timing Belt|timing belt]].
 Has holes for coolant and oil to travel through.
 
 ### Materials
-- cast iron was used historically (tougher) - holes machine in
-- aluminium allow (lighter) - cylinder holes made by liners
+- *cast iron* was used historically (tougher) - holes machined in
+- *aluminium allow* (lighter) - cylinder holes made by liners
 
 ### Deck
 - top surface of block
@@ -22,7 +22,7 @@ Has holes for coolant and oil to travel through.
 - main caps are formed as part of the saddle upon creation\
 
 ### Core Plugs
-Also called freeze or expansion plugs. Formed by emptying sand in molding process. Common place to leak as it is thin.
+Also called *freeze* or *expansion plugs*. Formed by emptying sand in molding process. Common place to *leak* as it is thin.
 
 ### Water Jackets
-Cavity for [[Coolant|coolant]] to circulate around cylinders, also reduces metal-metal contact from heat expansion
+Cavity for [[Coolant|coolant]] to circulate around cylinders, also *reduces metal-metal contact* from heat expansion
