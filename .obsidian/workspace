@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "617cb3fb311354e4",
+        "id": "5d2769e280fc8733",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Indonesian/Peribahasa.md",
+            "mode": "preview",
+            "source": true
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Indonesian/Peribahasa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Indonesian/Peribahasa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -93,17 +99,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "617cb3fb311354e4",
+  "active": "5d2769e280fc8733",
   "lastOpenFiles": [
-    "Indonesian/Classifiers.md",
-    "Indonesian/Affixes with Numbers.md",
+    "Indonesian/Peribahasa.md",
+    "Indonesian/Telephone Phrases.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Solving Equations.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
-    "Computer Analysis and Visualisation/NumPy and SymPy/Symbolic Computation.md",
-    "Car/Car Test Dog.md",
-    "Car/Crankshaft.md",
-    "Car/Camshaft.md",
-    "Computer Analysis and Visualisation/NumPy and SymPy/Numerical Python.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/NumPy Arrays.md",
-    "Computer Analysis and Visualisation/Module.md"
+    "Computer Analysis and Visualisation/NumPy and SymPy/Numerical Python.md",
+    "Computer Analysis and Visualisation/NumPy and SymPy/Symbolic Computation.md",
+    "Car/Engine Block.md",
+    "Car/Crankshaft.md",
+    "Car/Piston.md"
   ]
 }
