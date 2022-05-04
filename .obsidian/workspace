@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Indonesian/Telephone Phrases.md",
+            "file": "Indonesian/Untitled.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indonesian/Telephone Phrases.md",
+                "file": "Indonesian/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indonesian/Telephone Phrases.md",
+                "file": "Indonesian/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +101,7 @@
   },
   "active": "4ff9862525de9190",
   "lastOpenFiles": [
+    "Indonesian/Untitled.md",
     "Indonesian/Telephone Phrases.md",
     "Car/Timing Gear and Timing Belt.md",
     "Indonesian/dogs.md",
@@ -109,7 +110,6 @@
     "Car/Crankshaft.md",
     "Car/Coolant.md",
     "Car/Camshaft.md",
-    "Car/Head Gasket.md",
-    "Car/Piston.md"
+    "Car/Head Gasket.md"
   ]
 }
