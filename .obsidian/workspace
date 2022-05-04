@@ -16,6 +16,18 @@
         }
       },
       {
+        "id": "fa37fb8c6c6af911",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      },
+      {
         "id": "6ec5d4a096a7ea80",
         "type": "leaf",
         "state": {
@@ -110,11 +122,11 @@
   "active": "617cb3fb311354e4",
   "lastOpenFiles": [
     "Indonesian/Informal.md",
+    "conflict-files-obsidian-git.md",
     "Indonesian/Me- I.md",
     "Indonesian/Telephone Phrases.md",
     "Car/Crankshaft.md",
     "Car/Timing Gear and Timing Belt.md",
-    "conflict-files-obsidian-git.md",
     "Car/Head Gasket.md",
     "Car/Piston.md",
     "Computer Analysis and Visualisation/NumPy and SymPy/Storing Structured Data.md",
