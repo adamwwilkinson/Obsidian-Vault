@@ -7,12 +7,8 @@
         "id": "4ff9862525de9190",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Indonesian/Untitled.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indonesian/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indonesian/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,7 +95,7 @@
   },
   "active": "4ff9862525de9190",
   "lastOpenFiles": [
-    "Indonesian/Untitled.md",
+    "Indonesian/test.md",
     "Indonesian/Telephone Phrases.md",
     "Car/Timing Gear and Timing Belt.md",
     "Indonesian/dogs.md",
