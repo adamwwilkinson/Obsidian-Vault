@@ -1,5 +1,5 @@
 # Symbolic Computation
-A [[Module]] for python that allows for more complex maths.
+A [[Module|module]] for python that allows for more complex maths.
 ## Importing and Symbols
 ```python
 from sympy import symbols, diff

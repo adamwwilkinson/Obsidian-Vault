@@ -1,5 +1,5 @@
 # Storing Structured Data
-[[NumPy Arrays]] only store simple homogenous data types.
+[[Numerical Python#Arrays|NumPy arrays]] only store simple homogenous data types.
 How can we have complex records of different data types in an array?
 
 ### Specifying Types
