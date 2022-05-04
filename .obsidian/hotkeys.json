@@ -8,19 +8,20 @@
       "key": "-"
     }
   ],
-  "obsidian-git:push2": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "="
-    }
-  ],
+  "obsidian-git:push2": [],
   "obsidian-git:commit": [
     {
       "modifiers": [
         "Ctrl"
+      ],
+      "key": "="
+    }
+  ],
+  "obsidian-git:push": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
       ],
       "key": "="
     }
