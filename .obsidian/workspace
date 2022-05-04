@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Indonesian/Passive.md",
+            "file": "Indonesian/Ke-.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Indonesian/Passive.md",
+                "file": "Indonesian/Ke-.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Indonesian/Passive.md",
+                "file": "Indonesian/Ke-.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -101,6 +101,8 @@
   },
   "active": "617cb3fb311354e4",
   "lastOpenFiles": [
+    "Indonesian/Ke-.md",
+    "Indonesian/Numbers.md",
     "Indonesian/Passive.md",
     "Indonesian/Me- Kan.md",
     "Indonesian/Informal.md",
@@ -108,8 +110,6 @@
     "Indonesian/Me- I.md",
     "Indonesian/Telephone Phrases.md",
     "Car/Crankshaft.md",
-    "Car/Timing Gear and Timing Belt.md",
-    "Car/Head Gasket.md",
-    "Car/Piston.md"
+    "Car/Timing Gear and Timing Belt.md"
   ]
 }
