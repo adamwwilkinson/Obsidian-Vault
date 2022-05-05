@@ -18,5 +18,13 @@
       ],
       "key": "="
     }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "ArrowLeft"
+    }
   ]
 }

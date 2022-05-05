@@ -1,5 +1,6 @@
 {
   "cssTheme": "Shimmering Focus",
   "monospaceFontFamily": "",
-  "translucency": false
+  "translucency": false,
+  "baseFontSize": 17
 }
