@@ -13,4 +13,5 @@ Soal
 2. Tiga puluh lima kepala.
 3. Lima
 4. Tidak akan memedulikan mereka.
-5. which word is referred to by their word on the two paragra
+5. Peronda
+6. pisang goreng
