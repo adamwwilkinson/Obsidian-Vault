@@ -15,3 +15,4 @@ Soal
 4. Tidak akan memedulikan mereka.
 5. Peronda
 6. pisang goreng
+7.
