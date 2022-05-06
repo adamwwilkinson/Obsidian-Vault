@@ -26,5 +26,13 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "taskbone-ocr-plugin:open-image-select-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }
