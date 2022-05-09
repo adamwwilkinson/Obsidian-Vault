@@ -29,3 +29,4 @@ menjalankan -
 #status/todo //add anki
 // write 400 word letter to a friend about studying at uwa
 //oral :)) test on wednesday
+//phenomnon pergaulan bebas is in reading comprehesnion
