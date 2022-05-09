@@ -1,7 +1,7 @@
 [
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-git",
   "language-translator",
-  "taskbone-ocr-plugin"
+  "taskbone-ocr-plugin",
+  "obsidian-git"
 ]
