@@ -27,6 +27,7 @@ segala -
 menjalankan -
 
 #status/todo //add anki
-// write 400 word letter to a friend about studying at uwa
+// write 400 word letter to a friend about studying at uwa week 11 pg 111 reader
+// presentaiton next week on monday
 //oral :)) test on wednesday
 //phenomnon pergaulan bebas is in reading comprehesnion
