@@ -5,4 +5,8 @@
 | *titip pesan*    | leave a message |
 | *sampaikan*      | pass it on      |
 | *salah sambung*  | wrong number    |
-| *pesawat*        | number/phone                |
+| *pesawat*        | number/phone    |
+||                 |
+
+
+#concept/words 

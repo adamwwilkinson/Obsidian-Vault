@@ -10,3 +10,4 @@
 *Potong* - objects partitioned
 *Pucuk* - objects with sharp ends
 
+#concept/words

@@ -28,3 +28,5 @@ pada dasarnya - basically
 pada hekekatnya - essentially
 
 Karcisnya ada pada ayah.
+
+#concept/grammar

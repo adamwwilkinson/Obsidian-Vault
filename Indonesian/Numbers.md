@@ -6,3 +6,5 @@ Tiga     Delapan
 Empat  Sembilan
 Lima   Sepuluh
 
+#concept/words 
+

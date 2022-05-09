@@ -7,6 +7,6 @@ Hanya | Cuma
 Tidak | Ndak
 Lusuh | Lecek
 
-
+#concept/words 
 
 

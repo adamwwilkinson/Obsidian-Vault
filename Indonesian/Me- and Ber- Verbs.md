@@ -21,3 +21,5 @@ Are transitive and usually require a object.
 *menyanyi* - to sing something
 
 Can have extended and more nuance use by adding suffixed like [[Me- I]] and [[Me- Kan]].
+
+#concept/grammar 

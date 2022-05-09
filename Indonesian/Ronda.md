@@ -1,3 +1,6 @@
+# Ronda
+A street in Indonesia is called *RT* (*rukun tentangga*). *Kepala RT* is the head of the *RT*. Several *RT* make a *RW* (*rukun warga*). Several *RWs* make a *kelurahan*, and several *kelurahan* make a *kacamatan* (read suburb).
+
 *ronda* - walk around to maintain security; patrol
 *kelurahan* - areas owned by lurah; the lowest level of territory in the governance structure
 *kecamatan* - areas led by camats; areas that are at the level above the village
@@ -8,11 +11,11 @@
 *sanski* - Sentence (prison)
 *piket konsumsi* - the group in charge of preparing food and drinks
 
-Soal
-1. Tinggal RT 5, RW 10.
-2. Tiga puluh lima kepala.
-3. Lima
-4. Tidak akan memedulikan mereka.
-5. Peronda
-6. pisang goreng
-7.
+#concept/abstract
+
+memaksa - to force
+menyiksa - torturing
+melasanakan - 
+diacu - to be referenced
+menyediakan - 
+#status/todo //add anki
