@@ -18,4 +18,14 @@ menyiksa - torturing
 melasanakan - 
 diacu - to be referenced
 menyediakan - 
+kenyataan - the reality
+anggapan-anggapan itu - what they consider
+berpegarauh - 
+pergaulan -
+serta - 
+segala - 
+menjalankan -
+
 #status/todo //add anki
+// write 400 word letter to a friend about studying at uwa
+//oral :)) test on wednesday
