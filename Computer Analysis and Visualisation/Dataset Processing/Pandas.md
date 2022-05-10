@@ -4,7 +4,7 @@ Open source data analysis and manipulation tool.
 ### Methods
 ```python
 import pandas as pd
-df = pf.read_cav('temporal.cav') #like cv file
+df = pd.read_csv('temporal.csv') 
 df.head(10) #preview first 10 data rows
 df.describe() #shows basic statistic about data
 df.info() #shows metadata about the content
