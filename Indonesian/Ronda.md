@@ -15,16 +15,16 @@ A street in Indonesia is called *RT* (*rukun tentangga*). *Kepala RT* is the hea
 
 memaksa - to force
 menyiksa - torturing
-melasanakan - 
+melaksanakan - carry out
 diacu - to be referenced
-menyediakan - 
+menyediakan - to provide
 kenyataan - the reality
 anggapan-anggapan itu - what they consider
-berpegarauh - 
-pergaulan -
-serta - 
-segala - 
-menjalankan -
+berpengaruh - influential
+pergaulan - association
+serta - and
+segala - all
+menjalankan - to run
 
 #status/todo //add anki
 // write 400 word letter to a friend about studying at uwa week 11 pg 111 reader
