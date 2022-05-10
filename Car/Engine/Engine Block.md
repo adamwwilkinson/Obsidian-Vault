@@ -6,7 +6,7 @@ Has holes for coolant and oil to travel through.
 
 ### Materials
 - *cast iron* was used historically (tougher) - holes machined in
-- *aluminium allow* (lighter) - cylinder holes made by liners
+- *aluminium alloy* (lighter) - cylinder holes made by liners
 
 ### Deck
 - top surface of block
