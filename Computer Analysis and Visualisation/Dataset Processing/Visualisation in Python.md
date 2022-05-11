@@ -44,3 +44,16 @@ plt.plot(x, np.sin(x))
 plt.subsplot(2, 1, 2)
 plt.plot(x, np.cos(x))
 ```
+
+### 3D Plotting
+```python
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib.pyplot as plt
+import numpy as np
+
+def plot_data(x, y, z):
+	fig = plt.figure()
+	ax = fig.add_subplot(111, projection='3d')
+	surf = ax.plot_surface(x, y, z)
+	plt.show()
+```
