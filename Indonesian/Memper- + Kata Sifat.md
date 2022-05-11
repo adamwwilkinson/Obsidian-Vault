@@ -7,3 +7,5 @@ kaca pembesar - magnifying glass
 indah - beautiful
 air terjun - waterfall
 \
+
+#status/todo grammar notes pg 320
