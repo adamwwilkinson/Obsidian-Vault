@@ -4,6 +4,7 @@ Impemented as a [[Shortest Path Algorithms#Priority-first Search|PFS]] by replac
 
 ### How it works
 Pick a source node at random, then  pick the smallest weighted edge that connects to an unvisited node. Repeat this until every node is reached, or if disconnected tree is realised.
+![[Prim Drawing Example|500]]
 
 ### Complexity
 If using a priority heap, $O(V \log V + E \log V)$, otherwise if using an adjacency matrix, $O(V^2)$.
