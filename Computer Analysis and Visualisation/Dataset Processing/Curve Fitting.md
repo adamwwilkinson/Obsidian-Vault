@@ -13,5 +13,5 @@ p = np.polyfit(x_pts, y_pts, 1)
 x_vals = np.linspace(0, 6, 100)
 y_vals = np.polyval(p, x_vals)
 plt.plot(x_pts, y_pts, '.')
-plt.plot(x_vals, y_vals, '.')
+plt.plot(x_vals, y_valshaha, '.')
 ```
