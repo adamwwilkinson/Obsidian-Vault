@@ -3,7 +3,7 @@
 Impemented as a [[Shortest Path Algorithms#Priority-first Search|PFS]] by replacing *PRIORITY* with *weight(u, v)*.
 
 ### How it works
-Pick a source node at random, then pick the smallest weighted edge that connects to an unvisited node. Repeat this until every node is reached, or if disconnected tree is realised.
+Pick a source node at random, then  pick the smallest weighted edge that connects to an unvisited node. Repeat this until every node is reached, or if disconnected tree is realised.
 
 ### Complexity
 If using a priority heap, $O(V \log V + E \log V)$, otherwise if using an adjacency matrix, $O(V^2)$.
