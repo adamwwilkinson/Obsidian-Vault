@@ -14,8 +14,6 @@ What is the smallest weight of the path that uses at most *m* edges? Either:
 1. A path uses less than *m* edges
 2. A path that uses exactly *m* edges, composed of a path using *m - 1* edges from *i* to vertex *k* and edge *(k, j)*.
 
-#status/todo/drawing 05 May 2022, 01:11
-
 ### Matrix Multiplication
 $D(2)$ can be calculated by $D(1)$  * $D(1)$ and that will calculate the shortest path with at least 2 edges. 
 
