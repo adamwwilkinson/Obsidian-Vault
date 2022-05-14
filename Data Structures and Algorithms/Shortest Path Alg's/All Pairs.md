@@ -2,7 +2,7 @@
 Uses [[Dynamic Programming]], and finds the minimum distance between every pair of vertices.
 
 ### The Initial Step
-Let $d_ij^m$ denote the distance from $i$ to $j$ using at most $m$ edges, define $D^(m)$ to be the matrix whose $ij$-entry is the valued $d_ij^m$.
+Let $d_ij^m$ denote the distance from $i$ to $j$ using at most $m$ edges, define $D^(m)$ to be the matrix whose $ij$-entry is the valued $d_{ij}^m$.
 
 The matrix $D^V-^1$ contains the table of all-pairs shortest paths.
 Our overall plan therefore is to use $D(1)$ to compute $D(2)$, then use $D(2)$to compute $D(3)$ and so on.
@@ -20,7 +20,7 @@ $D(2)$ can be calculated by $D(1)$  * $D(1)$ and that will calculate the shortes
 $D(3)$ can be calculated by $D(2)$ * $D(1)$ and that will calculate the shortest path with at least 3 edges.
 
 ### Complexity
-We have to iterate V - 1 times, for updating one enrtry it is O(V) and there are O($V^2$) vertexes. Therefore total complexity if **$O(V^2)$**.
+We have to iterate V - 1 times, for updating one enrtry it is O(V) and there are O($V^2$) vertexes. Therefore total complexity if **$O(V^3)$**.
 
 #### Improvements
 We don't need to compute all intermediate products $D^1$, $D^2$, as we are only interested in $D^V-^1$. Therfore we can just compute
