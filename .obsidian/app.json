@@ -7,5 +7,6 @@
   "spellcheckLanguages": [
     "en-GB",
     "id"
-  ]
+  ],
+  "vimMode": true
 }
