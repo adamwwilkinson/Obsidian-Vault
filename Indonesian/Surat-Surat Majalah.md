@@ -1,6 +1,6 @@
 # Surat-Surat Majalah
 *terpaksa* -
-*cerewat* - fussy
+*cerewet* - fussy
 *menampilkan sikap periang* - appear with a cheerful attitude
 *bersifat* - be
 *membinungkan* - they confuse us
