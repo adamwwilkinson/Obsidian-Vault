@@ -10,3 +10,5 @@
 *bermurah hati* - to be generous
 *senyum* - them
 *berbahaya*- dangerous
+
+#status/todo 
