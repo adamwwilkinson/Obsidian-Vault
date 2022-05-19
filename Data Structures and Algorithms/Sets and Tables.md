@@ -64,4 +64,10 @@ Alternative is to represent set as a list, we assume no total ordering.
 *union* and all other methods takes $O(pq)$ for set sizes p and q
 
 ### Ordered List Representation
-If universe is ordered we can search through both list at the same time
+If universe is ordered we can search through both list at the same time.
+![[Ordered List Drawing]]
+Complexity of *union* and all others is $O(p+q)$
+*insert, delete, isMember* takes $O(\log p)$
+
+### Table Representation
+Subset of operations in set, [[#List Representation]] can be used.
