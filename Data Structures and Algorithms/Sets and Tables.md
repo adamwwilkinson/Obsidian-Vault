@@ -37,7 +37,7 @@ Sets are usually displayed as a *venn diagram*.
 *difference(t)*: returns the set obtained by removing any items that  appear in t.  
 *enumerate()*: returns the “next” element of the set. Successive calls to  enumerate should return successive elements until the set is exhausted.
 
-### Set Represntation
+### Set Representation
 
 #### Characteristic Fuction representation
 Not good if universe is very large, and sets are very small.
@@ -57,3 +57,11 @@ Translates set operations into efficient bit operations, *(1 means membership, 0
 - *union* — *or* two bit vectors  
 - *intersection* — *and* two bit vectors  
 - *difference* — *complement* and *intersection*
+### List Representation
+Alternative is to represent set as a list, we assume no total ordering.
+#### Performance
+*insert, delete, isMember* take $O(p)$ for set size p
+*union* and all other methods takes $O(pq)$ for set sizes p and q
+
+### Ordered List Representation
+If universe is ordered we can search through both list at the same time
