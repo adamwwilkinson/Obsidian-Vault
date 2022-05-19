@@ -49,3 +49,14 @@ To *insert* an element:
 - insert element into an external node
 - starting with it's parent, check each ancestor of the new node to ensure the *left and right subtree* heights differ by at most one
 - if we find an node that doesn't satisfy this, we perform a *rotation*
+
+To *delete* an element:
+- delete the element
+- starting with it's *parent*, check each ancestor of the new node to make sure it's balanced
+- if not perform a *rotation* 
+- carry on upwards until the root
+
+Complexity of $O(\log n)$
+##### Rotation
+![[Rotation Drawing]]
+Constant time operation.
