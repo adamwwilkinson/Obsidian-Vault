@@ -60,3 +60,14 @@ Complexity of $O(\log n)$
 ##### Rotation
 ![[Rotation Drawing]]
 Constant time operation.
+
+#### B Trees
+A [[#B Trees]] is a data structure that allows *searching, insertion, deletion* in *amortized log time*.
+Each node of a [[#B Trees]] can contain *multiple* items and *multiple* children.
+
+#### Red-black trees
+Another variation of a [[#Binary Search Tree]] that is more efficient than the aforementioned variations. Each node is coloured red or black to satisfy the properties: 
+- root is black
+- every external node is black
+- the children of a red node is black
+- every external node has the same number of black ancestors
