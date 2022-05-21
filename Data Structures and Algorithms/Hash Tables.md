@@ -10,3 +10,8 @@ What if we use a block not big enough for all items?
 ### Hash Functions
 $h(a)$ is called the *home address* of a.
 A hash function that maps each item to a unique position is called *perfect*.
+
+*2-universal* hash function has the form
+$$h(i) = ((c_1i+c_2)\mod p)\mod m$$
+$(c_1i+c_2)\mod p)$ : *scrambles* $i$
+$\mod m$ : maps onto block
