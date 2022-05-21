@@ -39,4 +39,16 @@ Allow more than one item to be stored at each position in the hash table; associ
 
 Worst case is $O(n)$.
 
-#status/todo finish lecture (55 mins in)
+#### Open addressing
+- store all item in hash table
+- deal with collision by incrementing hash table index, with wrap around
+Can be *linear probing* by going down until item or *null* is found.
+Or by *double hashing* by hashing again.
+- all space is used
+- space is now limited
+- deletions are more complicated, *erosion of space*
+### Dynamic Tables - Linear Hashing
+There are methods that allow a hash table to be dynamic rather than static.
+*Linear hashing* is an extension of separate chaining, although we limit the size of the bucket
+- *insertion* - if the average chain exceeds the bound, split the bucket, and hash the items in the bucket with double the  previous bucket
+- *deletion* - if the bucket size drops below a predefined minimum, shrink the tbale
