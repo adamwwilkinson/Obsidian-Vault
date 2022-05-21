@@ -51,4 +51,4 @@ Or by *double hashing* by hashing again.
 There are methods that allow a hash table to be dynamic rather than static.
 *Linear hashing* is an extension of separate chaining, although we limit the size of the bucket
 - *insertion* - if the average chain exceeds the bound, split the bucket, and hash the items in the bucket with double the  previous bucket
-- *deletion* - if the bucket size drops below a predefined minimum, shrink the tbale
+- *deletion* - if the bucket size drops below a predefined minimum, shrink the table
