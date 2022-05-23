@@ -1,14 +1,12 @@
 # Surat-Surat Majalah
-*terpaksa* -
+*terpaksa* - had
 *cerewet* - fussy
 *menampilkan sikap periang* - appear with a cheerful attitude
 *bersifat* - be
-*membinungkan* - they confuse us
+*membingungkan* - they confuse us
 *rejeki* - make profit
 *kikir*- stingy
 *mengeluarkan* - to spend
 *bermurah hati* - to be generous
 *senyum* - them
 *berbahaya*- dangerous
-
-#status/todo 

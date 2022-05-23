@@ -19,16 +19,13 @@ Can mean *on/at an abstract place*:
 - Panitia dihadapkan pada keadaan aneh.
 
 ### Common Expressions
-terdiri dari/atas - consist of
-tergantung pada/atas - depending on
-berasarkan pada/atas - based on
-pada hemat saya - in my opinion
-pada pendapat saya - --//--
-pada umumnya - generally
-pada dasarnya - basically
-pada hekekatnya - essentially
-
-#status/todo anki
-Karcisnya ada pada ayah.
+*terdiri dari/atas* - consist of
+*tergantung pada/atas* - depending on
+*berasarkan pada/atas* - based on
+*pada hemat saya* - in my opinion
+*pada pendapat saya* - --//--
+*pada umumnya* - generally
+*pada dasarnya* - basically
+*pada hekekatnya* - essentially
 
 #concept/grammar
