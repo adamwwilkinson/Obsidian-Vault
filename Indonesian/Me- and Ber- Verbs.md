@@ -15,7 +15,7 @@ Are intransitive and occurs to subject (needs no object).
 	- *bersaudara* - to be siblings
 - to do
 	- *berpiknik* - to go on a picnic
-
+Can have extended and more nuance use by adding suffixed like [[Me- I]] and [[Ber- an]].
 ### Me- Verbs
 Are transitive and usually require a object.
 *menyanyi* - to sing something

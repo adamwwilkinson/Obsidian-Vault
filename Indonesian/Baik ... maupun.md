@@ -1,6 +1,6 @@
 # Baik ... maupun
-When we want to asy both something as well as someting else:
-*baik* ... pun
+When we want to say both something as well as someting else:
+*baik* ... *pun*
 
 **Put pun after the noun**
 
