@@ -11,4 +11,5 @@
 *teduh* - shady
 Batik is done manually by hand, called batik tulis, and usually it is very expensive.
 Also caps may be used to ease and shorten the process.
-#status/todo (week 12)
+
+#concept/abstract 
