@@ -1,14 +1,14 @@
 # Batik
-*bahan* - 
+*bahan* - material 
 *seni rupa* - fine art
 *tetes* - drop (of water)
 *larutan* - mixture
 *meresap* - absorbed
-*zat* - 
+*zat* - drunk 
 *dihiasi pola batik* - be decorated with batik designs
 *pejabat* - government employee
 *ringkas* - brief
 *teduh* - shady
 Batik is done manually by hand, called batik tulis, and usually it is very expensive.
-Also caps may be used to ease and shrten the process.
+Also caps may be used to ease and shorten the process.
 #status/todo (week 12)
