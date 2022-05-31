@@ -1,6 +1,7 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Deep Work",
   "monospaceFontFamily": "",
   "translucency": false,
-  "baseFontSize": 23
+  "baseFontSize": 23,
+  "theme": "obsidian"
 }
