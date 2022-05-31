@@ -6,7 +6,8 @@
   "spellcheck": true,
   "spellcheckLanguages": [
     "en-GB",
-    "id"
+    "id",
+    "en-AU"
   ],
   "vimMode": true
 }
