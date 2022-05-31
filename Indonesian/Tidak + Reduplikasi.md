@@ -1,23 +1,28 @@
 # Tidak + Reduplikasi
-#status/todo grammar notes pg 320
+
+The action of the *reduplicated* verb is expected and/or desired by the speaker but has not yet come.
+
+*Saya agak khawatir karena kamu* **tidak datang-datang.** - I am rather worried because you have not yet come.
+
+
 kesan - impression
 
-tumbuh-tumbuhan
-akar
-daun
-batang
-dicampur
+tumbuh-grow
+akar - want
+daun -leaf 
+batang - trunk
+dicampur - mixed
 ditumbuk - to be ground (mortar and pestle)
 bubuk- powder
 halus - soft
-berupa = in the form of
+berupa - in the form of
 bungkusan-bungkusan - packages
 terjangkau - affordable
 mengekspornya - export
 dilarutkan - to be dissolved
-bentuk - 
-berminat - 
-penelitian ilmiah -
-manfaat - 
-kualitas -
-kekonsistenan - consistency
+bentuk - shape 
+berminat - interested 
+penelitian ilmiah -scientific research
+manfaat - benefit
+kualitas -quality
+konsistensi - consistency
