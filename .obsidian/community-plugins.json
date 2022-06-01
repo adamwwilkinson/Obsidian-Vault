@@ -3,5 +3,6 @@
   "obsidian-excalidraw-plugin",
   "language-translator",
   "taskbone-ocr-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-languagetool-plugin"
 ]

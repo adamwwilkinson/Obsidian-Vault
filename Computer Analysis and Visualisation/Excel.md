@@ -28,8 +28,8 @@ returns the sum of scores more than 50 and less than 60.
 - requires an array for where to count
 #### Line Graphs
 - used to *outline trends*
-- continous data
-- $R^2$ can indicate how good as a predictor\
+- continuous data
+- $R^2$ can indicate how good as a predictor
 #### Scatter plot
 - useful for *correlations*
 - similar to line
