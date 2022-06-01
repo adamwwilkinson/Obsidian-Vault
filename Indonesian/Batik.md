@@ -10,6 +10,6 @@
 *ringkas* - brief
 *teduh* - shady
 Batik is done manually by hand, called batik tulis, and usually it is very expensive.
-Also caps may be used to ease and shorten the process.
+Also, caps may be used to ease and shorten the process.
 
 #concept/abstract 

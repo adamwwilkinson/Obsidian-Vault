@@ -1,4 +1,4 @@
 # Merge Sort
 
-### Recourence Relation
+### Recurrence Relation
 #status/todo 

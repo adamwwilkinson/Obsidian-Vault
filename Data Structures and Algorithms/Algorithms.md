@@ -19,7 +19,7 @@ There are two main ways to prove correctness, by induction, and by contradiction
 An efficient algorithm minimises time, and space (memory). In most situations there is a time-space trade off which exist
 
 ### Complexity 
-The complexity is related by the amount of operations an algorithm does. Usually done in asymptomtic complexity, also known as *Big O* notation. Scalers are ignored and instead we usually give complexity as the lowest polynomial which encapsulates the function.
+The complexity is related by the amount of operations an algorithm does. Usually done in asymptomatic complexity, also known as *Big O* notation. Scalars are ignored, and instead we usually give complexity as the lowest polynomial which encapsulates the function.
 
 Iterating over an array of size $n$ leads to a complexity of $O(n)$ regardless of the amount of times done, but iterate over an array of size $n$ for each element in $n$ gives a complexity of $O(n^2)$.
 

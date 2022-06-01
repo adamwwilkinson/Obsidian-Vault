@@ -10,4 +10,4 @@ int(x)
 ```
 
 ### Local Variables
-Variables whose *scope* is on in the body of the function variable is used in.
+Variables whose *scope* is in the body of the function variable is used in.

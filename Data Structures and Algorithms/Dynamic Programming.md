@@ -3,4 +3,4 @@ Trying to reduce computation by trying to reuse earlier problems. Characterised 
 - the problem is broken down into small subproblems
 - solution is built up from the stored value of the solution to those subproblems
 
-All dynammic programming uses inductive reasoning.
+All dynamic programming uses inductive reasoning.
