@@ -25,4 +25,6 @@ Iterating over an array of size $n$ leads to a complexity of $O(n)$ regardless o
 
 There also exist complexities such as $O (\log n)$ or even $O (n\log n)$.
 
+Polynomial complexities are regarded as **feasible** while exponential complexities are regarded as **infeasible**.
+
 #concept/abstract 
