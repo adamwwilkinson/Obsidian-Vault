@@ -1,7 +1,8 @@
 {
-  "cssTheme": "Obsidian Windows 98 Edition",
+  "cssTheme": "Sanctum",
   "monospaceFontFamily": "",
   "translucency": false,
-  "baseFontSize": 23,
-  "theme": "moonstone"
+  "baseFontSize": 30,
+  "theme": "moonstone",
+  "baseFontSizeAction": true
 }
