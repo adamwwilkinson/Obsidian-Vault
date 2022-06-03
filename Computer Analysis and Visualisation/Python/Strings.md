@@ -1,5 +1,6 @@
 # Strings
 They are *literals* which means they are constant. Can be indicated with a single, double or triple quote. I.e. ', '', '''
+Also uses the [[Object Store]].
 
 ### Special Characters
 \n - new line

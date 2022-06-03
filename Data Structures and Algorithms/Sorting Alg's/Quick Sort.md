@@ -21,3 +21,5 @@ procedure PARTITION(a, p, r)
 
 ### Complexity
 The worst case complexity is worse than [[Merge Sort]] but is faster on average. Complexity of $O(n^2)$.
+
+#concept/abstract 
