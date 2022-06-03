@@ -5,5 +5,5 @@ When we want to say both something as well as someting else:
 **Put pun after the noun**
 
 ### Jangankan ..., ...pun...
-Oposite is jangankan and pun:
+Oposite is jangankan and pun
 **jangankan** *televisi, internet **pun** sudah masuk desa* - not only television, but also the internet has entered the village
