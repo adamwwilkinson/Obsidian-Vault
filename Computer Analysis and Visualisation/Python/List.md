@@ -20,3 +20,9 @@ sum/min/max - only work for numeric list
 ### Constructor
 list("Angus")
 returns: ['A', 'n', 'g', 'u', 's']
+
+### Nesting
+A list can be inside another list
+```python
+list[i][j]
+```

@@ -9,5 +9,8 @@
     "id",
     "en-AU"
   ],
-  "vimMode": true
+  "vimMode": true,
+  "spellcheckDictionary": [
+    "incrementer"
+  ]
 }
