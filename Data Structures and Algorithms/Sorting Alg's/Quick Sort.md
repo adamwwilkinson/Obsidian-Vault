@@ -1,5 +1,6 @@
 # Quick Sort
 Works by setting a pivot point and placing every element less than the pivot to the left of it, and everything more than the pivot to the right.
+![[Quick Sort Drawing|800]]
 [[Algorithms|Algorithm:]]
 ```java
 procedure QUICKSORT(a, p, r)
