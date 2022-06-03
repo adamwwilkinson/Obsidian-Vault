@@ -1,7 +1,7 @@
 # Kerokan
-*terapi*
+*terapi* - therapy
 *terutama*- mainly
-*menyembuhkan* - 
+*menyembuhkan* - heal
 *pegal-pegal* - sore
 *melebarnya* - widening
 *aliran* - flow
