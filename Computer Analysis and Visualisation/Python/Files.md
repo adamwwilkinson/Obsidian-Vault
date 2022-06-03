@@ -1,4 +1,4 @@
-# File Opening
+# Files 
 ### How to Call
 open(path, [mode])
 path is the file path as a string, "H:/folder/test.txt"
@@ -25,4 +25,11 @@ web_page = urllib.request.urlopen(url)
 for line in web_page:
 	...
 web_page.close()
+```
+
+### Writing Files
+```python
+outfile = open('myoutput.txt', 'w')
+outfile.write(data)
+outfile.close()
 ```
