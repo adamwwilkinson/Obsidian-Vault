@@ -26,5 +26,5 @@ procedure MERGE(a, p, q, r)
 
 ### Complexity
 $O(n \log n)$
-### Recurrence Relation
+
 #status/todo 
