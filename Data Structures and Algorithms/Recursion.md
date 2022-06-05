@@ -6,3 +6,5 @@
 
 
 ### Recursion is Expensive!
+This is because the recursion builds up the stack, where there is limited space.
+![[Recursion Drawing|600]]
