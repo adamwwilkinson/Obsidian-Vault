@@ -76,5 +76,17 @@ arrayx.sort(axis= 0) # sorts by columns, if axis= -1 sorts row
 Can be used to find approximate values.
 ```python
 value = np.arrange(0, math.pi, skip)
+ftn = np.sin(value)
+signs = ftn[:-1] * ftn[1:] # multiplies adjacent values
+sign_change = np.where(signs < 0) # get negative signs index
+```
+
+### Linear Algebra
+```python
+import numpy.linalg.matrix_power
+array1.dot(array2)
+np.matrix_power(M, n) # multiple matrix m by itself n times
+np.matrix_power(M, -1)
+lingalg.inv(M)
 
 ```
