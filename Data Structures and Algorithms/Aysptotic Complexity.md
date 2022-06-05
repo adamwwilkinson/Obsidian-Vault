@@ -17,4 +17,4 @@ This means for any algorithm with $O(n)$, it can also be said that that algorith
 ### Recurrence Relation
 A method to express time or space recursively.
 
-#status/todo from second last lecture
+#status/todo from second last lectures

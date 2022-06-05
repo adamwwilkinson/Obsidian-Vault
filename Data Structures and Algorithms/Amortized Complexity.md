@@ -1,0 +1,2 @@
+# Amortized Complexity
+A variety of worst case analysis but takes the cost of repeating the cost in a sequence. The cost of an expensive operation is amortized over the cheaper ones which *must* accompany it.
