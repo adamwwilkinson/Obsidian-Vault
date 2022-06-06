@@ -22,3 +22,7 @@ $$E(H) \subseteq E(G)$$
 A *spanning* subgraph of $H$ has been obtained from $G$ by only removing the edges.
 
 An *induced* subgraph of $H$ has been obtained from $G$ by removing vertices and their adjoining edges
+
+
+### Representing Graphs
+2 Ways to represent a graph, adjacency list or an adjacency matrix.
