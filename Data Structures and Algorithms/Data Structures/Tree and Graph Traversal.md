@@ -68,5 +68,96 @@ while (!q.isEmpty()) {
 ```
 
 ### Graph Traversal
+Both the following methods take time complexity $O(V + E)$.
 #### Breadth-first
-More complicated than [[#Breadth-first]] because we must be careful not to touch the same node twice. It uses a [[Queues]] as it's main data structure.
+More complicated than [[#Breadth-first]] because we must be careful not to touch the same node twice. It uses a [[Queues]] as it's main data structure. Useful for determining if a graph is connected, or finding the distanced between two vertexes.
+
+##### Initialisation
+We mark every vertex as *white* with the queue being empty. Initialise an array $\pi [x]$ called the parent array. This keeps track of the parent of $x$. Then we mark the initial vertex as *gray* and have $\pi [v]$ to be undefined.
+
+##### Procedure
+```java
+procedure BFS(v)  
+	Push v on to the tail of Q  
+	while Q is not empty  
+		Pop vertex w from the head of Q  
+		for each vertex x adjacent to w do  
+			if colour[x] is white then  
+				π[x] ← w  
+				colour[x] ← grey  
+				Push x on to the tail of Q  
+			end if  
+		end for  
+		colour[w] ← black  
+	end while
+```
+At the end of the search, every vertex becomes *black*, and the parent array $\pi$ will contain details of the breadth-first search tree.
+
+##### Finding Distances Variation
+```java
+procedure BFSdist(v)
+	while Q is not empty  
+		Pop vertex w from the head of Q  
+		for each vertex x adjacent to w do  
+			if colour[x] is white then  
+				dist[x] ← dist[w]+1  
+				π[x] ← w  
+				colour[x] ← grey  
+				Push x on to the tail of Q  
+			end if  
+		end for  
+		colour[w] ← black  
+	end while
+```
+
+#### Depth-first
+Naturally recursive, follows down the path of vertexes until it reaches a dead end, then backtracks.
+
+```java
+procedure DFS(w)  
+	colour[w] ← grey  
+	for each vertex x adjacent to w do  
+		if colour[x] is white then  
+			π[x] ← w  
+			DFS(x)  
+		end if  
+	end for  
+	colour[w] ← black
+```
+
+##### Non-recursive Variation
+Requires a [[Stack]].
+```java
+procedure DFS(w)  
+	initialize stack S  
+	push w onto S  
+	while S not empty do  
+		x ← pop off S  
+		if colour[x]=white then  
+			colour[x] ← black  
+			for each vertex y adjacent to x do  
+				if colour[y] is white then  
+					push y onto S  
+					π[y] ← x  
+				end if  
+			end for  
+		end if  
+	end while
+```
+
+##### Discover Variation
+```java
+procedure DFS(w)  
+	colour[w] ← grey  
+	discovery[w] ← time  
+	time ← time+1  
+	for each vertex x adjacent to w do  
+		if colour[x] is white then  
+			π[x] ← w  
+			DFS(x)  
+		end if  
+	end for  
+	colour[w] ← black  
+	finish[w] ← time  
+	time ← time+1
+```
