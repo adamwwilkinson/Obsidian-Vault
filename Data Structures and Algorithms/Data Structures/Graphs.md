@@ -25,4 +25,14 @@ An *induced* subgraph of $H$ has been obtained from $G$ by removing vertices and
 
 
 ### Representing Graphs
-2 Ways to represent a graph, adjacency list or an adjacency matrix.
+2 Ways to represent a graph, an adjacency list or an adjacency matrix.
+
+#### Adjacency List
+$V$ number of list each containing the neighbours of that vertex.
+Space required is $O(|V(G)| + |E(G)|)$. 
+Here a *sparse* graph is preferable.
+
+#### Adjacency Matrix
+A $V \times V$ matrix where rows and columns are indexed such that $A_{ij} = w$ where $w$ is the weight of the edge.
+Space required is $O(V^2)$.
+Here a *dense* graph is preferable.
