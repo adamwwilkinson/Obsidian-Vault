@@ -70,7 +70,7 @@ while (!q.isEmpty()) {
 ### Graph Traversal
 Both the following methods take time complexity $O(V + E)$.
 #### Breadth-first
-More complicated than [[#Breadth-first]] because we must be careful not to touch the same node twice. It uses a [[Queues]] as it's main data structure. Useful for determining if a graph is connected, or finding the distanced between two vertexes.
+More complicated than [[#Breadth-first]] because we must be careful not to touch the same node twice. It uses a [[Queues]] as it's main data structure. Useful for determining if a graph is connected, or finding the distanced between two vertexes. Visits nearest nodes to the source first.
 
 ##### Initialisation
 We mark every vertex as *white* with the queue being empty. Initialise an array $\pi [x]$ called the parent array. This keeps track of the parent of $x$. Then we mark the initial vertex as *gray* and have $\pi [v]$ to be undefined.
@@ -111,7 +111,7 @@ procedure BFSdist(v)
 ```
 
 #### Depth-first
-Naturally recursive, follows down the path of vertexes until it reaches a dead end, then backtracks.
+Naturally recursive, follows down the path of vertexes until it reaches a dead end, then backtracks. Visits furthest nodes to the source first. Came be used to find **strongly connected components** (from any two vertices there is a directed path from one to the other both ways), as well as **articulation points** (a vertex whose removal disconnects the graph).
 
 ```java
 procedure DFS(w)  
@@ -145,7 +145,8 @@ procedure DFS(w)
 	end while
 ```
 
-##### Discover Variation
+##### Discovery Variation
+Tracks the time a vertex is discovered, and when it's finished.
 ```java
 procedure DFS(w)  
 	colour[w] ← grey  
@@ -161,3 +162,13 @@ procedure DFS(w)
 	finish[w] ← time  
 	time ← time+1
 ```
+
+### Topological Sort
+Definition: A *directed acyclic graph (dag)* is a directed graph with no directed cycles
+
+#### Algorithm
+Apply the [[#Depth-first]] search procedure to find the finishing times of each vertex. As each vertex finishes put it on the front of a linked list.
+
+At the end of the [[#Depth-first]] it will contain vertices in topologically sorted order.
+
+Time complexity of $O(V + E)$.
