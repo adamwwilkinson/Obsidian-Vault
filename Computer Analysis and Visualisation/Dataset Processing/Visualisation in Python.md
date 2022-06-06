@@ -3,7 +3,7 @@ Uses Matplotlib package.
 ### Creating Graphs
 ```python
 import matplotlib.pyplot as plt
-plt.plot([1,2,3,4]) # (0, 1) , (1, 2), (3, 4)
+plt.plot([1,2,3,4], color='red') # (0, 1) , (1, 2), (3, 4)
 plt.ylabel('label')
 plt.show()
 plt.plot([xvalues], [yvalues])
