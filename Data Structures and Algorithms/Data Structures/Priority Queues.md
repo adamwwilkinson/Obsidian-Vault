@@ -81,4 +81,4 @@ public class PQueueLinked<E> {
 *enqueue* is $O(n)$ every other method is constant time.
 
 ### Heap Implementation
-**Heap** data structure is 
+Uses [[Heapsort]] and has complexity for *enqueue, dequeue* being $O(n \log n)$.

@@ -23,6 +23,7 @@
     "subgraph",
     "Preorder",
     "Postorder",
-    "Inorder"
+    "Inorder",
+    "heapify"
   ]
 }
