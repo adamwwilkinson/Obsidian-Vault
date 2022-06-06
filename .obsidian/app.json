@@ -20,6 +20,9 @@
     "initialise",
     "BinTree",
     "he neighbo",
-    "subgraph"
+    "subgraph",
+    "Preorder",
+    "Postorder",
+    "Inorder"
   ]
 }
