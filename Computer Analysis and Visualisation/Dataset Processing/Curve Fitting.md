@@ -13,6 +13,7 @@ y_pts = np.array([15, 10, 9, 6, 2, 0])
 points = np.polyfit(x_pts, y_pts, 1) # last number is degree
 x_vals = np.linspace(0, 6, 100) # x values for linear regression
 y_vals = np.polyval(points, x_vals) # linear regression y values
+
 plt.plot(x_pts, y_pts, '.')
 plt.plot(x_vals, y_vals, '-')
 ```
