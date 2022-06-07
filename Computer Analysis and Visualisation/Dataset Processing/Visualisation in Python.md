@@ -10,6 +10,7 @@ plt.plot([xvalues], [yvalues])
 plt.show()
 plt.plot(df['Mes'], df['data science']) #many x-values cramp axis
 plt.show()
+plt.savefig(output_name)
 ```
 The 'df' here is a reference to [[Pandas]].
 
