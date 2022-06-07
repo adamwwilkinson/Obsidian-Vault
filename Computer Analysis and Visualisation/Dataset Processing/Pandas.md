@@ -33,3 +33,39 @@ df['Mes'] = pd.to_datetime(df['Mes'])
 #apply to visualisation
 write_html("demo.html", df.style.format(format_dict)) 
 ```
+
+### Plotting
+Instead of writing:
+```python
+plt.plot(df["Rank"], df["P75th"])
+```
+
+Can instead write:
+
+```python
+df.plot(x="Rank", y="P75th")
+```
+
+Example:
+Here we have the for require format be:
+-   figure size is set to (10, 8)
+-   x-axis tick labels are aligned vertically, not horizontally
+-   legend is removed
+-   a grid is applied over the plot area with line width of 1 and a line style of '--'
+-   x-axis label is 'Month'
+-   y-axis label is 'Sales Units'
+-   plot title is 'Bathing Soap Sales Data'
+```python
+def bathing_soap_sales(fp, output_name= 'output.png'):  
+        df = pd.read_csv(fp)  
+		df.plot(x= 'month_number',y= 'bathingsoap', kind="bar", 
+                    figsize= (10, 8), legend= False)  
+        plt.xticks(rotation= 90)  
+        plt.grid(linestyle = '--', linewidth = 1)  
+        plt.xlabel('Month')  
+        plt.ylabel('Sales Units')  
+        plt.title('Bathing Soap Sales Data')  
+        plt.show()  
+  
+bathing_soap_sales('company_sales_data.csv')
+```
