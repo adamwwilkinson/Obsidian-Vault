@@ -1,4 +1,20 @@
 # Excel
+
+### Exam!
+**Legal**
+=COUNTIF(C2:C21,"=FRANCE")
+=COUNTIF(C2:C21,"="&C2)
+
+=AVERAGE(A2:B21)
+=AVERAGE(A2:A21)
+
+{=A2:A21 \* B2:B21}
+{=A2:A21 \* B2}
+{=AVERAGE(B2:B21) * A2:A21}
+
+**Illegal**
+{=COUNTA(C:C),A:A}
+=AVERAGE(B2:B21) * A2:A21
 ### Methods
 Mean - *Average(A1:B2)*
 Standard Deviation = *STDEV(A1:B2)*
@@ -7,7 +23,7 @@ Standard Deviation = *STDEV(A1:B2)*
 =IF(B2<B3, "it is less than", "it isn't less than") Excel
 
 ### Array Formulas
-Instead of A1 X B1 and dragging that result down to A7, we can do *A1:A7 X B1:B7*.
+Instead of A1 X B1 and dragging that result down to A7, we can do *A1:A7 \* B1:B7*.
 ctrl + shift + enter if array formula is required element by element.
 
 #### Why
