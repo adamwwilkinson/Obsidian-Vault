@@ -1,5 +1,5 @@
 # Merge Sort
-Works by dividing the array in half, multiple times until you get each element by itself, then it merges the arrays, sorting as it goes.
+Works by dividing the array in half, multiple times until you get each element by itself, then it merges the arrays, sorting as it goes. [[Recursion|Recursive]].
 [[Algorithms|Algorithm:]]
 ```java
 procedure MERGESORT(a, p, r)
