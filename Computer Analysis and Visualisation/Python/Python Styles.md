@@ -6,6 +6,10 @@ One example is that there should be **no more than 4 levels of indentation.**
 Technique that involved breaking down large [[Function|functions]] into smaller ones.
 - improves readability, maintainability, and efficiency
 
+### Format Numbers
+`format(sum, '.2f')` to force 2 decimal places.
+
+
 ### Names
 **Local variables**
 - *only lower case*
