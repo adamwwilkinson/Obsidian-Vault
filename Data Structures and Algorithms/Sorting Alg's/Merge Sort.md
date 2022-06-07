@@ -17,8 +17,8 @@ procedure MERGE(a, p, q, r)
 	i <- 1
 	j <- 1
 	k <- p
-	while i <= n2 and j <= n2 do
-		if L[i] <= R[j] themn a[k++] <- L[i++]
+	while i <= n1 and j <= n2 do
+		if L[i] <= R[j] then a[k++] <- L[i++]
 		else a[k++] <- R[j++]
 	while i <= n1 do a[k++] <- L[i++]
 	while j <= n2 do a[k++] <- R[i++]
