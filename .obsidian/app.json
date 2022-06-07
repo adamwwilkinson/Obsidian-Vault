@@ -24,6 +24,10 @@
     "Preorder",
     "Postorder",
     "Inorder",
-    "heapify"
+    "heapify",
+    "Kruskal",
+    "Primm",
+    "Kruskal",
+    "Primm"
   ]
 }
