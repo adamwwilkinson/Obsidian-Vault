@@ -6,15 +6,15 @@ Assumes data follows a straight line. Uses [[Numerical Python]].
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-np.interp(x, xp, fp)
+np.interp(x, xp, fp) # given discrete points xp and fp returns interpolated value at x
 
 # Example
-x_pts = np.linspace(0, 2*np.pi, 10)
+x_pts = np.linspace(0, 2*np.pi, 10) # 10 equidistant x coord
 y_pts = np.sin(x_pts)
-x_vals = np.linspace(0, 2*np.pi, 50)
+x_vals = np.linspace(0, 2*np.pi, 50) # 50 desired points
 y_vals = np.interp(x_vals, x_pts. y_points)
-ply.ploy(x_pts, y_pts, 'o')
-ply.plot(x_vals, y_vals, '-x')
+plt.plot(x_pts, y_pts, 'o') #plot known
+plt.plot(x_vals, y_vals, '-x') # plot interpolated
 ```
 
 ### Cubic Spline Interpolation
