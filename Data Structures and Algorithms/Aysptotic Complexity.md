@@ -33,3 +33,4 @@ After $k$ divisions:
 $$T(n) = 2^k(T(1))$$
 
 Now we have $2^k = n$ which gives us $k = \log_2 n$.
+
