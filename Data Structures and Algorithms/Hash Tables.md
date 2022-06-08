@@ -30,12 +30,12 @@ $$[ord(s_1)b^{k-1}+ord(s_2)b^{k-2}+...+ord(s_k)b^0]\mod 2^B$$
 $b$ is a small odd number, like 37, $\mod 2^B$ gives the least significant $B$ bits
 
 ### Collision Resolution Techniques
-#### Bucketing and seperate chaining
+#### Bucketing and separate chaining
 Allow more than one item to be stored at each position in the hash table; associate a list with each hash table call.
 - simple to implement
 - slows down table access
 - extra space
-- performance deterioates as chain length extends
+- performance deteriorates as chain length extends
 
 Worst case is $O(n)$.
 
@@ -50,5 +50,5 @@ Or by *double hashing* by hashing again.
 ### Dynamic Tables - Linear Hashing
 There are methods that allow a hash table to be dynamic rather than static.
 *Linear hashing* is an extension of separate chaining, although we limit the size of the bucket
-- *insertion* - if the average chain exceeds the bound, split the bucket, and hash the items in the bucket with double the  previous bucket
+- *insertion* - if the average chain exceeds the bound, split the bucket, and hash the items in the bucket with double the previous bucket
 - *deletion* - if the bucket size drops below a predefined minimum, shrink the table
