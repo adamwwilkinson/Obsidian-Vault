@@ -1,5 +1,5 @@
 # Insertion Sort
-Works by inserting *i*th element into it's correct position. [[Algorithms|Algorithm:]]
+Works by inserting ith element into it's correct position. [[Algorithms|Algorithm:]]
 ```java
 procedure INSERTION-SORT(A)
 	for j <- 2 to length[A]

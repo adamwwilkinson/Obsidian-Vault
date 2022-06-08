@@ -31,7 +31,7 @@ public class LinkedStack {
 	* @param o the Object to insert  
 	*/  
 	public void insert (Object o) {first = new Link(o, first);}  
-	9
+	
 	
 	/**  
 	* Examine the first item in the stack.  
