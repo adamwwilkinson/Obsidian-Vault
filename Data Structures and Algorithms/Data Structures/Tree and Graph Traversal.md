@@ -28,7 +28,7 @@ if(!t.isEmpty()) {
 
 ##### Postorder Traversal
 ```java
-if (!t.isEmmpty()) {
+if (!t.isEmpty()) {
 	perform postorder traversal of left subtree;
 	perform postorder traversal of right subtree;
 	visit root of t;
