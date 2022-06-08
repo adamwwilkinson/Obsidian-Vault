@@ -27,4 +27,4 @@ procedure MERGE(a, p, q, r)
 ### Complexity
 $O(n \log n)$
 
-#status/todo 
+For reccurence relation look at [[Aysptotic Complexity#Recurrence Relation]]

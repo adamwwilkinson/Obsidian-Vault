@@ -17,4 +17,19 @@ This means for any algorithm with $O(n)$, it can also be said that that algorith
 ### Recurrence Relation
 A method to express time or space recursively.
 
-#status/todo from second last lectures
+We assume the time it takes for an algorithm is $T(n)$.
+In the example for [[Merge Sort]]:
+
+After 1 division:
+$$T(n) = 2(T(\frac{n}{2}))$$
+
+After 2 divisions:
+$$T(n) = 2^2(T(\frac{n}{2^2}))$$
+
+After 3 divisions:
+$$T(n) = 2^3(T(\frac{n}{2^3}))$$
+
+After $k$ divisions:
+$$T(n) = 2^k(T(1))$$
+
+Now we have $2^k = n$ which gives us $k = \log_2 n$.
