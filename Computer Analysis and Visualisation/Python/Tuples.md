@@ -15,3 +15,8 @@ person = ("Fred", "Bloggs", 27)
 for f, l, a in personlist:
 	print(f, l, a)
 ```
+
+### Sorting Tuples
+```python
+list_of_tuples.sort(key= lambda x: x[n]) # n is column to sort
+```
