@@ -1,0 +1,1 @@
+# ![[Minimum Spanning Trees#Kruskal's Algorithm]]	
