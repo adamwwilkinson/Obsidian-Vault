@@ -1,5 +1,12 @@
 # Bellman-Ford Algorithm
 [[Relaxing Edges]] the edge (v-1) rounds then once more again and sees if any weight changes (from cycles or negative weights). **IF** it does it reports it's unable to get shortest path.
+
+On the first iteration, for every vertex $v$, examine every outgoing vertex and add it's weight of the edge and the weight of $v$. 
+
+On the second iteration, repeat the step above.
+
+Do this V - 1 times, then one more to see if any values change.
+
 ```java
 for i = 1 to |V(G)| - 1 do
 	for each edge(u,v) element of E(G) do
