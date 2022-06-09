@@ -4,7 +4,7 @@ Uses [[Dynamic Programming]], and finds the minimum distance between every pair 
 ### The Initial Step
 Let $d_ij^m$ denote the distance from $i$ to $j$ using at most $m$ edges, define $D^(m)$ to be the matrix whose $ij$-entry is the valued $d_{ij}^m$.
 
-The matrix $D^V-^1$ contains the table of all-pairs shortest paths.
+The matrix $D^{V-1}$ contains the table of all-pairs shortest paths.
 Our overall plan therefore is to use $D(1)$ to compute $D(2)$, then use $D(2)$to compute $D(3)$ and so on.
 
 $D(1)$ is just the adjacency matrix $A$. as it is just the weight from edge $i$ to $j$.
