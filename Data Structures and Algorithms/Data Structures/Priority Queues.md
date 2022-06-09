@@ -40,7 +40,7 @@ public class PQueueLinked<E> {
 		if (!isEmpty()) {  
 			return (E) front.element;  
 		} else throw new Exception("Empty Queue");  
-		}  
+	}  
 		
 	public E dequeue() throws Exception {  
 		if (!isEmpty()) {  
