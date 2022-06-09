@@ -16,6 +16,12 @@ fruit_counts.items() # weird list of key and values
 fruit_counts.keys() # list of keys
 fruit_counts.values() # list of values
 fruit_counts.update(dict) # merges dictionary
+
+
+keys_list = ["a", "b"]
+value_list - [1, 2]
+dictionary = dict(zip(keys_list, value_list))
+
 for item in dict:
 	print(item, dict[item])
 for (key, value) in fruit_counts.item():
