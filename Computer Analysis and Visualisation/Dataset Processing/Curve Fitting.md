@@ -17,3 +17,18 @@ y_vals = np.polyval(points, x_vals) # linear regression y values
 plt.plot(x_pts, y_pts, '.')
 plt.plot(x_vals, y_vals, '-')
 ```
+
+
+### Example
+Sometimes, no need to create x_vals.
+```python
+def graph_regression(data):
+    x_pts = np.arange(0, len(data), 1)
+    y_pts = data
+
+    points = np.polyfit(x_pts, y_pts, 1)
+    y_vals = np.polyval(points, x_pts)
+    plt.scatter(x_pts, y_pts)
+    plt.plot(x_pts, y_vals)
+    return plt
+```
