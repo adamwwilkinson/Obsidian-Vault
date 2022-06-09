@@ -17,8 +17,8 @@
 =AVERAGE(B2:B21) * A2:A21
 ### Methods
 Mean - *Average(A1:B2)*
-Standard Deviation = *STDEV(A1:B2)*
-
+Standard Deviation = *STDEV.P(A1:B2)*
+=SUMIFS(followers,emotions,A14,followers,">"&PERCENTILE.INC(followers,0.9))
 ### Conditionals
 =IF(B2<B3, "it is less than", "it isn't less than") Excel
 
