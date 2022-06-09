@@ -6,7 +6,7 @@ Minimises the square of the errors, where the error is the distance each point i
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
-x_pts = np.arrange(0, 6, 1) # x values to use later
+x_pts = np.arange(0, 6, 1) # x values to use later
 y_pts = np.array([15, 10, 9, 6, 2, 0])
 
 # linear regression
