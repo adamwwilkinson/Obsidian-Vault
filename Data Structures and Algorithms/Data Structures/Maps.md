@@ -6,7 +6,7 @@ A map is a binary relation where each element of the domain pairs with only one 
 Shorthand : *affiliation(x in domain) = y in codomain*
 
 #### Why Study Maps
-Any Java method is a function or map, why implement our own map as an ADT?
+Any Java method is a function or map, why implement our own map as an ADT? 
 - create, modify and delete maps in runtime
 - a map of affiliation may change over time, Java programs cannot modify themselves
 - Java methods return a result, we may want more functionality
