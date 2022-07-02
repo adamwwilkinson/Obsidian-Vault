@@ -4,5 +4,6 @@
   "language-translator",
   "taskbone-ocr-plugin",
   "obsidian-git",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "obsidian-admonition"
 ]
