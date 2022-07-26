@@ -13,9 +13,9 @@ When a body is affected by a force. Mainly focusing on *rigid* bodies.
 - Mass
 - Time
 - Force
-Newton's 2nd law relates them all: $F = m * a$ 
+Newton's 2nd law relates them all: $F = m \times a$ 
 $a$ is a measurement of length over time.
-$N = Kg * m / s^2$
+$N = \frac{Kg \times m}{s^2}$
 
 #### Models
 We can treat a body as a particle when its dimensions are irrelevant to the orientation and magnitude of the forces applies to it.
