@@ -1,8 +1,8 @@
 {
   "serverUrl": "https://api.languagetool.org",
   "urlMode": "standard",
-  "glassBg": true,
+  "glassBg": false,
   "shouldAutoCheck": true,
-  "pickyMode": true,
+  "pickyMode": false,
   "staticLanguage": "en-AU"
 }

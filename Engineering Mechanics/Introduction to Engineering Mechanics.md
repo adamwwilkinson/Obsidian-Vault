@@ -18,7 +18,7 @@ $a$ is a measurement of length over time.
 $N = \frac{Kg \times m}{s^2}$
 
 #### Models
-We can treat a body as a particle when its dimensions are irrelevant to the orientation and magnitude of the forces applies to it.
+We can treat a body as a **particle** when its dimensions are irrelevant to the orientation and magnitude of the forces applies to it.
 
 ##### Rigid Body
 When dimensions are important and the deformation of an object is negligible.
