@@ -3,7 +3,7 @@
   "livePreview": false,
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "spellcheck": true,
+  "spellcheck": false,
   "spellcheckLanguages": [
     "en-GB",
     "id",
@@ -28,6 +28,9 @@
     "Kruskal",
     "Primm",
     "Kruskal",
-    "Primm"
-  ]
+    "Primm",
+    "standardio",
+    "Whitespaces"
+  ],
+  "lineWrap": true
 }

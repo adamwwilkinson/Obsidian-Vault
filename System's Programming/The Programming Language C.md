@@ -1,6 +1,6 @@
 # The Programming Language C
 Created: 25/07/2022 at 09:28
-Tags:  #introductory
+Tags:  #introductory #topic/programming 
 Related:
 
 ### Why

@@ -4,5 +4,6 @@
   "glassBg": false,
   "shouldAutoCheck": true,
   "pickyMode": false,
-  "staticLanguage": "en-AU"
+  "staticLanguage": "en-AU",
+  "ruleOtherDisabledRules": "ENGLISH_WORD_REPEAT_RULE"
 }
