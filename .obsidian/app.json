@@ -30,7 +30,9 @@
     "Kruskal",
     "Primm",
     "standardio",
-    "Whitespaces"
+    "Whitespaces",
+    "Datatypes",
+    "onstants we need t"
   ],
   "lineWrap": true
 }
