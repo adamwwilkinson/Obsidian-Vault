@@ -29,4 +29,4 @@ The net charge inside the lumped elements forming a system is always zero.
 Electrical components interact solely through wires.
 
 ### Models
-A model expresses the *relationship* among *voltages* and *currents*.
+A model expresses the *relationship* among *voltages* and *currents*. These can be linear or non-linear.
