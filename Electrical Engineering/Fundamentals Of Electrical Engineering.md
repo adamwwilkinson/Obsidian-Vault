@@ -100,3 +100,29 @@ The SI unit is called *Siemens*($S$)
 - Material is linear
 - Contact of wires produces no effect
 - Power supply is ideal
+
+### Power
+Power is the *time rate of change of work*. $P = \frac{\mathrm{d}W}{\mathrm{d}t}$,
+And, $V = \frac{W}{Q}$.
+
+Therefore, power supplied or dissipated by a circuit element is:
+$$P = \frac{\mathrm{d}}{\mathrm{d}t}(QV)$$
+For constant voltage, $P = V \frac{\mathrm{d}Q}{\mathrm{d}t} = V \times I$
+
+Measured in joules per second, or *watts*.
+```ad-warning
+Use the sign of the first symbol the current flows into.
+```
+
+Power dissipated by a resistor can be given by,
+$$P = I^2R = \frac{V^2}{R}$$
+
+### Energy
+The gain or dissipation over a time interval,
+$$E = \int^{\Delta t}_0P(t) \mathrm{d}t$$
+
+If there is constant voltage and current,
+$$E = VI \Delta t$$
+
+Considering dissipation in a resistor,
+$$E = I^2 R \Delta t = \frac{V^2}{R} \Delta t$$
