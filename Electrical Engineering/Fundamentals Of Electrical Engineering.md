@@ -53,3 +53,50 @@ $$V = \frac{W}{Q}$$
 The negative charge from the electron is already considered in the defiition for voltage.
 
 A $+$ sign in a circuit denotes the point of higher potential, and the $-$ sign denotes the point of lower potential. Even if that lower potential is a postive number.
+
+#### Active vs Passive Components
+Active components are ones where current flows *out* the positive terminal.
+Passive components are ones where current flows *into* the positive terminal.
+
+#### Reference Points
+Always assumed to be zero volts. #todo/excalidraw Symbols for earth ground and chassis.
+
+#### Ideal Voltage Source
+#todo/excalidraw ac and dc and general sources
+
+1. Pure voltage source, with no lost or storage characteristics. No *Internal resitance, capacitance, or inductance*.
+2. Creates the specified voltage across its terminals, regardless of current.
+
+#### Ideal Current Source
+#todo/excalidraw symbol of current source
+1. Pure current source, with no loss or storage characteristic. No *Internal resitance, capacitance, or inductance*.
+2. Drives the specified current, regardless of voltager.
+
+#### Resistor
+#todo/excalidraw sybol of resistor and variable resitor
+Dissipates energy from the system as heat. Voltage is dropped when current flows through.
+
+#### Capacitor
+#todo/excalidraw capacitor
+Stores energy in an *electric field* when a voltage is applied
+
+#### Inductor
+Stores energy in a *magnetic field* when a current flows through.
+
+#### Variable Supplies
+Provides a voltage or current proportional to another parameter.
+
+### Ohm Law
+The linear relationship between current and applied voltage.
+$$V = IR$$
+
+#### Resistance
+Measured in Ohms($\ohm$ ). Can be evaluated with $R = \frac{V}{I}$
+
+The inverse is called *conductance* ($G$) is also used. $G = \frac{I}{V}$
+The SI unit is called *Siemens*($S$)
+
+#### Assumptions
+- Material is linear
+- Contact of wires produces no effect
+- Power supply is ideal
