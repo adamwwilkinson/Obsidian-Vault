@@ -22,7 +22,7 @@ A distributed circuit is one where the *terminal voltages* and *currents* are fu
 
 ### Transmission Lines 
 Specialised structures to transfer electricity from one point to another.
-#todo/excalidraw
+![[Transmission Line Structures.png]]
 
 ### More Lumped Assumptions
 The net charge inside the lumped elements forming a system is always zero.
@@ -44,7 +44,6 @@ $$Q(t) = Q(0) + \int_0^t \! i(t) \mathrm{d}t$$
 
 *Conventional Current* - the flow of 'positive charge'
 
-#todo/examples
 
 #### Voltage
 The voltage (potential difference) between two points is one volt if it requires one joule of energy to move one coloumb of charge between the two points.
