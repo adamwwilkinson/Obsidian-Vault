@@ -58,25 +58,26 @@ Active components are ones where current flows *out* the positive terminal.
 Passive components are ones where current flows *into* the positive terminal.
 
 #### Reference Points
-Always assumed to be zero volts. #todo/excalidraw Symbols for earth ground and chassis.
+Always assumed to be zero volts. 
+![[Symbols for Earth and Ground]]
+Symbols for earth ground and chassis.
+
 
 #### Ideal Voltage Source
-#todo/excalidraw ac and dc and general sources
-
+![[DC and AC Drawing]]
 1. Pure voltage source, with no lost or storage characteristics. No *Internal resitance, capacitance, or inductance*.
 2. Creates the specified voltage across its terminals, regardless of current.
 
 #### Ideal Current Source
-#todo/excalidraw symbol of current source
+![[Ideal Current Drawing|100]]
 1. Pure current source, with no loss or storage characteristic. No *Internal resitance, capacitance, or inductance*.
-2. Drives the specified current, regardless of voltager.
+2. Drives the specified current, regardless of voltage.
 
 #### Resistor
-#todo/excalidraw sybol of resistor and variable resitor
+![[Resistor Drawing]]
 Dissipates energy from the system as heat. Voltage is dropped when current flows through.
 
 #### Capacitor
-#todo/excalidraw capacitor
 Stores energy in an *electric field* when a voltage is applied
 
 #### Inductor

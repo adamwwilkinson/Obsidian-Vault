@@ -32,5 +32,5 @@ $$M_O = F \times d$$
 
 If we use the *components* of **F**, instead it is,
 $$M_O = (F_ya) - (F_x b)$$
-#todo/excalidraw 
+![[Moment of Force Drawing]]
 This difference in sign is because we usually consider *counter-clockwise* as positive. 
