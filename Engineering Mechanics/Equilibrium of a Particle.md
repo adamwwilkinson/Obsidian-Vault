@@ -1,6 +1,6 @@
 # Equilibrium of a Particle
 Created: 01/08/2022 at 18:13
-Tags: 
+Tags: #topic/physics 
 Related: [[Force Vectors & Vector Operation]]
 
 ### Terminology
@@ -25,3 +25,12 @@ $T_1 = T_2$ with a frictionless pulley and cable.
 
 #### Smooth Contact
 If an object rests on a *smooth surface* the surface will exert a force notmal to the surface on the object. So we get the normal force $N$, the weight $W$ and the force $T$.
+
+### Moment of a Force
+The *moment* is a point which provides a measure for the tendency of rotation.
+$$M_O = F \times d$$
+
+If we use the *components* of **F**, instead it is,
+$$M_O = (F_ya) - (F_x b)$$
+#todo/excalidraw 
+This difference in sign is because we usually consider *counter-clockwise* as positive. 
