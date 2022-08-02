@@ -42,7 +42,7 @@ $$I_2 = \frac{V}{R_1} = \frac{I\frac{R_1R_2}{R_1 + R_2}}{R_2} = \frac{R_1}{R_1+R
 Notice how finding $I_1$ uses $R_2$ as opposed to $R_1$. The reason for this is if $R_2$ is large, more current will flow through $I_1$ thus leading to a larger $I_1$.
 ```
 
-$$I_n =  \Pi $$
+$$I_n =  \Pi^N_{K=1,} $$
 #todo/latex  ![[Screen Shot 2022-08-02 at 12.15.05 pm.png]]
 
 ### Analysis of Complicated Circuits
