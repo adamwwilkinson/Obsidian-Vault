@@ -120,6 +120,7 @@ $$P = I^2R = \frac{V^2}{R}$$
 ### Energy
 The gain or dissipation over a time interval,
 $$E = \int^{\Delta t}_0P(t) \mathrm{d}t$$
+Energy is the integration of power.
 
 If there is constant voltage and current,
 $$E = VI \Delta t$$
