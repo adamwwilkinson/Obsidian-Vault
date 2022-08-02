@@ -1,7 +1,7 @@
 # The Structure of C Programs
 Created: 28/07/2022 at 20:17
 Tags: #topic/programming 
-Related:
+Related: [[The Programming Language C]]
 
 ### Whitespaces
 Only used for human readability, not required for the compiler.
