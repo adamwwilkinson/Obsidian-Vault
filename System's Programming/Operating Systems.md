@@ -27,7 +27,7 @@ The OS must be extensible as new hardware and software consistently are being re
 **File System**: organise mass storage into files and directories
 
 *Utility Programs*: accounting, constraining resource access, manipulating the file system
-*Command Interface*: textual or graphic to manipulate of os features
+*Command Interface*: textual or graphic to manipulate of OS features
 *System Calls*: allow constrained access to interior of OS
-*Protection*: keeps processes from intefering with each other
+*Protection*: keeps processes from interfering with each other
 *Communication*: allows groups to communicate within a single machine, and across networks
