@@ -1,7 +1,7 @@
 # The Programming Language C
 Created: 25/07/2022 at 09:28
 Tags:  #introductory #topic/programming 
-Related: [[The Programming Language C]]
+Related: [[Functions in C]]
 
 ### Why
 Language of choice for system-level programming, engineering, and scientific programming. C is used as the basis of the internet, as well as most operating systems.
