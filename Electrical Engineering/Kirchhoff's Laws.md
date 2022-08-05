@@ -22,5 +22,5 @@ A statement on the conservation of energy.
 2. The sum of all voltage rises around a closed loop is equal the sum of the voltage drop around that same loop.
 
 ```ad-info
-Follow counter-clockwise and start countring around the loop.
+Follow counter-clockwise and start counring around the loop.
 ```
