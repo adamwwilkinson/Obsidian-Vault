@@ -13,7 +13,7 @@ If a common node is shared on both side of electronic components, then they are 
 
 ### KCL (Kirchhoff's Current Law)
 A restatement of Maxwell's equation.
-1. The lumped-circuit truly holds.
+1. The lumped-circuit truly holds. The voltage at any location along a conductor is the same.
 2. Charge is neither created nor destroyed at a node. $\sum \mathrm{incoming \; currents} = \sum \mathrm{outgoing \; currents}$
 
 ### KVL
