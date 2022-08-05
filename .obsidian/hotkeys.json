@@ -64,7 +64,7 @@
   "insert-template": [
     {
       "modifiers": [
-        "Mod",
+        "Ctrl",
         "Shift"
       ],
       "key": "L"
