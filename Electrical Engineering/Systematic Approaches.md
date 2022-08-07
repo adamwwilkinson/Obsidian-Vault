@@ -29,4 +29,6 @@ A closed electrical pathway that does not contain other closed physical pathways
 
 #### Steps
 1. Choose a set of mesh currents
-2. Write a set of KVL equations
+2. Write a set of KVL equations around each mesh
+3. Solve these equation to obtain the mesh currents
+4. Determine the individual elements currents
