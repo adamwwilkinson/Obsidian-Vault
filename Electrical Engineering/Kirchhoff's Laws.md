@@ -7,9 +7,9 @@ Related: [[Circuit Analysis Techniques]]
 Each 2-terminal circuit element is designated as a **branch**. Each terminal of a branch is a **node**. If a node connects to another node without any electronic components between, the two nodes can be merged.
 
 ### Parallel or Series?
-If a node is shared exclusively by two electronic components, then they are in **series**.
+If a [[#Branches and Nodes|node]] is shared exclusively by two electronic components, then they are in **series**.
 
-If a common node is shared on both side of electronic components, then they are in **parallel**.
+If a common [[#Branches and Nodes|node]] is shared on both side of electronic components, then they are in **parallel**.
 
 ### KCL (Kirchhoff's Current Law)
 A restatement of Maxwell's equation.
@@ -24,3 +24,7 @@ A statement on the conservation of energy.
 ```ad-info
 Follow counter-clockwise and start counring around the loop.
 ```
+
+### Consequences
+1) Two elements in parallel have the same voltage across them
+2) Two elements in series have the same current flowing through them

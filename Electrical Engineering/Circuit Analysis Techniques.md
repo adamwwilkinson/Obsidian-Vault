@@ -1,7 +1,7 @@
 # Circuit Analysis Techniques
 Created: 02/08/2022 at 10:58
 Tags:  #topic/physics 
-Related: [[Fundamentals Of Electrical Engineering]], [[Ki\]]
+Related: [[Fundamentals Of Electrical Engineering]], [[Kirchhoff's Laws]], [[Systematic Approaches]]
 
 ### Why?
 To evaluate the *current* and *voltages* required for appropriate behaviour.
