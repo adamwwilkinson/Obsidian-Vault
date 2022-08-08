@@ -11,6 +11,7 @@ The CPU *fetches* a copy of the contents in the MAR (memory address register).
 Then depending on if the contents are a value or instructions, it either operates on the value as data, or carry out the instructions. Can also copy the contents in I/O devices.
 
 #### Interrupts
+#todo interrupts
 The CPU chugs along until a change, or interrupt, occurs to inform it to perform an action.
 
 ### Ram
