@@ -30,4 +30,4 @@ Provides a "highway" on which data can travel between components.
 
 ### Memory Heirachy
 #todo/excalidraw heirachy
-![[Screen Shot 2022-08-08 at 2.41.23 pm.png]]
+	![[Screen Shot 2022-08-08 at 2.41.23 pm.png]]
