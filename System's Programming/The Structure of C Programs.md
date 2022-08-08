@@ -44,7 +44,7 @@ All these sizes are different on different architectures but each level is doubl
 if(condition){
 //block
 }
-elseif (condition2){
+else if (condition2){
 // block
 }
 else {

@@ -13,6 +13,7 @@ Then depending on if the contents are a value or instructions, it either operate
 #### Interrupts
 The CPU chugs along until a change, or interrupt occurs to inform it to perform an action.
 
+
 ### Registers
 High speed memory in the CPU. Several roles, general purpose to hold arithmetic values. Different registers handle logic, or arithmetic instructions.
 
