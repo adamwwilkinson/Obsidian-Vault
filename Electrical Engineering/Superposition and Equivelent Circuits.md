@@ -29,3 +29,19 @@ KCL is invalidated as it would require $i_1 = i_2$ which is not guaranteed.
 In real life power sources have a resistive circuit within them, this can also be seen as an ideal power source with resistance.
 
 This means a voltage-current graph in real life does not look like a linear graph due to the "dynamic" resistance in the non-ideal power source.
+
+### [[Practical Sources| Further Reading of Practical Sources]]
+
+## Superposition
+#### Linearity
+A system is said to be linear if it has the *properties* of **Homogeneity** and **Additivity**
+
+##### Homogeneity
+Given $f(u)$ is the output of system $u$, the system has **homogeneity** if the input $au$ with scalar $a$ has the output $af(u)$. I.e. $af(u) = f(au)$.
+
+##### Additivity
+Given $f(u)$ is the output of system $u$, the system has **additivity** if the input $u + v$ has the output $f(u) + f(v)$.
+
+By these two definitions,
+$$y = 2x + 5$$
+is not linear.
