@@ -1,6 +1,6 @@
 # Overview of Computer Hardware
 Created: 08/08/2022 at 14:10
-Tags: #topic/hardware #todo/readslides
+Tags: #topic/hardware 
 Related: [[Operating Systems]]
 
 ### Central Processing Unit

@@ -18,6 +18,7 @@ If components are connected in parallel, current changes while the voltage stays
 ```
 
 ### KCL (Kirchhoff's Current Law)
+#todo/examples
 A restatement of Maxwell's equation.
 1. The lumped-circuit truly holds. The voltage at any location along a conductor is the same.
 2. Charge is neither created nor destroyed at a node. $\sum \mathrm{incoming \; currents} = \sum \mathrm{outgoing \; currents}$
