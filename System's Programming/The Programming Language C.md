@@ -14,3 +14,5 @@ C11 is the modern version of C, with C89 being the limit of what can be compiled
 ### POSIX
 Portable Operating System interface, a family of standard for maintaining portability.
 
+### Compile Time vs Runtime
+We can either have task such as allocating memory in compile time or runtime. We can choose which period does the work, i.e. take more time to complete, to do these tasks.
