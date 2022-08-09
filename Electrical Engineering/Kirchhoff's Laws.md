@@ -20,10 +20,7 @@ A restatement of Maxwell's equation.
 A statement on the conservation of energy.
 1. The algebraic sum of voltages around a closed path is zero.
 2. The sum of all voltage rises around a closed loop is equal the sum of the voltage drops around that same loop.
-
-```ad-info
-Follow counter-clockwise and start counring around the loop.
-```
+#todo/excalidraw KVL in notebook 9/8/22
 
 ### Consequences
 1) Two elements in parallel have the same voltage across them
