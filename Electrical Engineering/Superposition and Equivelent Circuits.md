@@ -45,3 +45,21 @@ Given $f(u)$ is the output of system $u$, the system has **additivity** if the i
 By these two definitions,
 $$y = 2x + 5$$
 is not linear.
+
+### Linear Dependent Source
+#todo/excalidraw diamon dependent souce
+One whose output current or voltage is proportional to some current or voltage variables in the circuit, or the sum of such quantities.
+
+### Linear Circuits #todo link
+A circuit composed entirely of independent sources, linear dependent sources, and linear elements.
+
+The superposition principle can be applied to a linear circuit.
+
+### The Superpostition Principle
+In any linear resistive network containing several sources, the voltage across or the current though any resistor or source can be calculated by adding algebraically all the individual voltages or currents by each independent source acting alone, with all other ...
+
+#### Steps to the Superposition Principle
+1. Turn off all independent sources except one. To turn off a current source make it open-circuit, to turn off a voltage source make it short-circuit.
+2. Calculate the required output due to the single active source.
+3. Repeat the previous steps for the remaining independent sources.
+4.  FInd the true output of the original circuit by adding the individual outputs.
