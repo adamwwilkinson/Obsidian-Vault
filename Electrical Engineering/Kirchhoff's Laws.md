@@ -11,6 +11,12 @@ If a [[#Branches and Nodes|node]] is shared exclusively by two electronic compon
 
 If a common [[#Branches and Nodes|node]] is shared on both side of electronic components, then they are in **parallel**.
 
+```ad-important
+If components are connected in series, current stays the same while the voltage is affected.
+
+If components are connected in parallel, current changes while the voltage stays the same.
+```
+
 ### KCL (Kirchhoff's Current Law)
 A restatement of Maxwell's equation.
 1. The lumped-circuit truly holds. The voltage at any location along a conductor is the same.
