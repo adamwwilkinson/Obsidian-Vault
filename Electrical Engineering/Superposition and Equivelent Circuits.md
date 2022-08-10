@@ -50,7 +50,7 @@ is not linear.
 #todo/excalidraw diamon dependent souce
 One whose output current or voltage is proportional to some current or voltage variables in the circuit, or the sum of such quantities.
 
-### Linear Circuits #todo link
+### Linear Circuits
 A circuit composed entirely of independent sources, linear dependent sources, and linear elements.
 
 The superposition principle can be applied to a linear circuit.

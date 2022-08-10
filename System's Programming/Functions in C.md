@@ -19,7 +19,7 @@ C's primary synchronous control flow mechanisms is the *procedure call*.
 - report errors win those arguments and call `exit(EXIT_FAILURE)`
 - call functions
 - call `exit(EXIT_SUCCESS)`
-- error messages to be printed to the *stderr* #todo/linkit stream
+- error messages to be printed to the *stderr* stream
 - 'normal' output to be printed to the *stdout* stream
 
 ### Datatypes of Functions
