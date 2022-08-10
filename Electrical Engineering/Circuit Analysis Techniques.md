@@ -8,7 +8,7 @@ To evaluate the *current* and *voltages* required for appropriate behaviour.
 
 ### Evaluating Unknown Currents or Voltages
 We can approach this by examining the circuit and represent it as an *effective resistance* ($R_{in}$).
-#todo/excalidraw resistive
+![[Resistive Circuit Drawing]]
 
 ### Resistors in [[Kirchhoff's Laws#Parallel or Series|Series]]
 For some resistors in series $R_1$ and $R_2$. The respective voltages $V_1$, $V_2$ sum up to the total voltage $V$.
@@ -25,7 +25,7 @@ $$V_1 = \frac{R_1}{R_1 + R_2}V$$
 $$V_2 = \frac{R_2}{R_1 + R_2}V$$
 
 ### Resistors in [[Kirchhoff's Laws#Parallel or Series|Parallel]]
-#todo/excalidraw parralel circuit
+![[Parallel Circuit Drawing]]
 $$I = I_1 + I_2$$
 $$I_1 = \frac{V}{R_1}, \; \mathrm{and} \; I_2 = \frac{V}{R_2}$$
 $$R_{in} = \frac{R_1R_2}{R_1 + R_2}$$

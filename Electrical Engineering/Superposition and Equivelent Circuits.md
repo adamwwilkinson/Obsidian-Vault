@@ -47,7 +47,7 @@ $$y = 2x + 5$$
 is not linear.
 
 ### Linear Dependent Source
-#todo/excalidraw diamon dependent souce
+![[Dependent Source Drawing]]
 One whose output current or voltage is proportional to some current or voltage variables in the circuit, or the sum of such quantities.
 
 ### Linear Circuits

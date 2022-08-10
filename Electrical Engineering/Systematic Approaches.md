@@ -16,7 +16,7 @@ Any node can be the the datum node, but a smart datum node means less work. Pick
 4. Determine the individual elements voltaged and currents
 
 #### Circuit Notation
-#todo/excalidraw ground node diagram
+![[Ground Node Drawing]]
 
 ### Supernode
 When a voltage source is totally enclosed within a part of a circuit. We can state that the total current flowing in to and out of the region, *supernode* is zero.
