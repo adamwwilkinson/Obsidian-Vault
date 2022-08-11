@@ -4,6 +4,7 @@ Tags:  #todo/excalidraw practical sources
 Related: [[Fundamentals Of Electrical Engineering]]
 
 ### Practical Voltage Sources
+![[Practical Sources 2022-08-11 16.06.59.excalidraw]]
 #### Representation 
 Can be represented with an ideal voltage source is placed in series with a resistor.
 $V_t \neq V_S$ where $V_t$ is the voltage of the power source's terminals.

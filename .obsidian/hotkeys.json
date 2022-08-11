@@ -79,10 +79,11 @@
       "key": "F"
     }
   ],
+  "obsidian-excalidraw-plugin:excalidraw-open": [],
   "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed": [
     {
       "modifiers": [
-        "Alt",
+        "Ctrl",
         "Mod",
         "Shift"
       ],
