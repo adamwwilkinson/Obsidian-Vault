@@ -18,16 +18,16 @@ If components are connected in parallel, current changes while the voltage stays
 ```
 
 ### KCL (Kirchhoff's Current Law)
-#todo/examples
 A restatement of Maxwell's equation.
 1. The lumped-circuit truly holds. The voltage at any location along a conductor is the same.
 2. Charge is neither created nor destroyed at a node. $\sum \mathrm{incoming \; currents} = \sum \mathrm{outgoing \; currents}$
+![[KCL Example Drawing]]
 
 ### KVL
 A statement on the conservation of energy.
 1. The algebraic sum of voltages around a closed path is zero.
 2. The sum of all voltage rises around a closed loop is equal the sum of the voltage drops around that same loop.
-#todo/excalidraw KVL in notebook 9/8/22
+![[KVL Example Drawing]]
 
 ### Consequences
 1) Two elements in parallel have the same voltage across them
