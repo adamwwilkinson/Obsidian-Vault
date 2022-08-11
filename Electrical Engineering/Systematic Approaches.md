@@ -23,6 +23,7 @@ When a voltage source is totally enclosed within a part of a circuit. We can sta
 
 ### Mesh Analysis
 Analogous to [[#Node-to-datum Analysis]].
+![[Mesh Example Drawing]]
 #todo/examples 
 
 #### What is a Mesh

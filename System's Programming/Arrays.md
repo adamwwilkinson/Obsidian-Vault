@@ -1,4 +1,3 @@
-# Arrays
 Created: 09/08/2022 at 09:59
 Tags: #topic/programming 
 Related: [[The Programming Language C]]
