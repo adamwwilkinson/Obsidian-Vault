@@ -18,14 +18,14 @@ Any node can be the the datum node, but a smart datum node means less work. Pick
 #### Circuit Notation
 ![[Ground Node Drawing]]
 
-![[Systematic Approaches 2022-08-11 17.44.22.excalidraw]]
+#### Example
+![[Node-to-datum Example Drawing]]
 
 ### Supernode
 When a voltage source is totally enclosed within a part of a circuit. We can state that the total current flowing in to and out of the region, *supernode* is zero.
 
 ### Mesh Analysis
 Analogous to [[#Node-to-datum Analysis]].
-#todo/examples 
 
 #### What is a Mesh
 A closed electrical pathway that does not contain other closed physical pathways.
@@ -36,4 +36,5 @@ A closed electrical pathway that does not contain other closed physical pathways
 3. Solve these equations to obtain the mesh currents
 4. Determine the individual elements currents
 
+#### Example
 ![[Mesh Example Drawing]]
