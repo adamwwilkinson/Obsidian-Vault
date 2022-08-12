@@ -7,7 +7,7 @@ Related: [[Equilibrium of a Particle#Moment of a Force]]
 A couple is defined as two parallel forces with the same magnitude in opposite directions.
 $$F = M_o D$$
 
-The moment of a couple is a *free vector* where it can be moved anywhere on a body and have the same effect.
+The moment of a couple is a *free vector* which can be moved anywhere on a body and have the same effect.
 
 ### Approaches
 #### Scalar
