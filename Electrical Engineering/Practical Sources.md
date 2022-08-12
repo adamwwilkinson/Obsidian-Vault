@@ -19,4 +19,4 @@ Can be represented with an ideal current source is placed in parallel with a res
 
 $i_S = i_R + i_A$, we want to minimise $i_R$.
 
-$$i_A = \frac{R}{R_A + R}i_S$$
+$$i_A = \frac{R_S}{R_A + R_S}i_S$$

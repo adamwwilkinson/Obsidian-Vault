@@ -56,10 +56,11 @@ A circuit composed entirely of independent sources, linear dependent sources, an
 The superposition principle can be applied to a linear circuit.
 
 ### The Superpostition Principle
-In any linear resistive network containing several sources, the voltage across or the current though any resistor or source can be calculated by adding algebraically all the individual voltages or currents by each independent source acting alone, with all other ...
+In any linear resistive network containing several sources, the voltage across or the current though any resistor or source can be calculated by adding algebraically all the individual voltages or currents by each independent source acting alone, with all other  ... #todo finish off sentence
 
 #### Steps to the Superposition Principle
 1. Turn off all independent sources except one. To turn off a current source make it open-circuit, to turn off a voltage source make it short-circuit.
 2. Calculate the required output due to the single active source.
 3. Repeat the previous steps for the remaining independent sources.
-4.  FInd the true output of the original circuit by adding the individual outputs.
+4.  Find the true output of the original circuit by adding the individual outputs.
+![[Superposition Example Drawing]]
