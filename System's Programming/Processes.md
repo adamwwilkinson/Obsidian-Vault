@@ -33,4 +33,35 @@ OS's role is to manage the execution of existing and new processes by moving the
 #todo/excalidraw 2 state process model and queueing diagram
 
 ### Process Creation
-In the creation of a new process, the operating system must allocate 
+In the creation of a new process, the operating system must allocate space for both the process and the OS.
+
+Where do they come from?
+- new process from a batch queue
+- a user logging on to a terminal
+- existing process may request new processes
+- the OS may create a process itself
+
+### Timer Interrupts
+A *hardware timer* will periodically generate an interrupt. Between the execution of any two instructions, the processor will look for interrupts, calling the *interrupt handler* when it finds one. The handler will increment and examine the accumulated time for the currently executing process, moving it from **Running** to **Ready**.
+
+**Time Quantum** - the maximum time a process is permitted to run.
+
+### Blocking of Processes
+**Compute-bound** processes, those who continually execute until the end of their time quanta, are rare.
+
+Most processes will request some input or output (I/O) from a slow source (disk drive, tape, keyboard, mouse, or clock). This means the process will have to wait for the request to be satisfied.
+
+This gives us a new state **Blocked** which means it is not **Ready** until its I/O request is satisfied.
+
+### 5-State Model of Process Execution
+#todo/excalidraw 
+Includes two new states: **New** for processes not yet been admitted to **Ready** for resource reasons and **Exit** for terminated processes whose return result or resources are required for other processes.
+
+### Supporting Multiple Blocked States
+Maintain a queue for each possible event type.
+#todo/excalidraw 
+
+### Swapping of Processes
+When none of the processes in main memory is **Ready**, the OS swaps the memory of some **Blocked processes** to recover memory. These processes are moved to a new state, **Suspend** which is a queue of processes that have been kicked out.
+
+#todo/excalidraw  
