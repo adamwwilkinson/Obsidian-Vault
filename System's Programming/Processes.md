@@ -14,7 +14,7 @@ Related: [[Operating Systems]]
 - the associated data operated upon by a program
 - the program's execution context
 
-The fundamental activity of an [[Operating Systems]] is the *creation, manangement, * and *termination* of processes.
+The fundamental activity of an [[Operating Systems]] is the *creation, management, * and *termination* of processes.
 
 ### Process States
 #### Processor's View
@@ -23,9 +23,14 @@ Execute machine instruction from main memory, unaware how these instruction prov
 #### Process' View
 Either being executed by the processor, or is waiting to be executed.
 
-Therefore there are two possible process states: **Running** and **Ready**.
+Therefore, there are two possible process states: **Running** and **Ready**.
 
 Can a process determine itself what state it is in?
 
 ### Process Transitions
-OS's role is to manage the execution of existing and new processes by moving them between the two states until they finish
+OS's role is to manage the execution of existing and new processes by moving them between the two states until they finish.
+
+#todo/excalidraw 2 state process model and queueing diagram
+
+### Process Creation
+In the creation of a new process, the operating system must allocate 
