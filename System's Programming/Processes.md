@@ -32,8 +32,9 @@ Therefore, there are two possible process states: **Running** and **Ready**.
 ### Process Transitions
 OS's role is to manage the execution of existing and new processes by moving them between the two states until they finish.
 
-#todo/excalidraw 2 state process model and queueing diagram
+#todo/excalidraw 2 state process model and queuing diagram
 
+When there are no process the OS created an *idle process* which it does while waiting for another process.
 ### Process Creation
 In the creation of a new process, the operating system must allocate space for both the process and the OS.
 
