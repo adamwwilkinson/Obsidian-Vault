@@ -1,6 +1,6 @@
 # Processes
 Created: 14/08/2022 at 21:43
-Tags: 
+Tags: #topic/software 
 Related: [[Operating Systems]]
 
 ### What
