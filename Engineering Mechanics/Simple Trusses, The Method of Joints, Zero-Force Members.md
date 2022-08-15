@@ -39,6 +39,7 @@ Zero-force members can be removed when analysing the truss, they are used to inc
 
 ### Determinancy
 For it to be determinante we have 3 unknown traction forves #todo read lecture sheets 2 for determinancy
+sdad
 
 #### External Determinancy
 If a truss has more external supports than is necessary to ensure equilibrium, it is externally indeterminant.
