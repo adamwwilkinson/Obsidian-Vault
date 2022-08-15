@@ -35,4 +35,13 @@ If a joint has only two non-collinear members and there is no external load or s
 
 If three members form a truss joint and two of the members are collinear and there is no external load or reaction at that joint, then the third non-collinear member is a zero-force member.
 
-Zero-force members can be removed when analyzing the truss, they are used to increase the stability and rigidity of the trussm as well as to provide support under different loading conditions.
+Zero-force members can be removed when analysing the truss, they are used to increase the stability and rigidity of the truss as well as to provide support under different loading conditions.
+
+### Determinancy
+For it to be determinante we have 3 unknown traction forves #todo read lecture sheets 2 for determinancy
+
+#### External Determinancy
+If a truss has more external supports than is necessary to ensure equilibrium, it is externally indeterminant.
+
+#### Internal Determinancy
+If a truss has more internal memebr than is necessary to ensure stability, it is internally indeterminant.
