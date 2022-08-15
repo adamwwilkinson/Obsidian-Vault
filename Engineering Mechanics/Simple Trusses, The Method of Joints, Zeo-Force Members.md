@@ -26,7 +26,7 @@ For solving the forces in truss members, the equilibrium of a *joint (pin)* is c
 
 #### Steps for Analysis
 1. If no support reactions are given, draw a FBD of the *entire* truss and determine the support reactions.
-2. Draw a FBD of a joint with one or two unknowns. **Assume all unknown ember forces act on tension.**
+2. Draw a FBD of a joint with one or two unknowns. **Assume all unknown member forces act on tension.**
 3. Apply scalar equations of equilibrium to determine the unknowns.
 4. Repeat steps 2, 3 at each joint.
 
