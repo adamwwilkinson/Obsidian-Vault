@@ -4,6 +4,8 @@ Tags: #topic/software
 Related: [[Operating Systems]]
 
 ### What
+Historically procceses were expensive, ran on tapes or paper.
+
 #### Naively
 - a program under execution
 - an existence of a program
