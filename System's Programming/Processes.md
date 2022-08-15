@@ -37,6 +37,8 @@ OS's role is to manage the execution of existing and new processes by moving the
 ### Process Creation
 In the creation of a new process, the operating system must allocate space for both the process and the OS.
 
+**Real time** - guarantees a timeframe within a process will be done.
+
 Where do they come from?
 - new process from a batch queue
 - a user logging on to a terminal
