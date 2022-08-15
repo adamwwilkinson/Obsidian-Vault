@@ -4,7 +4,7 @@ Tags: #topic/software
 Related: [[Operating Systems]]
 
 ### What
-Historically procceses were expensive, ran on tapes or paper.
+Historically processes were expensive, ran on tapes or paper.
 
 #### Naively
 - a program under execution
@@ -20,14 +20,14 @@ The fundamental activity of an [[Operating Systems]] is the *creation, managemen
 
 ### Process States
 #### Processor's View
-Execute machine instruction from main memory, unaware how these instruction provided by the program counter are linked, or how they make up an entity we call a process.
+Execute machine instruction from main memory, unaware how these instructions provided by the program counter are linked, or how they make up an entity we call a process.
 
 #### Process' View
 Either being executed by the processor, or is waiting to be executed.
 
 Therefore, there are two possible process states: **Running** and **Ready**.
 
-Can a process determine itself what state it is in?
+*Can a process determine itself what state it is in?*
 
 ### Process Transitions
 OS's role is to manage the execution of existing and new processes by moving them between the two states until they finish.
