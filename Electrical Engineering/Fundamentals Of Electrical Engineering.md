@@ -96,6 +96,13 @@ Measured in Ohms($\ohm$ ). Can be evaluated with $R = \frac{V}{I}$
 The inverse is called *conductance* ($G$) is also used. $G = \frac{I}{V}$
 The SI unit is called *Siemens*($S$)
 
+#### Conductance
+Adding $S$ in series:
+$$S_T = (\frac 1 S_1 + \frac 1 S_2)^{-1} $$
+
+Adding $S$ in parallel:
+$$S_T = S_1 + S_2$$
+
 #### Assumptions
 - Material is linear
 - Contact of wires produces no effect
