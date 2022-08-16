@@ -39,7 +39,7 @@ A doubling in voltage does not result in a doubling of amperes.
 
 Silicone diodes is the one we focus on for the unit.
 
-#### Types of Dioede
+#### Types of Diode
 - Signal diode
 - Power diodes
 - Special purpose diodes
