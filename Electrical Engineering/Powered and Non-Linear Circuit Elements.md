@@ -28,8 +28,29 @@ $$\begin{cases} i = I_0(e^{\alpha v} -1) & \text{if $v \gre 0} \\
 \end{cases}$$
 
 By using KVL, we have:
-$$v_T = R_Ti_x+v_x \rightarrow i_x = - \frac 1 R_T v_x + \frac v_t R_T$$
-### Diodes
+$$v_T = R_T i_x+v_x \rightarrow i_x = - \frac 1 R_T v_x + \frac v_t R_T$$
 
+### Diodes
+#todo/excalidraw symbol and graph see what he added in lectures
+
+The current vs voltage behaviour depends on the direction the diode is inserted into the circuit.
+
+A doubling in voltage does not result in a doubling of amperes.
+
+Silicone diodes is the one we focus on for the unit.
+
+#### Types of Dioede
+- Signal diode
+- Power diodes
+- Special purpose diodes
+
+**Semiconductor junction diodes** consists of a junction between two different semiconductor types (n-type and p-types).
+
+#### The Diode Model Equation
+At room temperature, silicon based diodes have the equation,
+$$i_D = I_s^{e^{\frac{V_D}{0.025}} - 1}$$
+
+#### On - Off Model
+For the silicone diode, the $V_{D_{on}}$ is 0.6V. This means it only starts emmiting current at 0.6V.
 
 ### ? Amplifier
