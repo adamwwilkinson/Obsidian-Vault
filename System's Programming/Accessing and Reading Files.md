@@ -98,4 +98,42 @@ void trim_line(char line[])
 Instead of `fgets()` for retrieving a line of text `fputs()` outputs a line of text.
 
 ### Reading Binary Files using the Standard Library
+`fgets()` manages differing lines by reading until it detects the [[Arrays#Strings|null byte]] at the end. 
+`fgets()` terminates input lines by appending the [[Arrays#Strings|null byte]] to them.
 
+For managing files of arbitrary data, including [[Arrays#Strings|null bytes]], a different function must be used.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+void copyfile(char destination[], char source[])
+{
+    FILE        *fp_in   = fopen(source, "rb");
+    FILE        *fp_out  = fopen(destination,  "wb");
+
+//  ENSURE THAT OPENING BOTH FILES HAS BEEN SUCCESSFUL
+    if(fp_in != NULL && fp_out != NULL) {
+
+        char    buffer[BUFSIZ];
+        size_t  got, wrote;
+
+        while( (got = fread(buffer, 1, sizeof buffer, fp_in)) > 0) {  
+            wrote = fwrite(buffer, 1, got, fp_out);
+            if(wrote != got) {
+                printf("error copying files\n");
+                exit(EXIT_FAILURE);
+            }
+        }
+
+    }
+
+//  ENSURE THAT WE ONLY CLOSE FILES THAT ARE OPEN
+    if(fp_in != NULL) {
+        fclose(fp_in);
+    }
+    if(fp_out != NULL) {
+        fclose(fp_out);
+    }
+}
+```
