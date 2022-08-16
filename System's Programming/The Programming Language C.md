@@ -16,3 +16,6 @@ Portable Operating System interface, a family of standard for maintaining portab
 
 ### Compile Time vs Runtime
 We can either have task such as allocating memory in compile time or runtime. We can choose which period does the work, i.e. take more time to complete, to do these tasks.
+
+### The &
+The & value allows a function to modify the data at an address.
