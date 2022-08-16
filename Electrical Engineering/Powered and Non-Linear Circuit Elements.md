@@ -53,4 +53,9 @@ $$i_D = I_s^{e^{\frac{V_D}{0.025}} - 1}$$
 #### On - Off Model
 For the silicone diode, the $V_{D_{on}}$ is 0.6V. This means it only starts emmiting current at 0.6V.
 
-### ? Amplifier
+#todo/example Simple diode circuit example
+
+#### LED (Light Emmiting Diodes)
+As opposed to dissipating current to heat, LED dissipates curren as light. An LED behaves as a diode and can be used as such in a circuit.
+
+### Operational Amplifiers
