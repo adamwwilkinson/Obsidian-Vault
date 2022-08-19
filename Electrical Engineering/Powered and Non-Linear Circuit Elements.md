@@ -74,3 +74,7 @@ With $G$ being the amplifier constant.
 #### Golden Rules for an Ideal Op-Amp in Negative Feedback
 1. The two input voltages are the same, $V_+ = V_-$
 2. The inputs draw zero current, $I_+ = I_- = 0$
+
+#### Circuit Gain
+$$A_v = \frac{v_O}{v_i} = - \frac{R_f}{R_1}$$
+This means $A_v$ depends now on resistance which removes the signal distortion.
