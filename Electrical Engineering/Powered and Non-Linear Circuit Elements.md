@@ -64,3 +64,13 @@ To amplify the voltage, NOT the current. Has 5 important terminals, the two volt
 
 #### Ideal Op-Amps
 We assume the $R_{in} \rightarrow \inf$ and $R_{out} \rightarrow 0$.
+This means both the input currents are 0.
+$$V_{out} = G \Delta V$$
+With $G$ being the amplifier constant.
+
+#### Open-Loop vs Closed-Loop
+#todo/excalidraw
+
+#### Golden Rules for an Ideal Op-Amp in Negative Feedback
+1. The two input voltages are the same, $V_+ = V_-$
+2. The inputs draw zero current, $I_+ = I_- = 0$
