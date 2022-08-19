@@ -60,7 +60,7 @@ As opposed to dissipating current to heat, LED dissipates curren as light. An LE
 
 ### Operational Amplifiers
 #todo/excalidraw symbols and model
-To amplify the voltage, NOT the current. Has 5 important terminals, the two voltage inputs, the voltage output, the inverting and non inverting inputs.
+To amplify the voltage, NOT the current. Has 5 important terminals, the two voltage inputs from the powersupply, the voltage output, the inverting and non inverting inputs.
 
 #### Ideal Op-Amps
 We assume the $R_{in} \rightarrow \inf$ and $R_{out} \rightarrow 0$.
@@ -78,3 +78,7 @@ With $G$ being the amplifier constant.
 #### Circuit Gain
 $$A_v = \frac{v_O}{v_i} = - \frac{R_f}{R_1}$$
 This means $A_v$ depends now on resistance which removes the signal distortion.
+
+#### Saturation
+#todo/excalidraw graph
+In reality, the power supplies define the upper and lower limits of an amplifier.
