@@ -28,7 +28,7 @@ $$\begin{cases} i = I_0(e^{\alpha v} -1) & \text{if $v \gre 0} \\
 \end{cases}$$
 
 By using KVL, we have:
-$$v_T = R_T i_x+v_x \rightarrow i_x = - \frac 1 R_T v_x + \frac v_t R_T$$
+$$v_T = R_T i_x+v_x \rightarrow i_x = - \frac 1 R_T v_x + \frac {v_t} {R_T}$$
 
 ### Diodes
 #todo/excalidraw symbol and graph see what he added in lectures
