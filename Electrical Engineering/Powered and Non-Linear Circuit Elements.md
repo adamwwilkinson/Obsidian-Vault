@@ -48,7 +48,7 @@ Silicone diodes is the one we focus on for the unit.
 
 #### The Diode Model Equation
 At room temperature, silicon based diodes have the equation,
-$$i_D = I_s^{e^{\frac{V_D}{0.025}} - 1}$$
+$$i_{D} = I_{s}^{e^{\frac{V_{D}}{0.025}} - 1}$$
 
 #### On - Off Model
 For the silicone diode, the $V_{D_{on}}$ is 0.6V. This means it only starts emmiting current at 0.6V.
@@ -59,3 +59,8 @@ For the silicone diode, the $V_{D_{on}}$ is 0.6V. This means it only starts emmi
 As opposed to dissipating current to heat, LED dissipates curren as light. An LED behaves as a diode and can be used as such in a circuit.
 
 ### Operational Amplifiers
+#todo/excalidraw symbols and model
+To amplify the voltage, NOT the current. Has 5 important terminals, the two voltage inputs, the voltage output, the inverting and non inverting inputs.
+
+#### Ideal Op-Amps
+We assume the $R_{in} \rightarrow \inf$ and $R_{out} \rightarrow 0$.
