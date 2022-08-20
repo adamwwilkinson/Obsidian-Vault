@@ -8,7 +8,9 @@ Related: [[Equations of Equilibrium and Two Force Members]]
 Commonly used to support roofs, also used in structures like cranes, aircraft frames or the space station.
 
 #### Simple Trusses and Planar Trusses
-A **truss** is a structure made of slender members joined together at their end points. If a truss, along with its load, lies on a single plane, it's called a **planar truss**. A **simple truss** is a planar truss which begins with a *triangular* element that can be expanded by adding two members and a joint. #todo/excalidraw These trusses have an equation to relate the members ($M$) to the number of joints ($J$).
+A **truss** is a structure made of slender members joined together at their end points. If a truss, along with its load, lies on a single plane, it's called a **planar truss**. A **simple truss** is a planar truss which begins with a *triangular* element that can be expanded by adding two members and a joint.
+![[Planar Truss Drawing]]
+These trusses have an equation to relate the members ($M$) to the number of joints ($J$).
 $$M = 2J - 3$$
 
 If this equation is not satisfied you either have a [[Constraints and Determinancy#Statically Indeterminate]] truss, or you have an unstable mechanism.
