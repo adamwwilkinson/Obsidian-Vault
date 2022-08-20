@@ -20,4 +20,8 @@ Network B:
 ### Norton's Theorem
 Any *linear electrical network containing only independent and dependent voltage and current sources and resistances* can be **replaced** at terminal X-Y by an *equivalent combination of a current source $I_{N}$ is parallel with a resistor $R_{N}$* .
 
-Infact, $R_{N}$ = $R_{th}$
+In fact, $R_{N}$ = $R_{th}$
+
+To find $I_N$ short the terminals X-Y and find the current flowing through the shorted path.
+
+#todo/example Question 8

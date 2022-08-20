@@ -36,6 +36,7 @@ This means a voltage-current graph in real life does not look like a linear grap
 #### Linearity
 A system is said to be linear if it has the *properties* of **Homogeneity** and **Additivity**
 
+An electrical element is linear if it has a linear I-V relationship.
 ##### Homogeneity
 Given $f(u)$ is the output of system $u$, the system has **homogeneity** if the input $au$ with scalar $a$ has the output $af(u)$. I.e. $af(u) = f(au)$.
 
