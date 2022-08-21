@@ -8,7 +8,7 @@ When there are more unknown forces to equilibrium equations.
 
 #### Example Structures
 ![[Example Structures Drawing]]
-1. Two or more non-collinear unknonw forces in a particular direction + one or more moment reactions
+1. Two or more non-collinear unknown forces in a particular direction + one or more moment reactions
 2. More than two unknoen forces in a particular direction
 3. Two collinear unknowns in a particular direction
 4. 4 or more unknown reactions
