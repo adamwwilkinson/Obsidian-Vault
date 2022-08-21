@@ -24,4 +24,4 @@ In fact, $R_{N}$ = $R_{th}$
 
 To find $I_N$ short the terminals X-Y and find the current flowing through the shorted path.
 
-#todo/example Question 8
+![[Norton's Theorem Drawing]]

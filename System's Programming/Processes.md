@@ -32,7 +32,7 @@ Therefore, there are two possible process states: **Running** and **Ready**.
 ### Process Transitions
 OS's role is to manage the execution of existing and new processes by moving them between the two states until they finish.
 
-#todo/excalidraw 2 state process model and queuing diagram
+![[2 State Process Drawing]]
 
 When there are no process the OS created an *idle process* which it does while waiting for another process.
 ### Process Creation
@@ -59,14 +59,12 @@ Most processes will request some input or output (I/O) from a slow source (disk 
 This gives us a new state **Blocked** which means it is not **Ready** until its I/O request is satisfied.
 
 ### 5-State Model of Process Execution
-#todo/excalidraw 
+![[5-State Model Drawing]]
 Includes two new states: **New** for processes not yet been admitted to **Ready** for resource reasons and **Exit** for terminated processes whose return result or resources are required for other processes.
 
 ### Supporting Multiple Blocked States
 Maintain a queue for each possible event type.
-#todo/excalidraw 
-
+![[Multiple Blocked States Drawing]]
 ### Swapping of Processes
 When none of the processes in main memory is **Ready**, the OS swaps the memory of some **Blocked processes** to recover memory. These processes are moved to a new state, **Suspend** which is a queue of processes that have been kicked out.
-
-#todo/excalidraw  
+![[Processes 2022-08-20 16.42.36.excalidraw]]

@@ -88,6 +88,14 @@
         "Shift"
       ],
       "key": "D"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
     }
   ]
 }
