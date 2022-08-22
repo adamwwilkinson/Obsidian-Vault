@@ -111,3 +111,27 @@ After the OS has just finished booting, it starts with a single process *init*. 
 
 ### General Calling Sequence of System Calls
 #todo/excalidraw
+
+### Running a New Program
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+char *program_arguments[] = {
+    "ls",
+    "-l",
+    "-F",
+    NULL
+};
+
+    ....
+    execv( "/bin/ls", program_arguments );
+    // A SUCCESSFUL CALL TO exec() DOES NOT RETURN
+
+    exit(EXIT_FAILURE);  // IF WE GET HERE, THEN exec() HAS FAILED
+```
+The new program does different things but would have the same PID.
+
+### Why Exit?
+The OS is able to use the *exit status* to determine if it is succesful or not.
