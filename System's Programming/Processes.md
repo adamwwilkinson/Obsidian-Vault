@@ -68,7 +68,7 @@ Maintain a queue for each possible event type.
 
 ### Swapping of Processes
 When none of the processes in main memory is **Ready**, the OS swaps the memory of some **Blocked processes** to recover memory. These processes are moved to a new state, **Suspend** which is a queue of processes that have been kicked out.
-![[Processes 2022-08-20 16.42.36.excalidraw]]
+![[Final Proccesses Drawing]]
 
 ### Creating a new process with `fork()`
 `fork()` is unusual because it returns different values in the parent process, and the child process.
