@@ -16,7 +16,7 @@ Historically processes were expensive, ran on tapes or paper.
 - the associated data operated upon by a program
 - the program's execution context
 
-The fundamental activity of an [[Operating Systems]] is the *creation, management, * and *termination* of processes.
+The fundamental activity of an [[Operating Systems]] is the *creation, management,* and *termination* of processes.
 
 ### Process States
 #### Processor's View
@@ -65,6 +65,49 @@ Includes two new states: **New** for processes not yet been admitted to **Ready*
 ### Supporting Multiple Blocked States
 Maintain a queue for each possible event type.
 ![[Multiple Blocked States Drawing]]
+
 ### Swapping of Processes
 When none of the processes in main memory is **Ready**, the OS swaps the memory of some **Blocked processes** to recover memory. These processes are moved to a new state, **Suspend** which is a queue of processes that have been kicked out.
 ![[Processes 2022-08-20 16.42.36.excalidraw]]
+
+### Creating a new process with `fork()`
+`fork()` is unusual because it returns different values in the parent process, and the child process.
+The value returned in the parent process is the processId of the child process.
+The vailue returned by the child process is 0, and it indicates is that it's the child.
+
+```c
+#include  <stdio.h>
+#include  <unistd.h>
+
+void function(void)
+{
+    int  pid;                 // some systems define a pid_t
+
+    switch (pid = fork()) {
+    case -1 :
+        printf("fork() failed\n");     // process creation failed
+        exit(EXIT_FAILURE);
+        break;
+
+    case 0:                   // new child process
+        printf("c:  value of pid=%i\n", pid);
+        printf("c:  child's pid=%i\n", getpid());
+        printf("c:  child's parent pid=%i\n", getppid());
+        break;
+
+    default:                  // original parent process
+        sleep(1);
+        printf("p:  value of pid=%i\n", pid);
+        printf("p:  parent's pid=%i\n", getpid());
+        printf("p:  parent's parent pid=%i\n", getppid());
+        break;
+    }
+    fflush(stdout);
+}
+```
+
+### Where Does the First Process Come From
+After the OS has just finished booting, it starts with a single process *init*. It has the PID of 1.
+
+### General Calling Sequence of System Calls
+#todo/excalidraw
