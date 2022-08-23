@@ -45,4 +45,9 @@ $RC$ is also known as $\tau$ and is a time constant.
 
 #### Procedure to Find Response
 #todo read previous slides
+1. Remove all independenet sorces to determine $R_{eq}, C_{eq}$
+2. With C set as an open circuit, use dc-analysis to find the initial capacitor voltage prior to discontinuity.
+3. With C set as an open circuit use dc-analysis of the capacitor voltage with $t = \inf$, this is $V_{inf}$.
 $$v(t) = V_\inf + (V_0 - V_{inf})\exp^{-t}{\tau}$$
+
+
