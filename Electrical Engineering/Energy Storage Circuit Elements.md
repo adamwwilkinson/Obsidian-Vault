@@ -41,4 +41,4 @@ $$v(t) = V_S + (V_0 - V_S)e^{\frac {-t} {RC}}$$
 Where $V_S$, $V_0$ are the final and intial value for $V(t)$.
 
 #### $RC$?
-$RC$ is also known as $\tau$ and is aa time constant.
+$RC$ is also known as $\tau$ and is a time constant.
