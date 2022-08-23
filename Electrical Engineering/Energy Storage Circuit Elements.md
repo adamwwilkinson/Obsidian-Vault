@@ -24,3 +24,6 @@ $$C_{T} = C_{1} = C_{2}$$
 
 #### Series Combination of Capacitors
 $$\frac{1}C_{T} = \frac{1}C_{1} + \frac{1}C_{2}$$
+
+#### Deriving Voltage
+$$v(t) = \frac 1 C \int_0^t i(t) \mathrm d t + v_0$$
