@@ -7,7 +7,7 @@ Related: [[Equivalent Circuits]]
 Stores energy in an electric field. #todo/excalidraw
 Capacitance relates the voltage $v$ applied to the charge $q$ generated,
 $$C = \frac{q}{v}$$
-$$i = \frac{\mathrm dq}{\mathrm dt} = C \frac{\mathrm dv}{\mathrm dt}$$
+$$i = \frac{\mathrm d q}{\mathrm d t} = C \frac{\mathrm d v}{\mathrm d t}$$
 $$E(t) = C \times \frac{v^2_{c(t)}}{2}$$
 
 When connected directly to an ideal voltage source, an ideal capacitor with have a non-zero current onluy when the voltage is changing.
@@ -27,3 +27,18 @@ $$\frac{1}C_{T} = \frac{1}C_{1} + \frac{1}C_{2}$$
 
 #### Deriving Voltage
 $$v(t) = \frac 1 C \int_0^t i(t) \mathrm d t + v_0$$
+
+#### Capacitor States
+When the charge in the capacitor increases or decreases it is called *transient* state.
+When the charge in the capicitor is full charge it is called *steady-state*.
+
+### First-order $RC$ Circuit
+#### DC Steady-state Analysis
+A steady-state capacitor acts as an *open circuit*.
+
+#### Transient Analysis
+$$v(t) = V_S + (V_0 - V_S)e^{\frac {-t} {RC}}$$
+Where $V_S$, $V_0$ are the final and intial value for $V(t)$.
+
+#### $RC$?
+$RC$ is also known as $\tau$ and is aa time constant.
