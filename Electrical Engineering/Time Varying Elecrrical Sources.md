@@ -8,3 +8,4 @@ Most electrical engineering deals with time-varying voltages/currents.
 
 ### Unit Step-Function
 Written as $u(t)$ and it's where $u(t) = 0, t < 0, 1, t >= 0$ #todo write properly and double $$
+Note this unit step-fuction is ignores what argument $x$ is. #todo/excalidraw
