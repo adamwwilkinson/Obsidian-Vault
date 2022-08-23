@@ -42,3 +42,7 @@ Where $V_S$, $V_0$ are the final and intial value for $V(t)$.
 
 #### $RC$?
 $RC$ is also known as $\tau$ and is a time constant.
+
+#### Procedure to Find Response
+#todo read previous slides
+$$v(t) = V_\inf + (V_0 - V_{inf})\exp^{-t}{\tau}$$
