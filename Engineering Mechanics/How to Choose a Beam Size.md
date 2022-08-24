@@ -1,6 +1,6 @@
 # How to Choose a Beam Size
 Created: 24/08/2022 at 17:11
-Tags: 
+Tags: #topics/physics
 Related: [[Internal Forces of Beams and Shear Force]]
 
 ### Internal Stresses
@@ -11,3 +11,7 @@ The constant to meet this proportionality is $m^4$.
 
 $$\sigma_b = E \epsilon_b$$
 
+### Calculating Max Stress
+$$\sigma_{b(max)} = \frac {M_{max}y_{max}}{I} \leq \sigma_{all}$$
+
+$I$ and $y_{max}$ are geometric properties and is given as $z$.
