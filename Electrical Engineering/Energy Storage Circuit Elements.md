@@ -4,7 +4,8 @@ Tags:
 Related: [[Equivalent Circuits]]
 
 ## Capacitors
-Stores energy in an electric field. #todo/excalidraw
+Stores energy in an electric field. 
+![[Capacitor Drawing]]
 Capacitance relates the voltage $v$ applied to the charge $q$ generated,
 $$C = \frac{q}{v}$$
 $$i = \frac{\mathrm d q}{\mathrm d t} = C \frac{\mathrm d v}{\mathrm d t}$$
@@ -17,7 +18,7 @@ In otherwords, if the voltage is constant, the current is 0.
 Measured in **Farad** $(F)$
 
 ### Symbol
-#todo/excalidraw
+![[Capacitor Symbol Drawing]]
 
 ### Parallel Combination of Capacitors
 $$C_{T} = C_{1} = C_{2}$$
@@ -71,7 +72,8 @@ Equivalent of Ohm's law for an inductor.
 #### Henry $(H)$
 THe unit for inductance.
 
-### Symbol #todo/excalidraw
+### Symbol
+![[Inductor Drawing]]
 
 ### Series Combination
 $$L_T = \sum_{i = 1}^N L_i$$
