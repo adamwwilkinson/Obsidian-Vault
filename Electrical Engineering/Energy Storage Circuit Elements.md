@@ -67,3 +67,16 @@ A conductor placed in a time-varying magnetic field (as a result of a time-varyi
 $$v = \frac {\mathrm d \gamma} {\mathrm d t} = L \frac {\marthrm d i} {\mathrm d t}$$
 
 Equivalent of Ohm's law for an inductor.
+
+#### Henry $(H)$
+THe unit for inductance.
+
+### Symbol #todo/excalidraw
+
+### Series Combination
+$$L_T = \sum_{i = 1}^N L_i$$
+
+### Parallel Combination
+$$\frac {1} {L_T} = \sum{i = 1}^N \frac {1} {L_T}$$
+
+### First-order RL Circuits
