@@ -75,9 +75,13 @@ With $G$ being the amplifier constant.
 1. The two input voltages are the same, $V_+ = V_-$
 2. The inputs draw zero current, $I_+ = I_- = 0$
 
-#### Circuit Gain
+#### Circuit Gain of an Inverting Configuration
+#todo/excalidraw
 $$A_v = \frac{v_O}{v_i} = - \frac{R_f}{R_1}$$
 This means $A_v$ depends now on resistance which removes the signal distortion.
+
+#### Circuit Gain of a Non-Inverting Configuration
+$$A_v = \frac{v_O}{v_i} = 1 + \frac{R_f}{R_1}$$
 
 #### Saturation
 #todo/excalidraw graph
