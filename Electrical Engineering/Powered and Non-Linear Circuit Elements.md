@@ -33,8 +33,7 @@ By using KVL, we have:
 $$v_T = R_T i_x+v_x \rightarrow i_x = - \frac 1 R_T v_x + \frac {v_t} {R_T}$$
 
 ### Diodes
-#todo/excalidraw symbol and graph see what he added in lectures
-![[Powered and Non-Linear Circuit Elements 2022-08-28 15.44.07.excalidraw]]
+![[Diode Symbol and Graph Drawing]]
 
 The current vs voltage behaviour depends on the direction the diode is inserted into the circuit.
 
@@ -63,6 +62,7 @@ As opposed to dissipating current to heat, LED dissipates curren as light. An LE
 
 ### Operational Amplifiers
 #todo/excalidraw symbols and model
+![[OpAmp Symbols Drawing]]
 To amplify the voltage, NOT the current. Has 5 important terminals, the two voltage inputs from the powersupply, the voltage output, the inverting and non inverting inputs.
 
 #### Ideal Op-Amps
@@ -72,7 +72,7 @@ $$V_{out} = G \Delta V$$
 With $G$ being the amplifier constant.
 
 #### Open-Loop vs Closed-Loop
-#todo/excalidraw
+![[Open and Closed Loop Drawing]]
 
 #### Golden Rules for an Ideal Op-Amp in Negative Feedback
 1. The two input voltages are the same, $V_+ = V_-$
