@@ -5,7 +5,8 @@ Related: [[Internal Forces of Beams and Shear Force]]
 
 ### Internal Stresses
 When a beam is bent, the outside is in tension as it's side gets longer, and the inside is in compression.
-The bending strain $\epsilon_b \propto y$ #todo/excalidraw diagarm
+The bending strain $\epsilon_b \propto y$ 
+![[Internal Stresses Drawing]]
 
 The constant to meet this proportionality is $m^4$.
 

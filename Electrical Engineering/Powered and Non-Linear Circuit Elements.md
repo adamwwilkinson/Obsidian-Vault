@@ -12,26 +12,28 @@ KVL, KCL, NTD, and Mesh analysis makes no assummption on linearity. All these te
 
 ### Incremental/Dynamic Resistance
 In a linear domain, $$R = \frac v i$$.
-In a nonlinear domain, #todo/excalidraw
+In a nonlinear domain,
+![[Nonlinear Domain Drawing]]
+
 $$R(i) = \frac{\mathrm d v(i)}{\mathrm d i} = \frac{\Delta v}{\Delta i}$$
 Where $R(i)$ is "incremental" resistance.
 
 ### Nonlinear Sources
-All sources in real life are nonlinear, although we use them in their "linear range". #todo/excalidraw graph
+All sources in real life are nonlinear, although we use them in their "linear range". 
+![[NonLinear Source Drawing]]
 If output power raises over maximum power a voltage source is rated, the voltage will drop to maintain rated power as it approaches a higher current.
 
 ## Graphical (Load-Line) Analysis of Non-linear Circuit
-#todo/excalidraw
+![[Load Line  Drawing]]
 Assume the nonlinear load has the following i-v characteristic:
-#todo/latex
-$$\begin{cases} i = I_0(e^{\alpha v} -1) & \text{if $v \gre 0} \\
-\end{cases}$$
+$$i = I_0(e^{\alpha v} -1) \qquad v > 0$$ 
+$$i = -I_0 \qquad v \leq 0$$
 
 By using KVL, we have:
 $$v_T = R_T i_x+v_x \rightarrow i_x = - \frac 1 R_T v_x + \frac {v_t} {R_T}$$
 
 ### Diodes
-#todo/excalidraw symbol and graph see what he added in lectures
+![[Diode Symbol and Graph Drawing]]
 
 The current vs voltage behaviour depends on the direction the diode is inserted into the circuit.
 
@@ -60,6 +62,7 @@ As opposed to dissipating current to heat, LED dissipates curren as light. An LE
 
 ### Operational Amplifiers
 #todo/excalidraw symbols and model
+![[OpAmp Symbols Drawing]]
 To amplify the voltage, NOT the current. Has 5 important terminals, the two voltage inputs from the powersupply, the voltage output, the inverting and non inverting inputs.
 
 #### Ideal Op-Amps
@@ -69,7 +72,7 @@ $$V_{out} = G \Delta V$$
 With $G$ being the amplifier constant.
 
 #### Open-Loop vs Closed-Loop
-#todo/excalidraw
+![[Open and Closed Loop Drawing]]
 
 #### Golden Rules for an Ideal Op-Amp in Negative Feedback
 1. The two input voltages are the same, $V_+ = V_-$
@@ -81,6 +84,7 @@ $$A_v = \frac{v_O}{v_i} = - \frac{R_f}{R_1}$$
 This means $A_v$ depends now on resistance which removes the signal distortion.
 
 #### Circuit Gain of a Non-Inverting Configuration
+#todo/excalidraw
 $$A_v = \frac{v_O}{v_i} = 1 + \frac{R_f}{R_1}$$
 
 #### Saturation
