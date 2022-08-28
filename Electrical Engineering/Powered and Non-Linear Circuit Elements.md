@@ -86,3 +86,5 @@ $$A_v = \frac{v_O}{v_i} = 1 + \frac{R_f}{R_1}$$
 #### Saturation
 #todo/excalidraw graph
 In reality, the power supplies define the upper and lower limits of an amplifier.
+
+#todo/scan examples pg 10 in notebook
