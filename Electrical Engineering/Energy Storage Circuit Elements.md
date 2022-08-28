@@ -3,7 +3,7 @@ Created: 23/08/2022 at 11:21
 Tags: 
 Related: [[Equivalent Circuits]]
 
-### Capacitors
+## Capacitors
 Stores energy in an electric field. #todo/excalidraw
 Capacitance relates the voltage $v$ applied to the charge $q$ generated,
 $$C = \frac{q}{v}$$
@@ -13,22 +13,22 @@ $$E(t) = C \times \frac{v^2_{c(t)}}{2}$$
 When connected directly to an ideal voltage source, an ideal capacitor with have a non-zero current onluy when the voltage is changing.
 In otherwords, if the voltage is constant, the current is 0.
 
-#### Unit of Capacitance
+### Unit of Capacitance
 Measured in **Farad** $(F)$
 
-#### Symbol
+### Symbol
 #todo/excalidraw
 
-#### Parallel Combination of Capacitors
+### Parallel Combination of Capacitors
 $$C_{T} = C_{1} = C_{2}$$
 
-#### Series Combination of Capacitors
+### Series Combination of Capacitors
 $$\frac{1}C_{T} = \frac{1}C_{1} + \frac{1}C_{2}$$
 
-#### Deriving Voltage
+### Deriving Voltage
 $$v(t) = \frac 1 C \int_0^t i(t) \mathrm d t + v_0$$
 
-#### Capacitor States
+### Capacitor States
 When the charge in the capacitor increases or decreases it is called *transient* state.
 When the charge in the capicitor is full charge it is called *steady-state*.
 
@@ -37,8 +37,12 @@ When the charge in the capicitor is full charge it is called *steady-state*.
 A steady-state capacitor acts as an *open circuit*.
 
 #### Transient Analysis
+##### Charging
 $$v(t) = V_S + (V_0 - V_S)e^{\frac {-t} {RC}}$$
 Where $V_S$, $V_0$ are the final and intial value for $V(t)$.
+
+##### Discharging
+Capacitor discharges it's ions to the resistor which powers it and gives away energy as heat.
 
 #### $RC$?
 $RC$ is also known as $\tau$ and is a time constant. After $\tau$ amount of time, the capacitor is charged 66.6%.
