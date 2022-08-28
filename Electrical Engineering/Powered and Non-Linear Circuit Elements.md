@@ -84,6 +84,7 @@ $$A_v = \frac{v_O}{v_i} = - \frac{R_f}{R_1}$$
 This means $A_v$ depends now on resistance which removes the signal distortion.
 
 #### Circuit Gain of a Non-Inverting Configuration
+#todo/excalidraw
 $$A_v = \frac{v_O}{v_i} = 1 + \frac{R_f}{R_1}$$
 
 #### Saturation
