@@ -49,22 +49,22 @@ $RC$ is also known as $\tau$ and is a time constant. After $\tau$ amount of time
 
 #### Procedure to Find Response
 #todo read previous slides
-1. Remove all independenet sorces to determine $R_{eq}, C_{eq}$
+1. Remove all independent sources to determine $R_{eq}, C_{eq}$
 2. With C set as an open circuit, use dc-analysis to find the initial capacitor voltage prior to discontinuity.
 3. With C set as an open circuit use dc-analysis of the capacitor voltage with $t = \inf$, this is $V_{inf}$.
 $$v(t) = V_\inf + (V_0 - V_{inf})\exp^{-t}{\tau}$$
 
 ## Inductors
-A current carying conductor will generate a magnetic field around it to store energy.
+A current carrying conductor will generate a magnetic field around it to store energy.
 
-**Flux Linkage** - $\gamma = \int B \mathrm d S$ (integrated magnetic flux density over an area enclosed by a conductor)
+**Flux Linkage** - $\lambda= \int B \mathrm d S$ (integrated magnetic flux density over an area enclosed by a conductor)
 
 ### Inductance
 Relates flux linkage to the current in the conductor.
-\gamma = L \times i
+$$\lambda = L \times i$$
 
 A conductor placed in a time-varying magnetic field (as a result of a time-varying current) will have a voltage **induced** such that,
-$$v = \frac {\mathrm d \gamma} {\mathrm d t} = L \frac {\marthrm d i} {\mathrm d t}$$
+$$v = \frac {\mathrm d \lambda} {\mathrm d t} = L \frac {\mathrm d i} {\mathrm d t}$$
 
 Equivalent of Ohm's law for an inductor.
 
