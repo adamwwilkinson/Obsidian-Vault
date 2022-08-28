@@ -69,7 +69,7 @@ $$v = \frac {\mathrm d \lambda} {\mathrm d t} = L \frac {\mathrm d i} {\mathrm d
 Equivalent of Ohm's law for an inductor.
 
 #### Henry $(H)$
-THe unit for inductance.
+The unit for inductance.
 
 ### Symbol #todo/excalidraw
 
