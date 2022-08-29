@@ -85,4 +85,12 @@ $$\frac {1} {L_T} = \sum{i = 1}^N \frac {1} {L_T}$$
 #### DC Steady-state
 $$E_L(t) = \int P_L (t) \mathrm d t = \frac 1 2 Li_L^2(t)$$
 
-At steady-state a inductor behaves as a short circuit.
+At steady-state an inductor behaves as a short circuit.
+At DC, and from all current sources an inductor behaves as a short circuit.
+
+#### Procedure to find the response:
+1. Consider the case when t>0, remove all independent sources, simplify the circuit to determine $R_{eq}, L_{eq}, \tau = \frac L R$.
+2. With $L$ set as short circuit, use dc-analysis to find the initial inductor current prior to discontinuity $I_0$.
+3. Again with $L$ set as short circuit, find the value of the inductor current at $t = \inf$
+4. Solution is:
+$$i(t) = I_\inf + (I_{0} - I_\inf)\exp^{-\frac t \tau}$$
