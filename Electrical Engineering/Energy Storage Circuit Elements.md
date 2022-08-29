@@ -82,3 +82,7 @@ $$L_T = \sum_{i = 1}^N L_i$$
 $$\frac {1} {L_T} = \sum{i = 1}^N \frac {1} {L_T}$$
 
 ### First-order RL Circuits
+#### DC Steady-state
+$$E_L(t) = \int P_L (t) \mathrm d t = \frac 1 2 Li_L^2(t)$$
+
+At steady-state a inductor behaves as a short circuit.
