@@ -7,12 +7,12 @@ Related: [[The Programming Language C]]
 Allow a program to access its own memory. This means you can treat any part of memory anyway you want.
 
 ### What are Pointers?
-1. *Variables* that *hold* the adress of a memory location.
+1. *Variables* that *hold* the address of a memory location.
 2. *Variables* that *point* to memory locations.
 3. Usually something that *point* to memory locations being used to hold variables' values.
 
 ### The &
-The *adress-of* operator that is used to find a variable's address.
+The *address-of* operator that is used to find a variable's address.
 ```c 
 int total;
 ... &total ...
@@ -25,3 +25,17 @@ int total;
 int *p;
 p = &total;
 ```
+
+#### The `void *`
+Highlights that variable is a generic pointer.
+
+### Dereferencing the Pointer
+In the above example, if we used `*p*` it will return the value held at that spot in memory.
+
+### [[Arrays]]? 
+```c 
+int *p = &totals[0];
+int *p = totals;
+```
+The array's name is synonymous with the address of the first element.
+
