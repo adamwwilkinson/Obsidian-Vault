@@ -39,3 +39,6 @@ int *p = totals;
 ```
 The array's name is synonymous with the address of the first element.
 
+### Incrementing Pointers
+When incrementing the pointer, it increases itself by the size of the variable.
+This means for an array holding 4 byte integers, when the pointer to the first is `p++` adds to itself 4 to point to the next integer in the array.
