@@ -26,6 +26,8 @@ $$C_{T} = C_{1} = C_{2}$$
 ### Series Combination of Capacitors
 $$\frac{1}C_{T} = \frac{1}C_{1} + \frac{1}C_{2}$$
 
+The charge in a specefic capacitor is the same as the total charge, divided by the amount of capacitors.
+
 ### Deriving Voltage
 $$v(t) = \frac 1 C \int_0^t i(t) \mathrm d t + v_0$$
 
