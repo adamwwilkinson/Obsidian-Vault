@@ -45,3 +45,5 @@ A plane where the vertical axis is the imaginary part of the number, and the hor
 This gives us a cartesian representation, $z = x + iy$ or $(x, y)$.
 We can also represent it with a polar format $(r, \theta)$. With $x = r \cos \theta, \ y = r \sin \theta$.
 This is also equivalent to the exponential form $z = r \exp ^{i \theta}$.
+
+$\mathrm {cis} = \angle$
