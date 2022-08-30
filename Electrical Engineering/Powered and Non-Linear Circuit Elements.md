@@ -55,13 +55,10 @@ $$i_{D} = I_{s}^{e^{\frac{V_{D}}{0.025}} - 1}$$
 #### On - Off Model
 For the silicone diode, the $V_{D_{on}}$ is 0.6V. This means it only starts emmiting current at 0.6V.
 
-#todo/example Simple diode circuit example
-
 #### LED (Light Emmiting Diodes)
 As opposed to dissipating current to heat, LED dissipates curren as light. An LED behaves as a diode and can be used as such in a circuit.
 
 ### Operational Amplifiers
-#todo/excalidraw symbols and model
 ![[OpAmp Symbols Drawing]]
 To amplify the voltage, NOT the current. Has 5 important terminals, the two voltage inputs from the powersupply, the voltage output, the inverting and non inverting inputs.
 
@@ -79,16 +76,16 @@ With $G$ being the amplifier constant.
 2. The inputs draw zero current, $I_+ = I_- = 0$
 
 #### Circuit Gain of an Inverting Configuration
-#todo/excalidraw
+![[Inverting Config Drawing]]
 $$A_v = \frac{v_O}{v_i} = - \frac{R_f}{R_1}$$
 This means $A_v$ depends now on resistance which removes the signal distortion.
 
 #### Circuit Gain of a Non-Inverting Configuration
-#todo/excalidraw
+![[Noninverting Config Drawing]]
 $$A_v = \frac{v_O}{v_i} = 1 + \frac{R_f}{R_1}$$
 
 #### Saturation
-#todo/excalidraw graph
+![[Saturation Drawing]]
 In reality, the power supplies define the upper and lower limits of an amplifier.
 
 #todo/scan examples pg 10 in notebook

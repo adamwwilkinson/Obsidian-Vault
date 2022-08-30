@@ -10,7 +10,7 @@ Often we do not know how much memory we need until we execute out programs.
 To fix these problems we can *dynamically request* new memory at runtime.
 
 ### `malloc()`
-Declared in `<stdlib.h>` and returns a [[genric pointer]] #todo.
+Declared in `<stdlib.h>` and returns a [[Pointers#What are Pointers|genric pointer]].
 `malloc()` needs to be informed of the number of bytes we require.
 
 The datatype it uses is called `size_{t}` to hold an integer value to be 0 or positive.
@@ -48,7 +48,7 @@ extern void *calloc( size_t nitems, size_t itemsize );
 
 #### `free`
 For programs that takes a long time, or that needs loads of memory for a time and then no longer require it.
-Pass in a pointer of any datatype to give that piece of memory back to the [[OS]] #todo to reuse. 
+Pass in a pointer of any datatype to give that piece of memory back to the [[Operating Systems|OS]] todo to reuse. 
 
 ```c 
 extern void free( void *pointer );

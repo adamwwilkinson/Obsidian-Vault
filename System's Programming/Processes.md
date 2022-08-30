@@ -110,7 +110,7 @@ void function(void)
 After the OS has just finished booting, it starts with a single process *init*. It has the PID of 1.
 
 ### General Calling Sequence of System Calls
-#todo/excalidraw
+![[System Calls Drawing]]
 
 ### Running a New Program
 ```c
