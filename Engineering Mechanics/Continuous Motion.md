@@ -18,3 +18,8 @@ Average Velocity: $v_{avg} = \frac {\Delta r} {\Delta t}$
 Instantaneous Velocity: $v = \frac {\mathrm d r} {\mathrm d t}$
 
 Acceleration: $a = \frac {\mathrm d v} {\mathrm d t}$
+
+#### Constant Acceleration
+$v = v_0 + a_ct$
+$s = s_0 + v_0t+ 0.5a_ct^2$
+$v^2 = v_0^2 + 2a_c(s - s_o)$
