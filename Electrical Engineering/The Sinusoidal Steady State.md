@@ -44,6 +44,9 @@ This allows us to solve complex equations with no traditional solution.
 A plane where the vertical axis is the imaginary part of the number, and the horizontal axis is the real part of a number.
 This gives us a cartesian representation, $z = x + iy$ or $(x, y)$.
 We can also represent it with a polar format $(r, \theta)$. With $x = r \cos \theta, \ y = r \sin \theta$.
-This is also equivalent to the exponential form $z = r \exp ^{i \theta}$.
+This is also equivalent to the exponential form $z = r e^{i \theta}$.
 
 $\mathrm {cis} = \angle$
+
+#### Operations
+$$z_1 \pm z_2 = (x_1 \pm iy_1) + (x_2 \pm iy_2) = (x_1 \pm x_2) + i(y_1 \pm y_2)$$
