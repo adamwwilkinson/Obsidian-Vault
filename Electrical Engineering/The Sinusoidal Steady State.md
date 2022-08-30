@@ -61,3 +61,6 @@ Multiply the denominator and the numerator by the complex conjugate of the denom
 #### The Complex Conjugate
 $z = x + iy = re^{i\theta}$
 $z^* = x - iy = re^{-i\theta}$
+
+#### $i$?
+Typically $i$ is used for imaginary numbers, but in electrical engineering we have $i$ denoting the current. So electrical engineers use $j$ for imaginary numbers.
