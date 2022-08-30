@@ -19,7 +19,7 @@ int total;
 ```
 
 ### The *
-Denotes a pointer.
+Denotes a pointer. Pointers are 8 byte piece of memory that points to other pieces of memory.
 ```c 
 int total;
 int *p;

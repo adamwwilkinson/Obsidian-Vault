@@ -33,3 +33,56 @@ The consequence of this is that everytime we call `malloc()`, we must always hav
       exit( EXIT_FAILURE );
   }
 ```
+
+### Cleaning Up the Mess
+#### `calloc()`
+`calloc()` is used to to clear the memory at a place to all equal 0.
+
+```c
+include <stdlib.h>
+
+extern void *calloc( size_t nitems, size_t itemsize );
+    ....
+    int  *intarray = calloc(N, sizeof(int));
+```
+
+#### `free`
+For programs that takes a long time, or that needs loads of memory for a time and then no longer require it.
+Pass in a pointer of any datatype to give that piece of memory back to the [[OS]] #todo to reuse. 
+
+```c 
+extern void free( void *pointer );
+```
+
+```c
+#include <stdlib.h>
+
+    int   *vector = randomints( 1000 );
+
+    if(vector != NULL) {
+        // USE THE vector
+        ......
+        free( vector );
+    }
+```
+
+The length of a pointer is kept in the spot in memory one slot before the pointer.
+This is why we do not need to pass the length of the pointer to `free()`.
+
+```ad-info
+We can only free memory created by `malloc()` or `calloc()`.
+```
+
+### Reallocating Previous Memory
+When we use `malloc()` again after freeing, it will try used the free block.
+
+We can use `realloc()` to grow or shrink previously allocated memory.
+
+```c 
+extern void *realloc( void *oldpointer, size_t newsize );
+```
+
+```ad-info
+`realloc()` either grows at the place of the original pointer, or if there is not enough contigous memory, it will copy the pointer
+and paste it in a new place, returning the pointer of that new location.
+```
