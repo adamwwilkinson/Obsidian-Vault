@@ -49,4 +49,15 @@ This is also equivalent to the exponential form $z = r e^{i \theta}$.
 $\mathrm {cis} = \angle$
 
 #### Operations
-$$z_1 \pm z_2 = (x_1 \pm iy_1) + (x_2 \pm iy_2) = (x_1 \pm x_2) + i(y_1 \pm y_2)$$
+$$z_1 \pm z_2 = (x_1 + iy_1) \pm (x_2 + iy_2) = (x_1 + x_2) \pm i(y_1 + y_2)$$
+
+$$z_1 \times z_2 = (x_1 + iy_1) \times (x_2 + iy_2) = (x_1x_2 - y_1y_2) + i(x_2y_1 + x_1y_2) = r_1r_2e^{i(\theta_1 + \theta_2)}$$
+
+$$\frac {z_1} {z_2} = \frac {r_1} {r_2} e^{i(\theta_1 - \theta_2)}$$
+
+##### Division in Cartesian Form
+Multiply the denominator and the numerator by the complex conjugate of the denominator.
+
+#### The Complex Conjugate
+$z = x + iy = re^{i\theta}$
+$z^* = x - iy = re^{-i\theta}$
