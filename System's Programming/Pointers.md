@@ -42,3 +42,11 @@ The array's name is synonymous with the address of the first element.
 ### Incrementing Pointers
 When incrementing the pointer, it increases itself by the size of the variable.
 This means for an array holding 4 byte integers, when the pointer to the first is `p++` adds to itself 4 to point to the next integer in the array.
+
+### Passing Pointers to Functions
+Passing the name of the variable to a function isn't enough as that gives a copy of the value, rather then the adress in memory.
+Instead we pass the pointers of those variables to directly modify them.
+
+We can't give away to someone the address of our local variable, once the function containing that variable ceases.
+
+Now we look at [[Dynamic Memory]].
