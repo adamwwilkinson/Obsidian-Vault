@@ -45,17 +45,16 @@ $$v(t) = V_S + (V_0 - V_S)e^{\frac {-t} {RC}}$$
 Where $V_S$, $V_0$ are the final and intial value for $V(t)$.
 
 ##### Discharging
-Capacitor discharges it's ions to the resistor which powers it and gives away energy as heat.
+Capacitor discharges its ions to the resistor which powers it and gives away energy as heat.
 
 #### $RC$?
-$RC$ is also known as $\tau$ and is a time constant. After $\tau$ amount of time, the capacitor is charged 66.6%.
+$RC$ is also known as $\tau$ and is a time constant. After $\tau$ amount of time, the capacitor is charged 63.7%.
 
 #### Procedure to Find Response
-#todo read previous slides
-1. Remove all independent sources to determine $R_{eq}, C_{eq}$
+1. Remove all independent sources to determine $R_{eq}, C_{eq}$ to solve for $\tau$.
 2. With C set as an open circuit, use dc-analysis to find the initial capacitor voltage prior to discontinuity.
 3. With C set as an open circuit use dc-analysis of the capacitor voltage with $t = \inf$, this is $V_{inf}$.
-$$v(t) = V_\inf + (V_0 - V_{inf})\exp^{-t}{\tau}$$
+$$v(t) = V_\inf + (V_0 - V_{inf})\exp^{\frac {-t}{\tau}}$$
 
 ## Inductors
 A current carrying conductor will generate a magnetic field around it to store energy.

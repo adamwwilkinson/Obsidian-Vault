@@ -48,7 +48,7 @@ extern void *calloc( size_t nitems, size_t itemsize );
 
 #### `free`
 For programs that takes a long time, or that needs loads of memory for a time and then no longer require it.
-Pass in a pointer of any datatype to give that piece of memory back to the [[Operating Systems|OS]] todo to reuse. 
+Pass in a pointer of any datatype to give that piece of memory back to the [[Operating Systems|OS]] to reuse. 
 
 ```c 
 extern void free( void *pointer );
