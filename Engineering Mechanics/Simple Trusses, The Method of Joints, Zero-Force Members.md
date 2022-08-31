@@ -40,8 +40,13 @@ If three members form a truss joint and two of the members are collinear and the
 Zero-force members can be removed when analysing the truss, they are used to increase the stability and rigidity of the truss as well as to provide support under different loading conditions.
 
 ### Determinancy
-For it to be determinante we have 3 unknown traction forves #todo read lecture sheets 2 for determinancy
-sdad
+For a truss to be externally statically determinate, there will be 3 unknown reaction forces. There are also $m$ unknown internal forces where $m$ is the number of members. The total number of unknowns is:
+$$3 + m$$
+
+At each joint $j$ we have two equations of equilibrium. $2 \times j$.
+
+A truss is statically determinate when,
+$$3 + m = 2j$$
 
 #### External Determinancy
 If a truss has more external supports than is necessary to ensure equilibrium, it is externally indeterminant.
