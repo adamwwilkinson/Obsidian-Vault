@@ -28,18 +28,23 @@ The *magnitude* of a position vector is $r = \sqrt{(x^2 + y^2 + z^2)}$
 The *direction* of $r$ is defined by the unit vector: $u_r = \frac 1 {\mid{r} \mid} r$
 
 ### Normal and Tangential Components
-When a particle moves along a cuurved path, Cartesian coordinate may not be the best.
+When a particle moves along a curved path, Cartesian coordinate may not be the best.
 When a parth of the motion is known, normal($n$) and tangential ($t$) coordinates are often used.
 #todo/excalidraw
 
 In the $n-t$ coordinate system, the *origin* is located on the particle (the origin and coordinate system move with the particle).
 
 #### Center of Curvature
-The center of curvature $O^'$ always lies on the concave side of the curve.
+The center of curvature $O^{\prime}$ always lies on the concave side of the curve.
 
 #### Velocity
 The velocity vector is always tangent to the path of motion (tangential direction). 
 The magnitude is take by taking the time derivative of the path function.
 
 #### Acceleration
-$$a = \frac {\mathrm d v} {\mathrm d t}u_t + \frac {v^2} {\rho}u_n
+$$a = \frac {\mathrm d v} {\mathrm d t}u_t + \frac {v^2} {\rho}u_n$$
+
+$a_t$ is tangent to the curve while $a_n$ is directed to the center of curvature.
+
+#### Radius of Curvature $\rho$
+$$\rho = \frac {[1+ (\mathrm d y / \mathrm d x)^2]^{\frac 3 2}} {\mid \mathrm d^2y / \mathrm dx^2 \mid}$$
