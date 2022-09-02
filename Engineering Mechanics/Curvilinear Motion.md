@@ -3,9 +3,6 @@ Created: 30/08/2022 at 18:44
 Tags: #topic/mechanical 
 Related: [[Rectilinear Kinematics]]
 
-### Applications
-The flight of planes.
-
 ### Definitions
 Position at an instant: a vector $r$ from the origin $O$ or a scalar $s$ both in metres. $r = r(t)$. Both the magnitude and direction may vary with time.
 Displacement: the change in the particles position.
@@ -29,3 +26,20 @@ All these components can be functions of time.
 
 The *magnitude* of a position vector is $r = \sqrt{(x^2 + y^2 + z^2)}$
 The *direction* of $r$ is defined by the unit vector: $u_r = \frac 1 {\mid{r} \mid} r$
+
+### Normal and Tangential Components
+When a particle moves along a cuurved path, Cartesian coordinate may not be the best.
+When a parth of the motion is known, normal($n$) and tangential ($t$) coordinates are often used.
+#todo/excalidraw
+
+In the $n-t$ coordinate system, the *origin* is located on the particle (the origin and coordinate system move with the particle).
+
+#### Center of Curvature
+The center of curvature $O^'$ always lies on the concave side of the curve.
+
+#### Velocity
+The velocity vector is always tangent to the path of motion (tangential direction). 
+The magnitude is take by taking the time derivative of the path function.
+
+#### Acceleration
+$$a = \frac {\mathrm d v} {\mathrm d t}u_t + \frac {v^2} {\rho}u_n
