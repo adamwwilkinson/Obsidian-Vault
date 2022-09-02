@@ -60,3 +60,9 @@ $z^* = x - iy = re^{-i\theta}$
 
 #### $i$?
 Typically $i$ is used for imaginary numbers, but in electrical engineering we have $i$ denoting the current. So electrical engineers use $j$ for imaginary numbers.
+
+### Phasor Representation of Circuit Elements
+Phasor Analysis (complex form of the polar number) can only apply in the **sinusoidal steady-state**.
+
+Because the voltage and current aren't constant, we cant simply switch off *transients* [[Energy Storage Circuit Elements]].
+
