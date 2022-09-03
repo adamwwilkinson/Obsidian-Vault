@@ -63,6 +63,50 @@ Typically $i$ is used for imaginary numbers, but in electrical engineering we ha
 
 ### Phasor Representation of Circuit Elements
 Phasor Analysis (complex form of the polar number) can only apply in the **sinusoidal steady-state**.
+This type of analysis is useful because it makes simplifies adding and multiplying sine or cos terms.
 
 Because the voltage and current aren't constant, we cant simply switch off *transients* [[Energy Storage Circuit Elements]].
 
+#### The Phasor
+A sinusoidal varying parameter can be given by,
+$$v(t) = V_0\cos(\omega t + \phi)$$
+
+Represented by the quantity,
+$$V = V_0e^{j(\omega t + \phi)} = V_0 \cos(\omega t + \phi) + jV_0 \sin(\omega t + \phi)$$
+
+With,
+$$v(t) = \mathrm {Re} \{V\}$$
+
+The **rotating phasor** is $V_0e^{j(\omega t + \phi)} = V_0e^{j\omega t} e^{j\phi}$
+
+Ignoring the constant $e^{j\omega t}$ we have the **phasor**,
+$$\bar V = V_0e^{j\phi}$$
+
+#### Phasor Representation of Sources
+As phase angle is relative, it is common practise to define the phase angle of one source to be zero.
+
+##### Voltage Sources
+$$\bar V = V_0 e^{j\phi}$$
+
+##### Current Sources
+$$\bar I = I_0 e^{j\phi}$$
+
+#### Phasor Representation of Resistors
+$$\bar V = \bar I R$$
+
+The current-voltage relationship for a resistor remains unchanged.
+
+
+#### Phasor Representation of Capacitor
+$$\bar V = \bar I \frac 1 {j\omega C}$$
+
+The value $\bar Z = \frac 1 {j\omega C}$ is called the impedency of the capacitor.
+
+The current-voltage relationship for a capacitor is now akin to a resistance.
+
+#### Phasor Representation of Inductor
+$$\bar V = \bar I j\omega L$$
+
+The value $\bar Z = j\omega L$ is called the impedency of the inductor.
+
+The current-voltage relationship for an inductor is now akin to a resistance.
