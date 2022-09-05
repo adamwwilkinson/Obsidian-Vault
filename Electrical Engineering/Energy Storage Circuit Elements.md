@@ -12,7 +12,7 @@ $$i = \frac{\mathrm d q}{\mathrm d t} = C \frac{\mathrm d v}{\mathrm d t}$$
 $$E(t) = C \times \frac{v^2_{c(t)}}{2}$$
 
 When connected directly to an ideal voltage source, an ideal capacitor with have a non-zero current onluy when the voltage is changing.
-In otherwords, if the voltage is constant, the current is 0.
+In other words, if the voltage is constant, the current is 0.
 
 ### Unit of Capacitance
 Measured in **Farad** $(F)$
@@ -26,7 +26,7 @@ $$C_{T} = C_{1} = C_{2}$$
 ### Series Combination of Capacitors
 $$\frac{1}C_{T} = \frac{1}C_{1} + \frac{1}C_{2}$$
 
-The charge in a specefic capacitor is the same as the total charge, divided by the amount of capacitors.
+The charge in a specific capacitor is the same as the total charge, divided by the amount of capacitors.
 
 ### Deriving Voltage
 $$v(t) = \frac 1 C \int_0^t i(t) \mathrm d t + v_0$$
@@ -42,7 +42,7 @@ A steady-state capacitor acts as an *open circuit*.
 #### Transient Analysis
 ##### Charging
 $$v(t) = V_S + (V_0 - V_S)e^{\frac {-t} {RC}}$$
-Where $V_S$, $V_0$ are the final and intial value for $V(t)$.
+Where $V_S$, $V_0$ are the final and initial value for $V(t)$.
 
 ##### Discharging
 Capacitor discharges its ions to the resistor which powers it and gives away energy as heat.
@@ -95,3 +95,4 @@ At DC, and from all current sources an inductor behaves as a short circuit.
 3. Again with $L$ set as short circuit, find the value of the inductor current at $t = \inf$
 4. Solution is:
 $$i(t) = I_\inf + (I_{0} - I_\inf)\exp^{-\frac t \tau}$$
+

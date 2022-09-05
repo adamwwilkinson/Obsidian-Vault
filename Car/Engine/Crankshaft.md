@@ -1,9 +1,9 @@
 # Crankshaft
-Made of *cast iron*, or *forged steel*. If the parting line is thin than it's made of cast iron. Needs to be *balanced*.
+Made of *cast iron*, or *forged steel*. If the parting line is thinner than it's made of cast iron. Needs to be *balanced*.
 
 ### Parts
 - *journal* (the inner part of the bearings)
-	- *main journals* are clamped in crank case
+	- *main journals* are clamped in crankcase
 	- *rod journals* in between main journal
 - *webs* that join journals
 - *counterweights* at the end of webs
@@ -16,7 +16,7 @@ Made of *cast iron*, or *forged steel*. If the parting line is thin than it's ma
 A bearing shell is placed between the main cap and crankshaft during installation. They are formed together and thus *need to be paired* in the correct order.
 
 ### Main Bearings
-The *hole in the bearing* and the cap is *for oil pressure* (dictated by clearence), this seperates the journal from the bearing. These *bearing are made of softer metal* to take the wear in the event of metal-metal contact. Only the bottom of the bearings have a groove for the oil.
+The *hole in the bearing* and the cap is *for oil pressure* (dictated by clearance), this separates the journal from the bearing. These *bearing are made of softer metal* to take the wear in the event of metal-metal contact. Only the bottom of the bearings have a groove for the oil.
 
 ### Lubrication
 The rod journals run on a thin film of oil that comes through passageways drilled in the crankcase. Oil is also flung around the crankcase passively. *Thrust washers* are placed on the side of bearing shells to *reduce end play*.
