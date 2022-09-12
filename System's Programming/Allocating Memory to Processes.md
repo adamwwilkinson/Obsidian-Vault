@@ -19,3 +19,31 @@ Ideally, all references from one module to another are resolved at run-time, mai
 
 #### Physical Organisation
 A programmer cannot predict the size nor location of the process' memory. The task of moving information between main and secondary memory is on the OS.
+
+#### Sharing
+There is a need to allow processes to share memory.
+
+#### Relocation
+Where processes start off in a location of memory and is moved to another. I.e. a processbeing suspended and restarted.
+
+The OS has the responsibility to tell the process where it is in memory, and where it's variables are in memory.
+
+#### Protection
+Each process must be protected from either accidental or deliberate "inteferences" from other processses.
+
+### Initial Memory Allocation Using Partitioning
+The OS itself occupies a fixed portion of main memory. The remainder is used for processes. This leftover memory is seperated using fix-sized partitions, either equal or unequal.
+
+### Dynamic Memory Partitioning
+Overcomes any shortcomings of fixed partitioning but can lead to gaps of unused memory, too small to hold a new process. Even if the total amount of free memory exist.
+#todo/excalidraw
+
+#### Algorithms
+##### First-fit
+Find the first unused block of memory that can contain the process
+
+##### Best-fit
+Find the smallest unused block that can contain the process.
+
+##### Next-fit
+Remember where the last process was allocated and find the first unused block that can contain that process.
