@@ -56,7 +56,7 @@ Multiply the denominator and the numerator by the complex conjugate of the denom
 
 #### The Complex Conjugate
 $z = x + iy = re^{i\theta}$
-$z^* = x - iy = re^{-i\theta}$
+$z^\ast = x - iy = re^{-i\theta}$
 
 #### $i$?
 Typically $i$ is used for imaginary numbers, but in electrical engineering we have $i$ denoting the current. So electrical engineers use $j$ for imaginary numbers.
@@ -85,6 +85,8 @@ $$\bar V = V_0e^{j\phi}$$
 #### Phasor Representation of Sources
 As phase angle is relative, it is common practise to define the phase angle of one source to be zero.
 
+The phasor voltge is a small vector.
+
 ##### Voltage Sources
 $$\bar V = V_0 e^{j\phi}$$
 
@@ -96,7 +98,6 @@ $$\bar V = \bar I R$$
 
 The current-voltage relationship for a resistor remains unchanged.
 
-The phasor voltge is a small vector.
 
 
 #### Phasor Representation of Capacitor
@@ -112,3 +113,20 @@ $$\bar V = \bar I j\omega L$$
 The value $\bar Z = j\omega L$ is called the impedency of the inductor.
 
 The current-voltage relationship for an inductor is now akin to a resistance.
+
+#### Phasor Representation Summarised
+$$R: \bar V = \bar I * R = \bar I * Z_R$$
+$$C: \bar V = \bar I * \frac 1 {j \omega C} = \bar I * Z_C$$
+$$L: \bar V = \bar I * j \omega L = \bar I * Z_L$$
+
+$Z$: impedence ($\Omega$)
+
+#todo/excalidraw lec 13/sep 11:17 am
+We can see the impedency of the resistor is always real.
+While the impedency of the capacitor and inductor is always imaginary.
+
+### Admittance
+The inverse of the impedance is **admittance**.
+Admittance has units of Mho ($\Mho$) or Siemens ($S$) and is given the phasor symbol $\bar Gamma$.
+
+The rules in [[#phasor-representation-summarised]] is simple inverted for admittance.
