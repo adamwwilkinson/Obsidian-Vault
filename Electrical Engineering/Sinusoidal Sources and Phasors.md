@@ -127,7 +127,7 @@ While the impedancy of the capacitor and inductor is always imaginary.
 
 ### Admittance
 The inverse of the impedance is **admittance**.
-Admittance has units of Mho ($\Mho$) or Siemens ($S$) and is given the phasor symbol $\bar Gamma$.
+Admittance has units of Mho ($\mho$) or Siemens ($S$) and is given the phasor symbol $\bar \gamma$.
 
 The rules in [[#phasor-representation-summarised]] is simple inverted for admittance.
 
@@ -135,6 +135,8 @@ The rules in [[#phasor-representation-summarised]] is simple inverted for admitt
 Given an unknown component with an impedance of a real part and an imaginary part. We can split that up as an resistor in series with an inductor or capacitor whether the imaginary part is positive or negatie respectively.
 
 This real number is called the *resistive part* while the imaginary number is called the *reactive part*.
+
+For the admittance we can say the real number is the *conductance* and the imaginary is the *susceptance*.
 
 ### Phasor Back to Real
 #todo lec 13/sep 11:35 Am
