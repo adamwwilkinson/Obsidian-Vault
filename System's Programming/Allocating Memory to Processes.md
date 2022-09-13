@@ -47,3 +47,8 @@ Find the smallest unused block that can contain the process.
 
 ##### Next-fit
 Remember where the last process was allocated and find the first unused block that can contain that process.
+
+#todo/readprevslides
+
+### Page Registers and Page Table
+The page table holds the physical frame location for each page of the running process. Within each process, a *logical address* now consist of a page number and an offset within that page's frame.
