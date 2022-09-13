@@ -96,6 +96,8 @@ $$\bar V = \bar I R$$
 
 The current-voltage relationship for a resistor remains unchanged.
 
+The phasor voltge is a small vector.
+
 
 #### Phasor Representation of Capacitor
 $$\bar V = \bar I \frac 1 {j\omega C}$$

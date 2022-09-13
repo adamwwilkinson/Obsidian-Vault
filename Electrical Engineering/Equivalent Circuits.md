@@ -8,7 +8,7 @@ Any *linear electrical network containing only independent and dependent voltage
 
 #### Conditions
 Network A:
-- Consist of [[Superposition and Equivelent Circuits#Linearity|Linear]] elements
+- Consist of [[Superposition and Equivelent Circuits#linearity|linear]] elements
 - Initial conditions allowed on passive elements
 - No coupling to Network B
 Network B:
