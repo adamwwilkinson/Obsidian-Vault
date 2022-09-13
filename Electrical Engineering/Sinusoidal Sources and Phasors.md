@@ -119,7 +119,7 @@ $$R: \bar V = \bar I * R = \bar I * Z_R$$
 $$C: \bar V = \bar I * \frac 1 {j \omega C} = \bar I * Z_C$$
 $$L: \bar V = \bar I * j \omega L = \bar I * Z_L$$
 
-$Z$: impedence ($\Omega$)
+$Z$: impedance ($\Omega$)
 
 #todo/excalidraw lec 13/sep 11:17 am
 We can see the impedency of the resistor is always real.
@@ -130,3 +130,16 @@ The inverse of the impedance is **admittance**.
 Admittance has units of Mho ($\Mho$) or Siemens ($S$) and is given the phasor symbol $\bar Gamma$.
 
 The rules in [[#phasor-representation-summarised]] is simple inverted for admittance.
+
+### Problem Solving
+Given an unknown component with an impedance of a real part and an imaginary part. We can split that up as an resistor in series with an inductor or capacitor whether the imaginary part is positive or negatie respectively.
+
+### Phasor back to real
+#todo lec 13/sep 11:35 Am
+
+### Combining Impedance
+#### Series
+#todo like resistors
+
+#### Parallel
+#todo like resistors
