@@ -8,7 +8,7 @@ Components have nonlinear I-V relationhips, and nonlinear circuits are described
 A circuit is nonlinear if there is atleast one nonlinear element in the circuit.
 
 ### In Relation to [[Circuit Analysis Techniques]]
-KVL, KCL, NTD, and Mesh analysis makes no assummption on linearity. All these techniques can be applied **ensuring use of appropriate I-V relationships** can be used on nonlinear circuits.
+KVL, KCL, NTD, and Mesh analysis makes no assumptions on linearity. All these techniques can be applied **ensuring use of appropriate I-V relationships** can be used on nonlinear circuits.
 
 ### Incremental/Dynamic Resistance
 In a linear domain, $$R = \frac v i$$.

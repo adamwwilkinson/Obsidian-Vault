@@ -56,7 +56,7 @@ Multiply the denominator and the numerator by the complex conjugate of the denom
 
 #### The Complex Conjugate
 $z = x + iy = re^{i\theta}$
-$z^* = x - iy = re^{-i\theta}$
+$z^\ast = x - iy = re^{-i\theta}$
 
 #### $i$?
 Typically $i$ is used for imaginary numbers, but in electrical engineering we have $i$ denoting the current. So electrical engineers use $j$ for imaginary numbers.
@@ -85,6 +85,8 @@ $$\bar V = V_0e^{j\phi}$$
 #### Phasor Representation of Sources
 As phase angle is relative, it is common practise to define the phase angle of one source to be zero.
 
+The phasor voltge is a small vector.
+
 ##### Voltage Sources
 $$\bar V = V_0 e^{j\phi}$$
 
@@ -97,16 +99,51 @@ $$\bar V = \bar I R$$
 The current-voltage relationship for a resistor remains unchanged.
 
 
+
 #### Phasor Representation of Capacitor
 $$\bar V = \bar I \frac 1 {j\omega C}$$
 
-The value $\bar Z = \frac 1 {j\omega C}$ is called the impedency of the capacitor.
+The value $\bar Z = \frac 1 {j\omega C}$ is called the impedancy of the capacitor.
 
 The current-voltage relationship for a capacitor is now akin to a resistance.
 
 #### Phasor Representation of Inductor
 $$\bar V = \bar I j\omega L$$
 
-The value $\bar Z = j\omega L$ is called the impedency of the inductor.
+The value $\bar Z = j\omega L$ is called the impedancy of the inductor.
 
 The current-voltage relationship for an inductor is now akin to a resistance.
+
+#### Phasor Representation Summarised
+$$R: \bar V = \bar I * R = \bar I * Z_R$$
+$$C: \bar V = \bar I * \frac 1 {j \omega C} = \bar I * Z_C$$
+$$L: \bar V = \bar I * j \omega L = \bar I * Z_L$$
+
+$Z$: impedance ($\Omega$)
+
+#todo/excalidraw lec 13/sep 11:17 am
+We can see the impedancy of the resistor is always real.
+While the impedancy of the capacitor and inductor is always imaginary.
+
+### Admittance
+The inverse of the impedance is **admittance**.
+Admittance has units of Mho ($\mho$) or Siemens ($S$) and is given the phasor symbol $\bar \gamma$.
+
+The rules in [[#phasor-representation-summarised]] is simple inverted for admittance.
+
+### Problem Solving
+Given an unknown component with an impedance of a real part and an imaginary part. We can split that up as an resistor in series with an inductor or capacitor whether the imaginary part is positive or negatie respectively.
+
+This real number is called the *resistive part* while the imaginary number is called the *reactive part*.
+
+For the admittance we can say the real number is the *conductance* and the imaginary is the *susceptance*.
+
+### Phasor Back to Real
+#todo lec 13/sep 11:35 Am
+
+### Combining Impedance
+#### Series
+#todo like resistors
+
+#### Parallel
+#todo like resistors
