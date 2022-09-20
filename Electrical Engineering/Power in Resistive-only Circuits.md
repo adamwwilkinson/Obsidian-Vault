@@ -26,7 +26,7 @@ $$R_L = R_S$$
 Max power given to the load:
 $$P_{\mathrm {max}} = \frac {v_S^2} {4R_S}$$
 
-Also is the power lost in the source resistanc:
+Also is the power lost in the source resistance:
 $$P_{\mathrm {max}} = \frac {v_S^2} {4R_S}$$
 
 ```ad-info
