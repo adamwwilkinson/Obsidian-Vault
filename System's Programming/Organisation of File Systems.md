@@ -25,3 +25,7 @@ Related: [[Operating Systems]]
 **basic file system** - exchanges fixed-sized pieces of data with the device drivers
 **I/O supervisor** - manages the choice of device
 **logical I/O layer** - maps I/O request to blocks
+
+### Role of Directory Structures
+#todo/excalidraw 47 min
+Holds the metadata for files. Half of this metadata is common to all file systems, while others are specific to certain file systems.
