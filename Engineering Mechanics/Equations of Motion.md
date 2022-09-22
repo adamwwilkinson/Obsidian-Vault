@@ -5,12 +5,12 @@ Related:
 
 ### Friction
 #### Static Friction
-$F_s = \mew_sN$
+$F_s = \mu_sN$
 
 #### Dynamic Friction
-$F_k = \mew_kN$
+$F_k = \mu_kN$
 
-$\mew_s > \mew_k$
+$\mu_s > \mu_k$
 
 ### Rectangular Coordinates
 $$\sum F_x = ma_x$$
@@ -36,4 +36,4 @@ $$\sum F_t = ma_t$$
 - Apply the equations of motion
 
 ## Radius of Curvature
-$$\pho = \frac {1 + (\frac {\mathrm d y}{\mathrm d x})^2} {\frac {\mathrm d^2 y} {\mathrm d c^2}}^{\frac{3}{2}}$$
+$$\rho = \frac {1 + (\frac {\mathrm d y}{\mathrm d x})^2} {\frac {\mathrm d^2 y} {\mathrm d x^2}}^{\frac{3}{2}}$$
