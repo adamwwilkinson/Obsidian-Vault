@@ -20,7 +20,7 @@ $$P_{avg} = \frac {V^2} {2R}$$
 
 $$V_{avg} = \frac {V} {\sqrt{2}}$$
 
-Where $V_{avg} is the value that gives $P_{avg}$.
+Where $V_{avg}$ is the value that gives $P_{avg}$.
 
 For sin or cos waves, $V_{RMS} = \frac {V} {\sqrt{2}}$.
 
@@ -49,3 +49,13 @@ $$ P_{avg} = V_{RMS}I_{RMS} \cos(\phi)$$
 ```ad-info
 By using RMS values for voltage and current, we eliminate the scale factor of 0.5.
 ```
+
+### Phasor Angle Rotation in Capacitors and Inductors
+In a capacitor the phasor current leads the phasor voltage by $90\textdegree$.
+In a inductor the phasor voltage leads the phasor current by $90 \textdegree$.
+
+```ad-warning
+It is always:
+$$\phi = \phi_v - \phi_i$$
+```
+#todo 11:47 27/sep

@@ -125,6 +125,10 @@ $Z$: impedance ($\Omega$)
 We can see the impedancy of the resistor is always real.
 While the impedancy of the capacitor and inductor is always imaginary.
 
+```ad-info
+This j value says nothing about the magnitude, and rather just gives changed the phase angle (each j being 90 \textdegree).
+```
+
 ### Admittance
 The inverse of the impedance is **admittance**.
 Admittance has units of Mho ($\mho$) or Siemens ($S$) and is given the phasor symbol $\bar \gamma$.
