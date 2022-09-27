@@ -75,5 +75,14 @@ $\vert \bar S \vert$ is the *apparent* power. $VA$
 
 $$\bar S = P + jQ$$
 
+```ad-info
+$P$ can only be used by resistors and only $P$ does actual work so we want to maximise this for efficiency.
+
+$Q$ can only be used by capacitors and inductors.
+```
+
+### Power Factor
+$$PF = \frac P {\vert S \vert}$$
+
 #todo/excalidraw power triangle 12:31
 
