@@ -38,11 +38,12 @@ This is a very ineffecient way of delivering power to appliances.
 Acceptable for very small power levels, but for larger one, efficiency is prioritised over max power.
 
 ### Instantaneous Power/Energy in a Capacitor
-$$i = C \frac {\mathrm d v} {\mathrm d t}$$
-$$P = vi = Cv \frac{\mathrm d v} {\mathrm d t}$$
+$i = C \frac {\mathrm d v} {\mathrm d t}$
+$P = vi$
+$$P = Cv \frac{\mathrm d v} {\mathrm d t}$$
 
-$$E = \int_0^t P \marthrm d t$$
-$$E = \int_0^vCv \marthrm d v$$
+$E = \int_0^t P \mathrm d t$
+$E = \int_0^vCv \mathrm d v$
 $$E = \frac 1 2 Cv^2$$
 
 #### For Sinusoidal Voltage
