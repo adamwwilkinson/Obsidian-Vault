@@ -32,4 +32,20 @@ $$I_{RMS} = \sqrt {\frac 1 T \int^T_0 i^2(t) \mathrm d t}$$
 As the signal spends as much time above 0 as it does below, it gives the illusion that the signal carries zero net power.
 $P(t) = \frac {v^2(t)} {R}$; power is proportional to the square of the voltage, which means the power is always above zero.
 ```
+## Power in the AC Steady-State
+$V_{rms} = \frac V {\sqrt 2}$
+$I_{rms} = \frac I {\sqrt 2}$
 
+$$v(t) = \sqrt 2 V_{rms} \cos(\omega t)$$
+$$i(t) = \sqrt 2 I_{rms} \cos(\omega t - \phi)$$
+
+$\phi$ here is the phase difference between the coltage and current signals within a circuit.
+
+### Average Power Dissipated
+$P_{avg} = \frac 1 T \int_0^T v(t)i(t) \mathrm d t$
+
+$$ P_{avg} = V_{RMS}I_{RMS} \cos(\phi)$$
+
+```ad-info
+By using RMS values for voltage and current, we eliminate the scale factor of 0.5.
+```

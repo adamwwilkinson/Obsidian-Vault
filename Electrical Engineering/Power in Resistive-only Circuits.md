@@ -47,4 +47,29 @@ $E = \int_0^vCv \mathrm d v$
 $$E = \frac 1 2 Cv^2$$
 
 #### For Sinusoidal Voltage
-$$v(t) = v\sin(\omega t)$$
+$$v(t) = V\sin(\omega t)$$
+
+The energy stored varies with voltage waveform from $E = 0$ to $E = \frac 1 2 CV^2$.
+
+Energy here is always positive.
+
+$$E_{avg} = \frac {1} {2T} CV^2$$
+
+### Instantaneous Power/Energy in a Inductor
+$v = \frac {\mathrm d i}{\mathrm d t}
+$P = vi$
+
+$$P = \frac {\mathrm d i}{\mathrm d t}$$
+
+$E = \int_0^t P \mathrm d t$
+$E = \int_0^iLi \mathrm d i$
+$$E = \frac 1 2 Li^2$$
+
+#### For Sinusoidal Current
+$$i(t) = I\sin(\omega t)$$
+
+The energy stored varies with current waveform from $E = 0$ to $E = \frac 1 2 LI^2$.
+
+Energy here is always positive.
+
+$$E_{avg} = \frac {1} {2T} LI^2$$
