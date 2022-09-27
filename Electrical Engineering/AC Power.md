@@ -63,3 +63,17 @@ $$\phi = \phi_v - \phi_i$$
 
 ## Complex Power
 Defined as $S$ with the unit of Volt-Amperes, $VA$.
+
+$$\bar S = \bar V \bar I^\ast \angle \phi$$
+
+Where the \* is the conjugate.
+
+$\bar S$ is the *complex* power. $VA$
+$P$ is the *real/active/average* power. $W$
+$Q$ is the *reactive* power(the imaginary part). $VAR$
+$\vert \bar S \vert$ is the *apparent* power. $VA$
+
+$$\bar S = P + jQ$$
+
+#todo/excalidraw power triangle 12:31
+
