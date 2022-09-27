@@ -56,6 +56,10 @@ In a inductor the phasor voltage leads the phasor current by $90 \textdegree$.
 
 ```ad-warning
 It is always:
+
 $$\phi = \phi_v - \phi_i$$
 ```
 #todo 11:47 27/sep
+
+## Complex Power
+Defined as $S$ with the unit of Volt-Amperes, $VA$.
