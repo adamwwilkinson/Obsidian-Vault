@@ -10,6 +10,8 @@ Like [[the work of a force]] but instead of integrating $F = m a$ with respect t
 $mv$ is linear momentum denoted as $L$. It is a vector that acts in the same direction as v.
 
 ### Impulse
+$$I = \int F \mathrm d t$$
+
 Impluse is given by the change of momentum, or $L_2 - L_1$
 
 ### Procedure
