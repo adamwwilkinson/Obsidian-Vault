@@ -10,7 +10,7 @@ Like [[the work of a force]] but instead of integrating $F = m a$ with respect t
 $mv$ is linear momentum denoted as $L$. It is a vector that acts in the same direction as v.
 
 ### Impulse
-Impluse is given by the change of momentum, or $L_2 - L_1$$
+Impluse is given by the change of momentum, or $L_2 - L_1$
 
 ### Procedure
 - Establish the x, y, z coordinate system

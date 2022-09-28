@@ -11,7 +11,7 @@ $$P = \frac {\mathrm d U} {\mathrm d t} = F v \cos \theta$$
 
 ### Efficiency
 The ratio of useful power produced to the power supplied.
-$$\epsilon = \frac O I##
+$$\epsilon = \frac O I$$
 
 Can also be in terms of energy.
 
