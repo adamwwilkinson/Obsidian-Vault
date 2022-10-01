@@ -22,7 +22,7 @@ Impluse is given by the change of momentum, or $L_2 - L_1$
 ### Internal impulses
 The internal impulses always sum to zero as the internal forces between partivles always occur in pairs with equal magnitude and opposite direction.
 
-$$\sum m_i(v_i)_1 + \sum \int_t_1^t_2 F_i \mathrm d t = \sum m_i(v_i)_2$$
+$$\sum m_i(v_i)_1 + \sum \int_{t_1}^{t_2} F_i \mathrm d t = \sum m_i(v_i)_2$$
 
 #### No External Impulses?
 $$\sum m_i(v_i)_1  = \sum m_i(v_i)_2$$
