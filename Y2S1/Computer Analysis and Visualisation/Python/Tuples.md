@@ -1,6 +1,6 @@
 # Tuples
-Similar to [[Computer Analysis and Visualisation/Python/List]] but use a '()'.
-Unlike [[Computer Analysis and Visualisation/Python/List]] tuples are immutable, and only have 2 methods: count and index.
+Similar to [[List]] but use a '()'.
+Unlike [[List]] tuples are immutable, and only have 2 methods: count and index.
 
 ### When to use What
 List when data is homogenous, tuples when data is inhomogeneous.

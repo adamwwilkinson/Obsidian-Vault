@@ -37,7 +37,7 @@ The *file allocation table* stores a file's starting block and length.
 Method suffers from internal fragmentation (in the initial allocation is too large) and external fragmentation (as files are deleted over time).
 
 #### Chained
-[[lists#singly-linked-representation]]of block allocation. New blocks may be allocated on any free block on the disk, meaning the blocks don't need to be contigous.
+[[Lists#singly-linked-representation]]of block allocation. New blocks may be allocated on any free block on the disk, meaning the blocks don't need to be contigous.
 
 A small pointer of 32 or 64 bits is allocated to indicate where the next block in the chain is.
 
