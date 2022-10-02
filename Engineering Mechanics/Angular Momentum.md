@@ -14,4 +14,4 @@ $$\sum F = \dot L = m \dot v$$
 $$\sum M_O = \dot H_O$$
 
 #### Principle of Angular Impluse and Momentum
-$$(H_O)1 + \sum \int_t_1^t_2 M_O  \mathrm d t = (H_O)_2$$
+$$(H_O)_1 + \sum \int_{t_1}^{t_2} M_O  \mathrm d t = (H_O)_2$$
