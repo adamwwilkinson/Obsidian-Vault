@@ -10,7 +10,7 @@ Often we do not know how much memory we need until we execute out programs.
 To fix these problems we can *dynamically request* new memory at runtime.
 
 ### `malloc()`
-Declared in `<stdlib.h>` and returns a [[Pointers#What are Pointers|genric pointer]].
+Declared in `<stdlib.h>` and returns a [[Pointers#What are Pointers|generic pointer]].
 `malloc()` needs to be informed of the number of bytes we require.
 
 The datatype it uses is called `size_{t}` to hold an integer value to be 0 or positive.
