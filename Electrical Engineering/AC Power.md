@@ -66,6 +66,10 @@ Defined as $S$ with the unit of Volt-Amperes, $VA$.
 
 $$\bar S = \bar V \bar I^\ast \angle \phi$$
 
+$$\bar S = \bar V_{RMS} \bar I_{RMS}^\ast$$
+$$\bar S = \vert \bar I_{RMS} \vert ^2 \times \bar Z$$
+$$\bar S = \frac {\vert \bar I_{RMS} \vert ^2} {\bar Z^\ast}$$
+
 Where the \* is the conjugate.
 
 $\bar S$ is the *complex* power. $VA$
@@ -86,3 +90,30 @@ $$PF = \frac P {\vert S \vert}$$
 
 #todo/excalidraw power triangle 12:31
 
+#### Power Factor Correction
+If the power factor is deemed to low, we can bring it closer to unity by adding capacitors or inductors.
+
+### Maximum Power Transfer
+For the dc equivalent look at [[power in resistive only circuits#max power in a resistive load theorem]].
+
+$$P = \frac {V_S^2 R_L} {(R_S +  R_L)^2}$$
+
+Max power is reached when $X_L = -X_S$ and when $R_L = R_S$.
+
+Therfore, max power is achieved when,
+$$\bar Z_L \bar Z_S^\ast$$
+and,
+$$P_max = \frac {V_S^2} {4R_S}$$
+
+```ad-info
+Notice how when the reactive part is zero, it's the same case as the dc equivalent.
+```
+
+### Impedance Matching
+If we cannot change either the source or the load impedance, how do we maximise power transfer?
+
+A intermediate circuit can be made but in order for it to not lose any power, we must use non-lossy elements only.
+
+```ad-info
+A lossy element is one deemed to consume power, such as resistors.
+```
