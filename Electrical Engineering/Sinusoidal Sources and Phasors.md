@@ -23,7 +23,7 @@ Only true for sinusoidal waves.
 
 ### Important Relationships
 #### Sine-cosine Relationships
-$$A \cos(\omega t) = A \sin(\omega t + \frac \pi 2)$$
+$$A \cos(\omega t) = A \sin(\omega t - \frac \pi 2)$$
 
 #### Derivatives
 Just know the derivatives bro it aint that hard.
