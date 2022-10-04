@@ -33,3 +33,23 @@ n < 1, is a step down transformer (decrease voltage)
 ```ad-note
 Notice how the current is flipped.
 ```
+
+## Ideal Transformers
+The reason the two coils can be magnetically coupled, is because the iron core premits this.
+
+The notation $\phi_{ij}$ explains which flux is targeted to where $i$ and targeted to who, $j$.
+
+### Leakage
+A portion of the $\phi_{11}$, which does not link with winding 2 is the primary leakage flux.
+
+Leakage coefficients,
+$$k_{21} = \frac {\phi_{21}} {\phi_{11}} \leq 1$$
+$$k_{12} = \frac {\phi_{12}} {\phi_{22}} \leq 1$$
+
+Coupling coefficient between windings,
+$$k = \sqrt{k_{21}k_{12}} \leq 1$$
+
+If $k$ is around 1, that is the most efficient coupling. Some applications may want a very low $k$ value.
+
+### Self and Mutual Inductance
+$$L_1 = \frac {N_1\phi_{11}} {i_1}$$
