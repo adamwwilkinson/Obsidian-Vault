@@ -101,7 +101,7 @@ $$P = \frac {V_S^2 R_L} {(R_S +  R_L)^2}$$
 Max power is reached when $X_L = -X_S$ and when $R_L = R_S$.
 
 Therfore, max power is achieved when,
-$$\bar Z_L \bar Z_S^\ast$$
+$$\bar Z_L = \bar Z_S^\ast$$
 and,
 $$P_max = \frac {V_S^2} {4R_S}$$
 
