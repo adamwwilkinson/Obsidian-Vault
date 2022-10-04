@@ -1,7 +1,7 @@
 # Power in Resistive-only Circuits
 Created: 20/09/2022 at 11:09
-Tags: 
-Related:
+Tags: #topic/electrical/powerinaccircuits
+Related: [[Powered and Non-Linear Circuit Elements]]
 
 ### Power (Again)
 $$P = vi + Q \frac {\mathrm d v} {\mathrm d t}$$

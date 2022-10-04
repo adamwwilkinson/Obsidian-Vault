@@ -1,6 +1,6 @@
 # Practical Sources
 Created: 09/08/2022 at 11:41
-Tags: #topic/physics 
+Tags: #topic/electrical/superpositionandequivalentcircuits 
 Related: [[Fundamentals Of Electrical Engineering]]
 
 ### Practical Voltage Sources

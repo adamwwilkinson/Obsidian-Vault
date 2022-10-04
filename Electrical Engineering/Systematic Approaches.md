@@ -1,6 +1,6 @@
 # Systematic Approaches
 Created: 07/08/2022 at 12:48
-Tags: #topic/physics 
+Tags: #topic/electrical/circuitanalysistechniques 
 Related: [[Circuit Analysis Techniques]]
 
 ### Node-to-datum Analysis

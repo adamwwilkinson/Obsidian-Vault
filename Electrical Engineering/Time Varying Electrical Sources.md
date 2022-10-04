@@ -1,6 +1,6 @@
 # Time Varying Electrical Sources
 Created: 23/08/2022 at 11:04
-Tags: #topic/physics 
+Tags: #topic/electrical/dccircuitsandstorageelements
 Related: [[Practical Sources]]
 
 ### Background

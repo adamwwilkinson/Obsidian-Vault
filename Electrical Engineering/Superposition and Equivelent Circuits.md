@@ -1,6 +1,6 @@
 # Superposition and Equivelent Circuits
 Created: 09/08/2022 at 11:04
-Tags: #topic/physics 
+Tags: #topic/electrical/superpositionandequivalentcircuits 
 Related: [[Systematic Approaches]], [[Kirchhoff's Laws]]
 
 ### Tools

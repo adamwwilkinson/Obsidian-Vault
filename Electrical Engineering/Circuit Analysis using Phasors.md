@@ -1,6 +1,6 @@
 # Circuit Analysis using Phasors
 Created: 13/09/2022 at 12:14
-Tags: #topic/electrical
+Tags: #topic/electrical/thesinusoidalsteadystate
 Related: [[Sinusoidal Sources and Phasors]]
 
 ### Different Frequencies of Sources?

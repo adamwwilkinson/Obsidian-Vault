@@ -1,6 +1,6 @@
 # AC Power
 Created: 20/09/2022 at 12:01
-Tags: 
+Tags: #topic/electrical/powerinaccircuits 
 Related: [[Power in Resistive-only Circuits]]
 
 Values for [[Fundamentals of Electrical Engineering#Voltage|voltage]] and [[Fundamentals of Electrical Engineering#Current|current]] is time dependent.
@@ -94,7 +94,7 @@ $$PF = \frac P {\vert S \vert}$$
 If the power factor is deemed to low, we can bring it closer to unity by adding capacitors or inductors.
 
 ### Maximum Power Transfer
-For the dc equivalent look at [[power in resistive only circuits#max power in a resistive load theorem]].
+For the dc equivalent look at [[Power in Resistive-only Circuits#Max Power in a Resistive Load Theorem]].
 
 $$P = \frac {V_S^2 R_L} {(R_S +  R_L)^2}$$
 
