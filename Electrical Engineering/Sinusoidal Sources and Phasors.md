@@ -133,7 +133,7 @@ This j value says nothing about the magnitude, and rather just gives changed the
 The inverse of the impedance is **admittance**.
 Admittance has units of Mho ($\mho$) or Siemens ($S$) and is given the phasor symbol $\bar \gamma$.
 
-The rules in [[#phasor-representation-summarised]] is simple inverted for admittance.
+The rules in [[#phasor representation summarised]] is simply inverted for admittance.
 
 ### Problem Solving
 Given an unknown component with an impedance of a real part and an imaginary part. We can split that up as an resistor in series with an inductor or capacitor whether the imaginary part is positive or negatie respectively.
