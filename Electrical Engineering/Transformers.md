@@ -52,4 +52,18 @@ $$k = \sqrt{k_{21}k_{12}} \leq 1$$
 If $k$ is around 1, that is the most efficient coupling. Some applications may want a very low $k$ value.
 
 ### Self and Mutual Inductance
+
+#### Self Inductance
+##### Primary Coil
 $$L_1 = \frac {N_1\phi_{11}} {i_1}$$
+
+##### Secondary Coil
+$$L_2 = \frac {N_2\phi_{22}} {i_2}$$
+
+#### Mutual Inductance
+##### Primary Coil to Secondary Coil
+$$M_{21} = \frac {N_2 \phi_{21}} {i_1}$$
+
+##### Secondary Coil to Primary Coil
+$$M_{12} = \frac {N_1 \phi_{12}} {i_2}$$
+
