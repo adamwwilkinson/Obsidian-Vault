@@ -59,7 +59,6 @@ It is always:
 
 $$\phi = \phi_v - \phi_i$$
 ```
-#todo 11:47 27/sep
 
 ## Complex Power
 Defined as $S$ with the unit of Volt-Amperes, $VA$.
@@ -88,7 +87,7 @@ $Q$ can only be used by capacitors and inductors.
 ### Power Factor
 $$PF = \frac P {\vert S \vert}$$
 
-#todo/excalidraw power triangle 12:31
+![[Power Triangle Drawing]]
 
 #### Power Factor Correction
 If the power factor is deemed to low, we can bring it closer to unity by adding capacitors or inductors.

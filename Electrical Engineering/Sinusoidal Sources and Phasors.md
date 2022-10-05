@@ -121,7 +121,7 @@ $$L: \bar V = \bar I * j \omega L = \bar I * Z_L$$
 
 $Z$: impedance ($\Omega$)
 
-#todo/excalidraw lec 13/sep 11:17 am
+![[Impedence Argand Plane]]
 We can see the impedancy of the resistor is always real.
 While the impedancy of the capacitor and inductor is always imaginary.
 

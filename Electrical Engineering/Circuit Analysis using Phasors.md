@@ -10,8 +10,6 @@ If no additional information is given, assume both sources are in phase.
 
 ### Node-to-Datum Analysis
 All node voltages must be phasor quantities, and those voltages are generally complex in value.
-#todo/examples
 
 ### Mesh Analysis
 All mesh analysis must be phasor quantities, and those voltages are generally complex in value.
-#todo/examples

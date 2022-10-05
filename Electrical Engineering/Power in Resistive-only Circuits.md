@@ -16,7 +16,7 @@ $$P = i^2R$$
 $$P = \frac {v^2} {R}$$
 
 ### Max Power in a Resistive Load Theorem
-#todo excalidraw 20 sep 11:26
+![[Max Power Graph Drawing]]
 $$P_L = i^2R_L = \frac {R_L} {(R_S + R_L)^2}v_S^2$$
 
 #### Finding the Max Power
