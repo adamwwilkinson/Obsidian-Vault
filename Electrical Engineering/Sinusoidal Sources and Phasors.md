@@ -142,12 +142,9 @@ This real number is called the *resistive part* while the imaginary number is ca
 
 For the admittance we can say the real number is the *conductance* and the imaginary is the *susceptance*.
 
-### Phasor Back to Real
-#todo lec 13/sep 11:35 Am
-
 ### Combining Impedance
 #### Series
-#todo like resistors
+$$Z_T = \sum_{i = 1}^N Z_i$$
 
 #### Parallel
-#todo like resistors
+$$\frac{1}Z_{T} = \frac{1}Z_{1} + \frac{1}Z_{2}$$
