@@ -1,6 +1,6 @@
 # Operating System Users and Groups
 Created: 09/10/2022 at 20:07
-Tags: 
+Tags: #topic/software 
 Related: [[Operating Systems]]
 
 ### Users and their OS Representation
@@ -27,4 +27,35 @@ Unix uses the special userid value of 0 to represent the root account or superus
 Changes the root of the file system.
 
 ### Groups of Users
- 
+ Each user is also represented by group identifiers, or groupids. This means multiple users can share files that way.
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <grp.h>
+
+#define MY_MAXGROUPS   100
+
+**void** print_my_groups(**void**)
+{
+    gid_t groups[MY_MAXGROUPS];
+
+    **int** ngroups = **getgroups(MY_MAXGROUPS, groups)**;
+
+    **for**(**int** g=0 ; g<ngroups ; ++g) {
+        **struct group *gp    = getgrgid(groups[g])**;
+
+        **if**(gp != NULL) {
+            printf("gid: %-8i name: %s\n", groups[g], **gp->gr_name**);
+
+            printf("\tmembers:");
+            **for**(**int** m=0 ; **gp->gr_mem[m]** != NULL ; ++m) {
+                printf(" %s", **gp->gr_mem[m]**);
+            }
+            printf("\n\n");
+        }
+    }
+}
+```
+
+### Changing and Setting User Information
+A process can changes the userid for the life of the program so when someone runs it, they can access the required files.
