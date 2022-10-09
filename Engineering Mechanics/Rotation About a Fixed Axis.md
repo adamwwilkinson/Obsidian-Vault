@@ -30,3 +30,4 @@ We can cahnge the last equation to use $I_O$ instead of $I_G$.
 5. Use kinematics if there are more than three unknowns
 
 ### Example
+![[ME Rotation about a Fixed Axis Example 1.jpg]]
