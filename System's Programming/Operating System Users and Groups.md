@@ -25,3 +25,6 @@ Unix uses the special userid value of 0 to represent the root account or superus
 
 #### `chroot`
 Changes the root of the file system.
+
+### Groups of Users
+ 
