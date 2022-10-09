@@ -44,3 +44,24 @@ $$a_n = \omega^2 r$$
 - If a relationship is known between two variables, the other variables can be determined from the equations above.
 - If acceleration is constant, use equations from above
 - To determine the motion of a point, the equations above can be used as well
+
+## Translation Expanded 
+We need to determine the effects caused by the moments of an external force system.
+
+$$F_x = m(a_G)_x$$
+$$F_y = m(a_G)_y$$
+$$\sum M_G = I_G \alpha$$
+
+### Simplified
+If a rigid body undergoes only translation the equations become,
+$$F_x = m(a_G)_x$$
+$$F_y = m(a_G)_y$$
+$$\sum M_G = 0$$
+
+### Procedure
+1. Establish an (x-y) or (n-t) coordinate system
+2. Draw FBD and kinetic diagram showing all external forces, couples, and inertia forces and couples
+3. Identify unknowns
+4. Apply three equations of motion
+
+### Example
