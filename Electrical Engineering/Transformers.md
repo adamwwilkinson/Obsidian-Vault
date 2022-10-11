@@ -74,3 +74,10 @@ Dot notation expanded, if both current both flow into or both flow out of their 
 ### Impedance Matching
 #todo/excalidraw 
 $$Z_{in} = \frac {Z_L} {n^2}$$
+
+### Open and Short-circuit Loads
+#### Open Circuit
+If the load is an open circuit, then the entire circuit is an open circuit. But there is no such thing as an open circuit, just one with very large resistance. If the turn ratio is very large, the value of $R_{in}$ may be small or moderate and must be treated as such.
+
+#### Short-circuit
+If the load is a short circuit, then the entire circuit is a short circuit. But there is no such thing as a short circuit, just one with very small resistance. If the turn ratio is very small, the value of $R_{in}$ may be large or moderate and must be treated as such.
