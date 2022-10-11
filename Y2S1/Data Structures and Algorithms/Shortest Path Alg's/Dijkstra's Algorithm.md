@@ -10,4 +10,4 @@ The key array always holds a collection of the upper bounds of the values we see
 ![[Dijkstra's Example|500]]
 To go from one to the other, pick the node with the lowest weight associated with it, then update the lowest edges and repeat.
 ### Complexity
-$O(E\log v)$ can be improved to $O(E\log\log v)$ by using a data structure called fibonacchi heap. If the graph is dense it is O($V^3 \log V$) and if it's sparse it is O($V^2 \log V$)
+$O(E\log v)$ can be improved to $O(E\log\log v)$ by using a data structure called fibonacchi heap. If the graph is dense it is $O(V^3 \log V)$ and if it's sparse it is $O(V^2 \log V)$
