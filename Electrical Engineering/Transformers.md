@@ -67,3 +67,6 @@ $$M_{21} = \frac {N_2 \phi_{21}} {i_1}$$
 ##### Secondary Coil to Primary Coil
 $$M_{12} = \frac {N_1 \phi_{12}} {i_2}$$
 
+#todo/notebook pg 81
+
+Dot notation expanded, if both current both flow into or both flow out of their respective dot terminal then they have opposite sides.
