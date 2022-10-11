@@ -65,3 +65,4 @@ $$\sum M_G = 0$$
 4. Apply three equations of motion
 
 ### Example
+![[ME Rigid Bodies Example 1.jpg]]
