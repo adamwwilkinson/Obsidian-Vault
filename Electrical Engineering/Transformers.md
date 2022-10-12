@@ -67,6 +67,60 @@ $$M_{21} = \frac {N_2 \phi_{21}} {i_1}$$
 ##### Secondary Coil to Primary Coil
 $$M_{12} = \frac {N_1 \phi_{12}} {i_2}$$
 
+### Leakage Continued
+From above,
+$$M_{12} = M_{21} = M$$
+
+Therefore,
+$$M = k \sqrt{L_1L_2}$$
+
+If $k$ is one then it is a perfect coupling and therefore no leakage.
+
+### Voltage-current Relations for Coupled Coils
+Using [[review of some physics laws#faradays law of magnetic induction]],
+$$v_1 = \frac {\mathrm d \lambda_1} {\mathrm d t} = L_1 \frac {\mathrm i_1} {\mathrm d t} + M \frac {\mathrm i_2} {\mathrm d t}
+$$v_2 = \frac {\mathrm d \lambda_2} {\mathrm d t} = L_2 \frac {\mathrm i_2} {\mathrm d t} + M \frac {\mathrm i_1} {\mathrm d t}
+
+In the phasor domain, these equations become,
+$$\bar V_1 = j\omega L_1 \bar I_1 + j\omega M \bar I_2$$
+$$\bar V_2 = j\omega L_2 \bar I_2 + j\omega M \bar I_1$$
+
+#### Direction of Mutual Inductance
+If the direction of the flux in either coils are opposite then the flux is additive.
+If the direction of the flux in either coils are the same then the flux is negative.
+
+We use the dot convention to denote the direction. If the dots are at the same positions the flux is additive, but if they are opposite sides, the flux is negative.
+
+### Ideal Transformer Rules
+- No leakage flux, i.e. $k = 1$, or $\phi_{21} = \phi_{11}$
+- No losses in magnetic core or windings
+- No energy storage (this needs to be checked)
+
+We can then get the rule,
+$$\frac {v_2} {v_1} = \frac {N_2} {N_1} = n$$
+
+#### Checking Energy Storage
+$$W = \frac 1 2 Li^2$$
+$$Li = N \phi \leftarrow W = \frac {N^2 \phi^2} {2L}$$
+
+For $W \leftarrow 0$, we need $L \leftarrow \inf$. We can get whis with high values of $\mu_M$ which is the magnetic permeability of material in core.
+
+### Impedance Transformation and Matching
+Primary side, 
+$$P_1 = v_1 i_1$$
+
+Secondary side, 
+$$P_2 = v_2 i_2$$
+
+As we want no power supplied to the transformer,
+$$P = P_1 + P_2 = v_1 i_1 + v_2 i_2 = 0$$
+$$n = \frac {N_2} {N_1}$$
+
+#### Phasor Domain
+$$\bar V_2 = n \bar V_1$$
+$$\bar I_1 = -n \bar I_2$$
+
+If the dots were not on the same side, the negative sign would disappear.
 #todo/notebook pg 81
 
 Dot notation expanded, if both current both flow into or both flow out of their respective dot terminal then they have opposite sides.
