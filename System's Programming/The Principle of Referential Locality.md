@@ -36,9 +36,12 @@ If a page is evicted from physical memory just before it is required (pulling it
 We hope the OS is intelligent about which page in physical memory to discard for space.
 
 ### Fetching for Virtual Memory
-How should the OS decide when to pull a process' pages?
+- How should the OS decide when to pull a process' pages?
+
 When a reference to that page is made, or intelligently predicting to next page to be called, *predictive pre-paging*.
 
-We also get the same issue from [[allocating-memory-to-processes]] about where it should be allocated.
+- We also get the same issue from [[allocating-memory-to-processes]] about where it should be allocated.
 
-#todo the others in the list
+- Which existing blocks should be replaced?
+
+- How many processes to admit the Ready and Running states?
