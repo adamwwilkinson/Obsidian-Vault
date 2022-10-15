@@ -1,4 +1,3 @@
-# AC Power
 Created: 20/09/2022 at 12:01
 Tags: #topic/electrical/powerinaccircuits 
 Related: [[Power in Resistive-only Circuits]]

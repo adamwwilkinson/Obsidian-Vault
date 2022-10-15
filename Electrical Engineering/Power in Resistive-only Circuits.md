@@ -1,4 +1,3 @@
-# Power in Resistive-only Circuits
 Created: 20/09/2022 at 11:09
 Tags: #topic/electrical/powerinaccircuits
 Related: [[Powered and Non-Linear Circuit Elements]]

@@ -1,4 +1,3 @@
-# DC Motors
 Created: 11/10/2022 at 12:30
 Tags: #topic/electrical/motorsandtransformers 
 Related:[[Review of some Physics Laws#Lorentz Force Law]]
