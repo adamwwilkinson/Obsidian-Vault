@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engineering Mechanics/Moment of Inertia.md",
+                "file": "Engineering Mechanics/Rigid Bodies of Motion.md",
                 "mode": "preview",
                 "source": true
               }
             }
-          },
-          {
-            "id": "3381d135457d051b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Engineering Mechanics/Moment of Inertia.md",
+                "file": "Engineering Mechanics/Rigid Bodies of Motion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Engineering Mechanics/Moment of Inertia.md",
+                "file": "Engineering Mechanics/Rigid Bodies of Motion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,17 +121,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "3381d135457d051b",
+  "active": "e56aa42a138c6937",
   "lastOpenFiles": [
-    "Engineering Mechanics/Rigid Bodies of Motion.md",
-    "Engineering Mechanics/Rotation About a Fixed Axis.md",
     "Engineering Mechanics/Moment of Inertia.md",
-    "Engineering Mechanics/Impulse and Momentum of Flow.md",
-    "Untitled.md",
-    "impulse and momentum of fluid flow.md",
+    "Engineering Mechanics/Rotation About a Fixed Axis.md",
     "Engineering Mechanics/Propulsion of a Volume.md",
-    "Engineering Mechanics/Angular Momentum.md",
-    "Engineering Mechanics/Power and Efficiency.md",
-    "Engineering Mechanics/The Work of a Force.md"
+    "Engineering Mechanics/Impulse and Momentum of Flow.md",
+    "Engineering Mechanics/Rigid Bodies of Motion.md",
+    "Engineering Mechanics/Relative-motion Analysis using Translating Axes.md",
+    "Engineering Mechanics/Conservative Forces and Conservation of Energy.md",
+    "Engineering Mechanics/The Work of a Force.md",
+    "Engineering Mechanics/Equilibrium of a Particle.md",
+    "Untitled.md"
   ]
 }

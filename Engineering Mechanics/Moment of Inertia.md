@@ -6,7 +6,8 @@ Related: [[rigid bodies of motion]]
 ### What
 A property of a body that measures the resistance to angular momentum.
 
-$$T = I \alpha$$
+$$\tau = I \alpha$$
+
 
 ### Parallel-Axis Theorem
 If the inertia of a body passing through a certain axis is known, the moment of inertia about any other parallel axis can be determined by,

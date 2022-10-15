@@ -1,8 +1,8 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "Obsidian gruvbox",
   "monospaceFontFamily": "",
   "translucency": true,
-  "baseFontSize": 18,
+  "baseFontSize": 20,
   "theme": "obsidian",
   "baseFontSizeAction": true,
   "accentColor": ""
