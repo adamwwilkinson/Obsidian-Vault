@@ -1,0 +1,148 @@
+{
+  "main": {
+    "id": "7e54070bd4f21411",
+    "type": "split",
+    "children": [
+      {
+        "id": "f027d134d2d75e77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e56aa42a138c6937",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Engineering Mechanics/Moment of Inertia.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3381d135457d051b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d0fe4c7615bcc1a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "41937441f2e752b8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3734c7d307c70dc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "7b612858e63392c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6346982ece438e3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "02fe781c4182e510",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89cfb0465a69f8f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Engineering Mechanics/Moment of Inertia.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "46e67405e5173e34",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Engineering Mechanics/Moment of Inertia.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c2fff579afdaf089",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "3381d135457d051b",
+  "lastOpenFiles": [
+    "Engineering Mechanics/Rigid Bodies of Motion.md",
+    "Engineering Mechanics/Rotation About a Fixed Axis.md",
+    "Engineering Mechanics/Moment of Inertia.md",
+    "Engineering Mechanics/Impulse and Momentum of Flow.md",
+    "Untitled.md",
+    "impulse and momentum of fluid flow.md",
+    "Engineering Mechanics/Propulsion of a Volume.md",
+    "Engineering Mechanics/Angular Momentum.md",
+    "Engineering Mechanics/Power and Efficiency.md",
+    "Engineering Mechanics/The Work of a Force.md"
+  ]
+}

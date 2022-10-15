@@ -4,5 +4,6 @@
   "translucency": true,
   "baseFontSize": 18,
   "theme": "obsidian",
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": ""
 }
