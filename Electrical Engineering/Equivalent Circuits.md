@@ -1,4 +1,3 @@
-# Equivalent Circuits
 Created: 12/08/2022 at 11:55
 Tags: #topic/electrical/superpositionandequivalentcircuits 
 Related: [[Source Transformation]]

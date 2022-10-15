@@ -1,4 +1,3 @@
-# Sinusoidal Sources
 Created: 30/08/2022 at 10:59
 Tags: #topic/electrical/thesinusoidalsteadystate 
 Related: [[Energy Storage Circuit Elements]]
