@@ -1,4 +1,3 @@
-# The Work of a Force
 Created: 2022-09-22 12:05 
 Tags: 
 Related:

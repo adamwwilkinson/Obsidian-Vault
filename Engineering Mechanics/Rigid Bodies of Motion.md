@@ -1,4 +1,3 @@
-# Rigid Bodies of Motion
 Created: 2022-10-06 21:59
 Tags: #topic/mechanical/kinematics
 Related: 

@@ -1,4 +1,3 @@
-# Moment of Inertia
 Created: 2022-10-06 22:22 
 Tags: #topic/mechanical/kinematics
 Related: [[rigid bodies of motion]]

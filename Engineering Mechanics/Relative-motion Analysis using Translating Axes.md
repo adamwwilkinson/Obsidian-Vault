@@ -1,4 +1,3 @@
-# Relative-motion Analysis using Translating Axes
 Created: 2022-09-12 14:38
 Tags: #topic/physics 
 Related:

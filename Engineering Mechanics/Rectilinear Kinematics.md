@@ -1,4 +1,3 @@
-# Rectilinear Kinematics
 Created: 30/08/2022 at 17:57
 Tags: #topic/mechanical
 Related: 

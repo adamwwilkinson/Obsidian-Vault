@@ -1,4 +1,3 @@
-# Constraints and Determinancy
 Created: 10/08/2022 at 13:38
 Tags:  #topic/physics 
 Related: [[Equations of Equilibrium and Two Force Members]]

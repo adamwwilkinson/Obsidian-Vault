@@ -1,4 +1,3 @@
-# Simple Trusses, The Method of Joints, Zero-Force Members
 Created: 14/08/2022 at 21:20
 Tags: #topic/physics 
 Related: [[Equations of Equilibrium and Two Force Members]]

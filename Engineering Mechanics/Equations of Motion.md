@@ -1,4 +1,3 @@
-# Equations of Motion
 Created: 2022-09-19 16:06
 Tags: #topic/physics
 Related: 

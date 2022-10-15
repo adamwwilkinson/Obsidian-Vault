@@ -1,4 +1,3 @@
-# Propulsion of a Volume
 Created: 2022-10-05 21:49
 Tags: #topic/mechanical/momentum
 Related: [[impulse and momentum of fluid flow]]

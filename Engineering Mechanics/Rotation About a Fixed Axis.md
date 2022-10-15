@@ -1,4 +1,3 @@
-# Rotation About a Fixed Axis
 Created: 2022-10-09 13:37
 Tags: #topic/mechanical/equationsofmotion
 Related: [[equations of motion]]

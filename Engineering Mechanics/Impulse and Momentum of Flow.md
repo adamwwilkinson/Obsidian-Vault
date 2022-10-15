@@ -1,4 +1,3 @@
-# Impulse and Momentum of Fluid Flow
 Created: 2022-10-05 21:49
 Tags: #topic/mechanical/momentum
 Related: [[angular momentum]]

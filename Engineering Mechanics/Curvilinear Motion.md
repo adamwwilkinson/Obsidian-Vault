@@ -1,4 +1,3 @@
-# Curvilinear Motion
 Created: 30/08/2022 at 18:44
 Tags: #topic/mechanical 
 Related: [[Rectilinear Kinematics]]

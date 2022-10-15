@@ -1,4 +1,3 @@
-# Motion of a Projectile
 Created: 02/09/2022 at 16:06
 Tags: #topic/physics
 Related: [[Rectilinear Kinematics]]

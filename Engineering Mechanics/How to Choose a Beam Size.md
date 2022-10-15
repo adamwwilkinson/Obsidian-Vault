@@ -1,4 +1,3 @@
-# How to Choose a Beam Size
 Created: 24/08/2022 at 17:11
 Tags: #topics/physics
 Related: [[Internal Forces of Beams and Shear Force]]
