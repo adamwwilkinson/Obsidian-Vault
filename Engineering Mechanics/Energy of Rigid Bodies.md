@@ -18,5 +18,5 @@ If the couple moment is constant,
 $$U_M = M(\theta_2 - \theta_1)$$
 
 ### Example
-
+![[Rigid Energy Example.jpg]]
 ### Conservation of Energy
