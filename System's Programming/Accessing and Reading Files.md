@@ -74,6 +74,28 @@ We open the file using C's `fopen()`. The returned value is a *FILE pointer*, th
 "a" 	create if necessary, then open for appending (at the end of the file)
 "a+" 	create if necessary, then open for reading and appending
 
+#### Reading Individual Lines
+```c
+#include <stdio.h>
+
+....
+    FILE   *dict;
+    char   line[BUFSIZ];
+
+    dict = fopen( ..... );
+    ....
+
+//  READ EACH LINE FROM THE FILE,
+//  CHECKING FOR END-OF-FILE OR AN ERROR
+    while( fgets(line, sizeof line, dict) != NULL ) {  
+        ....
+        ....     // process this line
+        ....
+    }
+//  AT END-OF-FILE (OR AN ERROR), CLOSE THE FILE
+    fclose(dict);
+```
+
 #### Trimming End-of-line Characters
 ```c
 //  REMOVE ANY TRAILING end-of-line CHARACTERS FROM THE LINE
