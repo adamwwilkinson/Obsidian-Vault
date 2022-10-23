@@ -29,7 +29,7 @@ $$V_g = Wy_G$$
 Where $y_G$ is the height above the datum.
 
 #### Spring Forces
-$$V_e = 0.5 k s^2$$h
+$$V_e = 0.5 k s^2$$
 
 #### Procedure for Analysis
 - Draw two diagrams, one with the body at its inital position, and one at its final

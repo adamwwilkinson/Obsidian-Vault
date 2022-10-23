@@ -9,7 +9,7 @@ $$L = mv_G$$
 The linear impulse-linear momentum equation is,
 $$L_1 + \sum \int_{t_1}^{t_2}F \mathrm d t = L_2$$
 or 
-$$mv_G_1 + \sum \int_{t_1}^{t_2}F \mathrm d t = mv_G_2_2$$
+$$(mv_G)_1 + \sum \int_{t_1}^{t_2}F \mathrm d t = (mv_G)_2$$
 
 ### Angular Momentum
 The angular momentum of a rigid body is defined as,
