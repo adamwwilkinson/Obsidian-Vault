@@ -36,7 +36,7 @@ The OS itself occupies a fixed portion of main memory. The remainder is used for
 
 ### Dynamic Memory Partitioning
 Overcomes any shortcomings of fixed partitioning, but can lead to gaps of unused memory, too small to hold a new process. Even if the total amount of free memory exist.
-#todo/excalidraw
+![[Dynamic Partition Drawing.excalidraw]]
 
 #### Algorithms
 ##### First-fit

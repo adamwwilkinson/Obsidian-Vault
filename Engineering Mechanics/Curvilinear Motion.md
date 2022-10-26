@@ -29,8 +29,7 @@ The *direction* of $r$ is defined by the unit vector: $u_r = \frac 1 {\mid{r} \m
 ### Normal and Tangential Components
 When a particle moves along a curved path, Cartesian coordinate may not be the best.
 When a parth of the motion is known, normal($n$) and tangential ($t$) coordinates are often used.
-#todo/excalidraw
-
+![[nt-coordinate Drawing]]
 In the $n-t$ coordinate system, the *origin* is located on the particle (the origin and coordinate system move with the particle).
 
 #### Center of Curvature

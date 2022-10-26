@@ -20,7 +20,8 @@ Related: [[Operating Systems]]
 `chmod()`, `chmown()`, `stat()`
 
 ### Components of the File Management System
-#todo/excalidraw 19 Sep 27.30
+#todo/png
+[[!Components of File Management.png]]
 **device drivers** - communicate directly with I/O hardware
 **basic file system** - exchanges fixed-sized pieces of data with the device drivers
 **I/O supervisor** - manages the choice of device

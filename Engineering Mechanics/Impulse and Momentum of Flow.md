@@ -13,7 +13,7 @@ $$\mathrm d m v_A + \sum F \mathrm d t = \mathrm d m v_B$$
 
 #### Angular Momentum
 $$r_A \times \mathrm d v_A + r' \times \sum F \mathrm d t = r_B = \times \mathrm d m v_B$$
-#todo/excalidraw minute 5:40
+![[Momentum Flow Drawing||900]]
 
 ### Mass Flow Related
 $$\frac {\mathrm d m}{\mathrm d t} = \rho v A = \rho Q$$
