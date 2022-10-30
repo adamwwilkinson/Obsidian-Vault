@@ -163,20 +163,20 @@ void communicate(void)
         break;
 
     case 0:                       // new child process
-        close( thepipe[0] );      // child will never write to pipe
-        nbytes = read( thepipe[1], data, sizeof(data));   // read from the pipe
+        close( thepipe[1] );      // child will never write to pipe
+        nbytes = read( thepipe[0], data, sizeof(data));   // read from the pipe
         ....
-        close( thepipe[1] );
+        close( thepipe[0] );
 
         exit(EXIT_SUCCESS);
         break;
 
     default:                      // original parent process
-        close( thepipe[1] );      // parent will never read from pipe
+        close( thepipe[0] );      // parent will never read from pipe
         datasize = ...
-        nbytes   = write( thepipe[0], data, datasize);    // write to the pipe
+        nbytes   = write( thepipe[1], data, datasize);    // write to the pipe
         ....
-        close( thepipe[0] );
+        close( thepipe[1] );
         break;
     }
 }
