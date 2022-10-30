@@ -1,4 +1,3 @@
-# Command Line Options
 Created: 2022-10-09 11:51
 Tags: #topic/programming 
 Related: [[the structure of c programs]]

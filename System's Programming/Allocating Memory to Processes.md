@@ -1,4 +1,3 @@
-# Allocating Memory to Processes
 Created: 12/09/2022 at 16:29
 Tags: 
 Related:

@@ -1,4 +1,3 @@
-# Operating System Users and Groups
 Created: 09/10/2022 at 20:07
 Tags: #topic/software 
 Related: [[Operating Systems]]

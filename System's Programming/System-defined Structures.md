@@ -1,4 +1,3 @@
-# Accessing and Reading Files
 Created: 2022-09-22 12:57
 Tags: #topic/programming 
 Related: [[The Programming Language C]], [[operating systems]], [[structures]]

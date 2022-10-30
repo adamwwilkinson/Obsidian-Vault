@@ -1,4 +1,3 @@
-# Structures
 Created: 16/08/2022 at 10:05
 Tags: #topic/programming 
 Related: [[The Programming Language C]]

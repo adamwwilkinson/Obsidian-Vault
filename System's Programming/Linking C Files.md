@@ -1,4 +1,3 @@
-# Linking C Files
 Created: 2022-10-03 15:20
 Tags: #topic/programming 
 Related:[[the programming language c]], [[the structure of c programs]]

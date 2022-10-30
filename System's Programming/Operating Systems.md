@@ -1,4 +1,3 @@
-# Operating Systems
 Created: 02/08/2022 at 13:56
 Tags: #topic/software
 Related:

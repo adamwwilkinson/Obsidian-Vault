@@ -1,4 +1,3 @@
-# Overview of Computer Hardware
 Created: 08/08/2022 at 14:10
 Tags: #topic/hardware 
 Related: [[Operating Systems]]

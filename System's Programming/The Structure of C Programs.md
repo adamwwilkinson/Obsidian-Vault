@@ -1,4 +1,3 @@
-# The Structure of C Programs
 Created: 28/07/2022 at 20:17
 Tags: #topic/programming 
 Related: [[The Programming Language C]]

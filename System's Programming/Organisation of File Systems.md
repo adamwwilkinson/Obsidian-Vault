@@ -1,4 +1,3 @@
-# Organisation of File Systems
 Created: 2022-09-19 17:05
 Tags: #topic
 Related: [[Operating Systems]]

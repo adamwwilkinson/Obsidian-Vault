@@ -1,4 +1,3 @@
-# Multi-threaded Programming
 Created: 2022-10-10 16:18
 Tags: #topic/hardware 
 Related: 

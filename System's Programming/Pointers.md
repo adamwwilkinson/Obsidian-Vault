@@ -1,4 +1,3 @@
-# Pointers
 Created: 29/08/2022 at 21:40
 Tags: #topic/programming 
 Related: [[The Programming Language C]]
