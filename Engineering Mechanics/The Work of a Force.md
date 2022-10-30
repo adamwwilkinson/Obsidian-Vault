@@ -22,7 +22,7 @@ $$U_{1-2} = 0.5k(s_2)^2 - 0.5k(s_1)^2$$
 ```
 
 ### Principle of Work and Energy
-$$\sum  U_{1-2} = 0.5(v_2)^2 - 0.5(v_1)^2$$ 
+$$\sum  U_{1-2} = 0.5(v_2)^2 - 0.5(v_1)^2 = Fs$$ 
 
 Written in **joules** where $1J = 1 N \ast M$
 
