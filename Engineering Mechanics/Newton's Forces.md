@@ -1,4 +1,3 @@
-# Newton's Forces
 Created: 12/09/2022 at 15:50
 Tags: 
 Related:

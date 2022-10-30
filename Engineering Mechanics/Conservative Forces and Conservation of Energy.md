@@ -1,4 +1,3 @@
-# Conservative Forces and Conservation of Energy
 Created: 2022-09-22 14:57
 Tags: 
 Related:

@@ -1,4 +1,3 @@
-# Equations of Equilibrium and Two Force Members
 Created: 10/08/2022 at 13:15
 Tags: #topic/physics 
 Related: [[Equilibrium of a Particle]]

@@ -1,4 +1,3 @@
-# Angular Momentum
 Created: 2022-09-28 16:24
 Tags: #topic/mechanical
 Related: [[principle of linear impulse]]

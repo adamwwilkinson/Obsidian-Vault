@@ -1,4 +1,3 @@
-# Reduction of Simple Distributed Loading
 Created: 09/08/2022 at 13:59
 Tags: #topic/physics
 Related: [[Moment of a Couple]]

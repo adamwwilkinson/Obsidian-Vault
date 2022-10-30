@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "f0fda7edb5f7ed54",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba3246995f1dc489",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a8b98f0c6fc5006",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System's Programming/Operating Systems.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9f001c1509cb4f1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fe75aa048be5c5f0",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byModifiedTime"
+          }
+        }
+      },
+      {
+        "id": "5a9d8a0fe63c13c7",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "80a317fb40831a01",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "96115a3589125ff9",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "24e7910ab2a3a8de",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "System's Programming/Operating Systems.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "e3ca115c8a69e71d",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "System's Programming/Operating Systems.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "9a8b98f0c6fc5006",
+  "lastOpenFiles": [
+    "System's Programming/Allocating Memory to Processes.md",
+    "Electrical Engineering/Transformers.md",
+    "System's Programming/The Principle of Referential Locality.md",
+    "System's Programming/Multi-threaded Programming.md",
+    "Engineering Mechanics/Impulse and Momentum of Flow.md",
+    "Engineering Mechanics/Curvilinear Motion.md",
+    "Engineering Mechanics/Rigid Bodies of Motion.md",
+    "Engineering Mechanics/Moment of Inertia.md",
+    "Engineering Mechanics/Rotation About a Fixed Axis.md",
+    "Engineering Mechanics/Rectilinear Kinematics.md"
+  ]
+}

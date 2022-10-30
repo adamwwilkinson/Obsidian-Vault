@@ -1,4 +1,3 @@
-# Force Vectors & Vector Operation
 Created: 26/07/2022 at 22:00
 Tags: #topic/physics
 Related:

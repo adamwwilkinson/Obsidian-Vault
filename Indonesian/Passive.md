@@ -2,7 +2,7 @@
 2 patterns of the passive exist. Passive requires me- verbs, and they need an object (transitive).
 ### Pattern 1
 Saya menonton film (**active**)
-Film saya tonton film (**passive**)
+Film saya tonton (**passive**)
 *Every agent* can be used in this pattern.
 
 ### Pattern 2

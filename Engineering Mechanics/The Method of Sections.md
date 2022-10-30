@@ -1,4 +1,3 @@
-# The Method of Sections
 Created: 18/08/2022 at 22:57
 Tags: 
 Related: [[Designing Truss Members for Yield and Buckling]], [[Simple Trusses, The Method of Joints, Zero-Force Members]]

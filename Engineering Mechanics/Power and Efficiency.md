@@ -1,5 +1,3 @@
-
-# Power and Efficiency
 Created: 2022-09-22 12:22
 Tags: 
 Related:

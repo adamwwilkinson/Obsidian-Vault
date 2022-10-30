@@ -1,4 +1,3 @@
-# Moment of a Couple
 Created: 03/08/2022 at 23:05
 Tags: 
 Related: [[Equilibrium of a Particle#Moment of a Force]]

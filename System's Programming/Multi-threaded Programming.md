@@ -18,7 +18,7 @@ Threads are very useful when a process has multiple 'tasks' to perform independe
 3. Efficiency - creating and managing threads is much faster than performing the same tasks for processes
 4. Scalability - a single threaded process can only run on one CPU no matter how many are available
 
-#todo/excalidraw/21.50 10 0ct
+![[Thread Drawing|900]]
 
 ### Threads vs Processes
 Threads can be considered lightweight processes. Threads all share their process' resources, and they can be scheduled and executed independently.

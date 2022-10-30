@@ -1,4 +1,3 @@
-# Principle of Linear Impulse
 Created: 2022-09-22 15:12
 Tags: #topic/mechanical
 Related: 
