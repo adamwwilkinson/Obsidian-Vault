@@ -62,3 +62,5 @@ We define the small, equal-sized 'chunks' of a process' images as **pages** and 
 
 ### Page Registers and Page Table
 The page table holds the physical frame location for each page of the running process. Within each process, a *logical address* now consist of a page number and an offset within that page's frame.
+
+![[Screenshot 2022-10-31 at 10-01-31 CITS2002 Systems Programming Lecture 13.png]]
