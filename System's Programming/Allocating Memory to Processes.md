@@ -1,6 +1,6 @@
 Created: 12/09/2022 at 16:29
 Tags: 
-Related:
+Related:[[The Principle of Referential Locality]]
 
 ### Memory Management
 The task of allocating memory to processes, and efficiently ensuring that processes have their instructions and data in main memory when needed.

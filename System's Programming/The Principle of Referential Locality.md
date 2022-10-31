@@ -1,6 +1,6 @@
 Created: 13/09/2022 at 10:21
 Tags: 
-Related:
+Related:[[Allocating Memory to Processes]]
 
 Over long periods of time the centers of a program's memory reference cluster may move, but over short periods they remain largely static.
 
