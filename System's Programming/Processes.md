@@ -134,3 +134,44 @@ The new program does different things but would have the same PID.
 
 ### Why Exit?
 The OS is able to use the *exit status* to determine if it is succesful or not.
+
+### Waiting and Finding Status of Child
+```c
+#include  <stdio.h>
+#include  <stdlib.h>
+#include  <unistd.h>
+#include  <sys/wait.h>
+
+void function(void)
+{
+    switch ( fork() ) {
+    case -1 :
+        printf("fork() failed\n"); // process creation failed
+        exit(EXIT_FAILURE);
+        break;
+
+    case 0:                       // new child process
+        printf("child is pid=%i\n", getpid() );
+
+        for(int t=0 ; t<3 ; ++t) {
+            printf("  tick\n");
+            sleep(1);
+        }
+        exit(EXIT_SUCCESS);
+        break;
+
+    default: {                    // original parent process
+        int child, status;
+
+        printf("parent waiting\n");
+        child = wait( &status );
+
+        printf("process pid=%i terminated with exit status=%i\n",
+                child, WEXITSTATUS(status) );
+        exit(EXIT_SUCCESS);
+        break;
+    }
+
+    }
+}
+```
