@@ -12,7 +12,7 @@ If we define a small change in mass as $\mathrm d m$ then,
 $$\mathrm d m v_A + \sum F \mathrm d t = \mathrm d m v_B$$
 
 #### Angular Momentum
-$$r_A \times \mathrm d v_A + r' \times \sum F \mathrm d t = r_B = \times \mathrm d m v_B$$
+$$r_A \times \mathrm d mv_A + r' \times \sum F \mathrm d t = r_B  \times \mathrm d m v_B$$
 ![[Momentum Flow Drawing||900]]
 
 ### Mass Flow Related
