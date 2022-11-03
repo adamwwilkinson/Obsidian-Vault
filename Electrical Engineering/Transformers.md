@@ -77,8 +77,8 @@ If $k$ is one then it is a perfect coupling and therefore no leakage.
 
 ### Voltage-current Relations for Coupled Coils
 Using [[review of some physics laws#faradays law of magnetic induction]],
-$$v_1 = \frac {\mathrm d \lambda_1} {\mathrm d t} = L_1 \frac {\mathrm i_1} {\mathrm d t} + M \frac {\mathrm i_2} {\mathrm d t}
-$$v_2 = \frac {\mathrm d \lambda_2} {\mathrm d t} = L_2 \frac {\mathrm i_2} {\mathrm d t} + M \frac {\mathrm i_1} {\mathrm d t}
+$$v_1 = \frac {\mathrm d \lambda_1} {\mathrm d t} = L_1 \frac {\mathrm i_1} {\mathrm d t} + M \frac {\mathrm i_2} {\mathrm d t}$$
+$$v_2 = \frac {\mathrm d \lambda_2} {\mathrm d t} = L_2 \frac {\mathrm i_2} {\mathrm d t} + M \frac {\mathrm i_1} {\mathrm d t}$$
 
 In the phasor domain, these equations become,
 $$\bar V_1 = j\omega L_1 \bar I_1 + j\omega M \bar I_2$$
