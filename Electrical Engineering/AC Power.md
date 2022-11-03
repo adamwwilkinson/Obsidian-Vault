@@ -66,7 +66,7 @@ $$\bar S = \bar V \bar I^\ast \angle \phi$$
 
 $$\bar S = \bar V_{RMS} \bar I_{RMS}^\ast$$
 $$\bar S = \vert \bar I_{RMS} \vert ^2 \times \bar Z$$
-$$\bar S = \frac {\vert \bar I_{RMS} \vert ^2} {\bar Z^\ast}$$
+$$\bar S = \frac {\vert \bar V_{RMS} \vert ^2} {\bar Z^\ast}$$
 
 Where the \* is the conjugate.
 
