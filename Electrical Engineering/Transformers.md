@@ -10,14 +10,14 @@ It accomplishes this using electromagnetic induction.
 ### Induction Theory
 Based on [[review of some physics laws#faradays law of magnetic induction]].
 
-#todo/excalidraw 12:03 4 oct
+![[Screenshot 2022-11-05 at 10.03.04 am.png]]
 
 ### Working Principle of a Transformer
 1. When the current in the primary coil changes (AC), a changing magnetic field is produced.
 2. The magnetic flux linked with the secondary coil changes.
 3. This induces a EMF in the secondary coil.
 
-#todo/excalidraw 12:17
+![[Screenshot 2022-11-05 at 10.04.15 am.png]]
 
 ### Primary and Secondary Relationship
 The *turns ratio (n)* is defined as the ratio of turns in the secondary windings, to the turns in the primary windings.
@@ -119,13 +119,12 @@ $$n = \frac {N_2} {N_1}$$
 $$\bar V_2 = n \bar V_1$$
 $$\bar I_1 = -n \bar I_2$$
 
-If the dots were not on the same side, the negative sign would disappear.
-#todo/notebook pg 81
+If the dots are on the same side, the voltage on both sides have the same signage. While if they were opposite they would be opposite signage.
 
-Dot notation expanded, if both current both flow into or both flow out of their respective dot terminal then they have opposite sides.
+If both current both flow into or both flow out of their respective dot terminal, then they have opposite sides.
 
 ### Impedance Matching
-#todo/excalidraw 
+The load impedance from the secondary winding is reflected back to the primary and scaled by the inverse square of the turns ratio.
 $$Z_{in} = \frac {Z_L} {n^2}$$
 
 ### Open and Short-circuit Loads

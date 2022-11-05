@@ -21,7 +21,7 @@ Through this path there are three electrical paramters:
 2. $L_a$, the inductance of the full path
 3. $e_b$, the back-EMF induced in armature windings moving in a magnetic field
 
-#todo/excalidraw oct13 7:50
+![[Screenshot 2022-11-05 at 10.00.19 am.png]]
 
 #### Model Parameters
 ##### Motor Operation
