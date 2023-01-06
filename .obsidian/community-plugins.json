@@ -1,11 +1,11 @@
 [
   "table-editor-obsidian",
-  "obsidian-excalidraw-plugin",
   "language-translator",
   "taskbone-ocr-plugin",
   "obsidian-git",
   "obsidian-languagetool-plugin",
   "obsidian-admonition",
   "obsidian-minimal-settings",
-  "obsidian-vimrc-support"
+  "obsidian-vimrc-support",
+  "obsidian-excalidraw-plugin"
 ]

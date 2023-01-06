@@ -46,7 +46,26 @@ var __async = (__this, __arguments, generator) => {
 __export(exports, {
   default: () => LanguageTranslator
 });
+var import_obsidian3 = __toModule(require("obsidian"));
+
+// src/settingsTab.ts
 var import_obsidian = __toModule(require("obsidian"));
+
+// src/apiTypes.ts
+var API_TYPES;
+(function(API_TYPES2) {
+  API_TYPES2[API_TYPES2["Builtin"] = 0] = "Builtin";
+  API_TYPES2[API_TYPES2["Azure"] = 1] = "Azure";
+  API_TYPES2[API_TYPES2["LibreTranslate"] = 2] = "LibreTranslate";
+})(API_TYPES || (API_TYPES = {}));
+var apiTypes_default = API_TYPES;
+
+// src/apiUrls.ts
+var API_URLS = {
+  AZURE_TRANSLATE_API_URL: "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0",
+  LIBRE_TRANSLATE_API_URL: "https://libretranslate.com/translate"
+};
+var apiUrls_default = API_URLS;
 
 // src/langCodes.ts
 var langCodes = [
@@ -156,70 +175,231 @@ var langCodes = [
 ];
 var langCodes_default = langCodes;
 
-// src/main.ts
-var TRANSLATE_API_URL = "https://api.cognitive.microsofttranslator.com";
-var AUTH_URL = "https://func-language-worker-auth.azurewebsites.net/api/GetAuthToken";
-var MAX_CHARACTERS = 1e3;
-var DEFAULT_SETTINGS = {
-  defaultLanguage: {
-    text: "English",
-    code: "en"
+// src/settingsTab.ts
+var apiEntries = [
+  {
+    text: "Builtin",
+    value: "0"
+  },
+  {
+    text: "Azure",
+    value: "1"
+  },
+  {
+    text: "LibreTranslate",
+    value: "2"
+  }
+];
+var LanguageTranslatorSettingsTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    let { containerEl } = this;
+    containerEl.empty();
+    containerEl.createEl("h2", { text: "Language Translator Settings" });
+    new import_obsidian.Setting(containerEl).setName("Target Language").setDesc("Set the translation target language (automatically detects source language)").addDropdown((dropDown) => {
+      langCodes_default.forEach((el) => {
+        dropDown.addOption(el.code, el.text);
+      });
+      dropDown.onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.targetLanguage = langCodes_default.find((l) => l.code == value);
+        yield this.plugin.saveSettings();
+      }));
+      dropDown.setValue(this.plugin.settings.targetLanguage.code);
+    });
+    new import_obsidian.Setting(containerEl).setName("Translator API Type").setDesc("Set preferred API").addDropdown((dropDown) => {
+      apiEntries.forEach((el) => {
+        dropDown.addOption(el.value, el.text);
+      });
+      dropDown.onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.apiType = apiEntries.find((a) => a.value == value);
+        switch (Number(value)) {
+          case apiTypes_default.Builtin:
+          case apiTypes_default.Azure:
+            this.plugin.settings.translateApiUrl = apiUrls_default.AZURE_TRANSLATE_API_URL;
+            this.apiUrlTextSetting.setValue(apiUrls_default.AZURE_TRANSLATE_API_URL);
+            break;
+          case apiTypes_default.LibreTranslate:
+            this.plugin.settings.translateApiUrl = apiUrls_default.LIBRE_TRANSLATE_API_URL;
+            this.apiUrlTextSetting.setValue(apiUrls_default.LIBRE_TRANSLATE_API_URL);
+            break;
+          default:
+            this.plugin.settings.translateApiUrl = apiUrls_default.AZURE_TRANSLATE_API_URL;
+            this.apiUrlTextSetting.setValue(apiUrls_default.AZURE_TRANSLATE_API_URL);
+            break;
+        }
+        yield this.plugin.saveSettings();
+      }));
+      dropDown.setValue(this.plugin.settings.apiType.value);
+    });
+    new import_obsidian.Setting(containerEl).setName("API Url").addTextArea((text) => {
+      text.setPlaceholder("Enter url").setValue(this.plugin.settings.translateApiUrl).onChange((value) => __async(this, null, function* () {
+        console.log("New api url: " + value);
+        this.plugin.settings.translateApiUrl = value;
+        yield this.plugin.saveSettings();
+      }));
+      text.setValue(this.plugin.settings.translateApiUrl);
+      text.inputEl.setAttr("rows", 4);
+      text.inputEl.addClass("settings_area");
+      this.apiUrlTextSetting = text;
+    });
+    new import_obsidian.Setting(containerEl).setName("API Token").addText((text) => {
+      text.setPlaceholder("Enter token").setValue(this.plugin.settings.token).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.token = value;
+        yield this.plugin.saveSettings();
+      }));
+      text.setValue(this.plugin.settings.token);
+    });
   }
 };
-var LanguageTranslator = class extends import_obsidian.Plugin {
+
+// src/translationServiceImplementation.ts
+var import_obsidian2 = __toModule(require("obsidian"));
+
+// src/translation.ts
+function getTextLibreTranslate(text, lang, token, translateApiUrl) {
+  return __async(this, null, function* () {
+    let res = "";
+    const payload = JSON.stringify({
+      q: text,
+      source: "auto",
+      target: lang,
+      format: "text",
+      api_key: token
+    });
+    const myHeaders = new Headers({
+      "Content-type": "application/json"
+    });
+    try {
+      const response = yield fetch(translateApiUrl, {
+        method: "POST",
+        body: payload,
+        headers: myHeaders
+      });
+      let jsonResponse = yield response.json();
+      res = jsonResponse.translatedText || jsonResponse.error;
+    } catch (err) {
+      console.error(err);
+    }
+    return res;
+  });
+}
+function getTextAzure(text, lang, token, translateApiUrl) {
+  return __async(this, null, function* () {
+    let res = "";
+    const payload = JSON.stringify([{ text }]);
+    const myHeaders = new Headers({
+      "Ocp-Apim-Subscription-Key": token,
+      "Ocp-Apim-Subscription-Region": "WestEurope",
+      "Content-type": "application/json"
+    });
+    try {
+      const response = yield fetch(`${translateApiUrl}&to=${lang}`, {
+        method: "POST",
+        body: payload,
+        headers: myHeaders
+      });
+      const json = yield response.json();
+      if (json.error) {
+        res = json.error.message;
+      } else {
+        res = json[0].translations[0].text;
+      }
+    } catch (err) {
+      console.error(err);
+    }
+    return res;
+  });
+}
+
+// src/translationServiceImplementation.ts
+var AZURE_AUTH_URL = "https://func-language-worker-auth.azurewebsites.net/api/GetAuthToken";
+var TranslationServiceImplementation = class {
+  constructor(plugin) {
+    this.getBuiltinAzureToken = () => __async(this, null, function* () {
+      try {
+        const response = yield fetch(AZURE_AUTH_URL);
+        return yield response.text();
+      } catch (err) {
+        console.log(err);
+        new import_obsidian2.Notice(err.message);
+      }
+    });
+    this.plugin = plugin;
+  }
+  translate(lang, text) {
+    return __async(this, null, function* () {
+      let result = "";
+      switch (Number(this.plugin.settings.apiType.value)) {
+        case apiTypes_default.Builtin:
+          let token = yield this.getBuiltinAzureToken();
+          result = yield getTextAzure(text, lang, token, this.plugin.settings.translateApiUrl);
+          break;
+        case apiTypes_default.Azure:
+          result = yield getTextAzure(text, lang, this.plugin.settings.token, this.plugin.settings.translateApiUrl);
+          break;
+        case apiTypes_default.LibreTranslate:
+          result = yield getTextLibreTranslate(text, lang, this.plugin.settings.token, this.plugin.settings.translateApiUrl);
+          break;
+      }
+      return result;
+    });
+  }
+};
+
+// src/main.ts
+var MAX_CHARACTERS = 2e3;
+var DEFAULT_SETTINGS = {
+  targetLanguage: {
+    text: "English",
+    code: "en"
+  },
+  apiType: {
+    text: "Builtin",
+    value: "0"
+  },
+  translateApiUrl: apiUrls_default.AZURE_TRANSLATE_API_URL,
+  maxCharacters: MAX_CHARACTERS,
+  token: ""
+};
+var LanguageTranslator = class extends import_obsidian3.Plugin {
   constructor() {
     super(...arguments);
     this.onEditorCallback = (editor) => __async(this, null, function* () {
       let res = "[translation error]";
       try {
         const selection = editor.getSelection();
-        if (selection.length > MAX_CHARACTERS) {
-          new import_obsidian.Notice(`Exceeded ${MAX_CHARACTERS} max characters!`);
+        if (selection.length > this.settings.maxCharacters) {
+          new import_obsidian3.Notice(`Exceeded ${this.settings.maxCharacters} max characters!`);
           return;
         }
         let textForTranslation = selection;
-        let targetLang = this.settings.defaultLanguage.code;
-        let splittedText = textForTranslation.split(":", 2);
-        if (splittedText.length != 2 && !targetLang) {
-          new import_obsidian.Notice("Incorrect format!");
-          return;
-        } else if (splittedText.length == 2) {
-          targetLang = splittedText[0];
-          textForTranslation = splittedText[1];
+        let targetLang = this.settings.targetLanguage.code;
+        let firstSemicolonIndex = textForTranslation.indexOf(":");
+        if (firstSemicolonIndex != -1) {
+          let potentialLangCode = textForTranslation.substring(0, firstSemicolonIndex);
+          if (potentialLangCode) {
+            let lc = langCodes_default.find((l) => l.code == potentialLangCode);
+            if (lc) {
+              targetLang = lc.code;
+              textForTranslation = textForTranslation.substring(firstSemicolonIndex + 1);
+            }
+          }
         }
-        const payload = JSON.stringify([{ text: textForTranslation }]);
-        const myHeaders = new Headers({
-          "Ocp-Apim-Subscription-Key": this.token,
-          "Ocp-Apim-Subscription-Region": "WestEurope",
-          "Content-type": "application/json"
-        });
-        const response = yield fetch(`${TRANSLATE_API_URL}/translate?api-version=3.0&to=${targetLang}`, {
-          method: "POST",
-          body: payload,
-          headers: myHeaders
-        });
-        const json = yield response.json();
-        res = json[0].translations[0].text;
+        res = yield this.translationService.translate(targetLang, textForTranslation);
       } catch (err) {
         console.log(err);
-        new import_obsidian.Notice(err.message);
+        new import_obsidian3.Notice(err.message);
       }
       editor.replaceSelection(res);
-    });
-    this.getToken = () => __async(this, null, function* () {
-      try {
-        const response = yield fetch(AUTH_URL);
-        this.token = yield response.text();
-      } catch (err) {
-        console.log(err);
-        new import_obsidian.Notice(err.message);
-      }
     });
   }
   onload() {
     return __async(this, null, function* () {
+      this.translationService = new TranslationServiceImplementation(this);
       yield this.loadSettings();
-      yield this.getToken();
       this.addCommand({
         id: "language-translator-editor-command",
         name: "Insert translation",
@@ -242,27 +422,6 @@ var LanguageTranslator = class extends import_obsidian.Plugin {
   saveSettings() {
     return __async(this, null, function* () {
       yield this.saveData(this.settings);
-    });
-  }
-};
-var LanguageTranslatorSettingsTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-  display() {
-    let { containerEl } = this;
-    containerEl.empty();
-    containerEl.createEl("h2", { text: "Language Translator Settings" });
-    new import_obsidian.Setting(containerEl).setName("Default Language").setDesc("Set default language for translations").addDropdown((dropDown) => {
-      langCodes_default.forEach((el) => {
-        dropDown.addOption(el.code, el.text);
-      });
-      dropDown.onChange((value) => __async(this, null, function* () {
-        this.plugin.settings.defaultLanguage = langCodes_default.find((l) => l.code == value);
-        yield this.plugin.saveSettings();
-      }));
-      dropDown.setValue(this.plugin.settings.defaultLanguage.code);
     });
   }
 };
