@@ -1,6 +1,6 @@
 Created: 2022-10-23 15:31
 Tags: #mechanical/rigidbodies
-Related: [[angular momentum]]
+Related: [[Angular Momentum]]
 
 ### Linear Momentum
 The linear momentum of a rigid body is defined as,

@@ -11,8 +11,8 @@ Analysis will be limited to planar motion for now.
 A body is said to undergo planar motion when all parts of the body move along paths equidistant from a fixed plane.
 
 ### 3 Types of Motion
-- [[rectilinear kinematics]]
-- [[curvilinear motion]]
+- [[Rectilinear Kinematics]]
+- [[Curvilinear Motion]]
 - rotation about a fixed axis
 
 #### Translation

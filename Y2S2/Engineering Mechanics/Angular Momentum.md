@@ -1,6 +1,6 @@
 Created: 2022-09-28 16:24
 Tags: #topic/mechanical
-Related: [[principle of linear impulse]]
+Related: [[Principle of Linear Impulse]]
 
 ### What
 Defined as the moment of the particle's linear momentum about O.

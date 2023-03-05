@@ -1,6 +1,6 @@
 Created: 2022-10-03 15:20
 Tags: #topic/programming 
-Related:[[the programming language c]], [[the structure of c programs]]
+Related:[[The Programming Language C]], [[The Structure of C Programs]]
 
 ### What is cc
 *cc* is a front-end program to a number of *passes* of the activity of "converting" our C source files to executable programs:

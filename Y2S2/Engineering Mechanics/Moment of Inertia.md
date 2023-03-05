@@ -1,6 +1,6 @@
 Created: 2022-10-06 22:22 
 Tags: #topic/mechanical/kinematics
-Related: [[rigid bodies of motion]]
+Related: [[Rigid Bodies of Motion]]
 
 ### What
 A property of a body that measures the resistance to angular momentum.

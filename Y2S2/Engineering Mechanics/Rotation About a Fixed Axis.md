@@ -1,6 +1,6 @@
 Created: 2022-10-09 13:37
 Tags: #topic/mechanical/equationsofmotion
-Related: [[equations of motion]]
+Related: [[Equations of Motion]]
 
 ### Rigid Body Center of Gravity Through Rotation
 When a rigid body rotates, it's center of gravity moves though radius $r_G$.

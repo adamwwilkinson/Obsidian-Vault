@@ -1,6 +1,6 @@
 Created: 2022-10-16 12:29
 Tags: 
-Related: [[the work of a force]]
+Related: [[The Work of a Force]]
 
 ### Kinetic Energy
 $$T = \frac 1 2 m (v_G)^2 + \frac 1 2 I_G \omega^2$$

@@ -1,6 +1,6 @@
 Created: 2022-10-05 21:49
 Tags: #topic/mechanical/momentum
-Related: [[impulse and momentum of flow]]
+Related: [[Impulse and Momentum of Flow]]
 
 ### Main Equation
 ![[Propulsion.png]]

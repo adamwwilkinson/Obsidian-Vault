@@ -1,6 +1,6 @@
 Created: 2022-10-15 21:19
 Tags:
-Related: [[multi-threaded programming]]
+Related: [[Multi-threaded Programming]]
 
 ### `mutexes`
 If multiple threads update the same variables, the order in which they update is important.

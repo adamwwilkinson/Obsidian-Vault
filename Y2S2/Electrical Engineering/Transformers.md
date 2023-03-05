@@ -1,6 +1,6 @@
 Created: 2022-10-04 11:50
 Tags: #topic/electrical/motorsandtransformers
-Related: [[review of some physics laws]]
+Related: [[Review of some Physics Laws]]
 
 ### What
 An AC device to change high voltage low current into low voltage high current without changing the frequency.
@@ -8,7 +8,7 @@ An AC device to change high voltage low current into low voltage high current wi
 It accomplishes this using electromagnetic induction.
 
 ### Induction Theory
-Based on [[review of some physics laws#faradays law of magnetic induction]].
+Based on [[Review of some Physics Laws#faradays law of magnetic induction]].
 
 ![[Screenshot 2022-11-05 at 10.03.04 am.png]]
 
@@ -76,7 +76,7 @@ $$M = k \sqrt{L_1L_2}$$
 If $k$ is one then it is a perfect coupling and therefore no leakage.
 
 ### Voltage-current Relations for Coupled Coils
-Using [[review of some physics laws#faradays law of magnetic induction]],
+Using [[Review of some Physics Laws#faradays law of magnetic induction]],
 $$v_1 = \frac {\mathrm d \lambda_1} {\mathrm d t} = L_1 \frac {\mathrm i_1} {\mathrm d t} + M \frac {\mathrm i_2} {\mathrm d t}$$
 $$v_2 = \frac {\mathrm d \lambda_2} {\mathrm d t} = L_2 \frac {\mathrm i_2} {\mathrm d t} + M \frac {\mathrm i_1} {\mathrm d t}$$
 

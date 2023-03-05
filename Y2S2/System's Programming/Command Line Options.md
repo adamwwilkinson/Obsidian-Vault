@@ -1,6 +1,6 @@
 Created: 2022-10-09 11:51
 Tags: #topic/programming 
-Related: [[the structure of c programs]]
+Related: [[The Structure of C Programs]]
 
 ### The Standard Command-Line Arguments
 `argc` - provides the count of the number of arguments

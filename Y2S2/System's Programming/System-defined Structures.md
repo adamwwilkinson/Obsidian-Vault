@@ -1,6 +1,6 @@
 Created: 2022-09-22 12:57
 Tags: #topic/programming 
-Related: [[The Programming Language C]], [[operating systems]], [[structures]]
+Related: [[The Programming Language C]], [[Operating Systems]], [[Structures]]
 
 ### Arrow Operator
 ```c

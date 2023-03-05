@@ -2,7 +2,7 @@ Created: 2022-09-22 15:12
 Tags: #topic/mechanical
 Related: 
 
-Like [[the work of a force]] but instead of integrating $F = m a$ with respect to distance, we integrate it with respect to time.
+Like [[The Work of a Force]] but instead of integrating $F = m a$ with respect to distance, we integrate it with respect to time.
 
 ### Linear Momentum
 $mv$ is linear momentum denoted as $L$. It is a vector that acts in the same direction as v.

@@ -1,6 +1,6 @@
 Created: 2022-10-05 21:49
 Tags: #topic/mechanical/momentum
-Related: [[angular momentum]]
+Related: [[Angular Momentum]]
 
 ### Steady Fluid Flow
 Provided the flow into the control volume is equal to the flow out, then it is classified as steady flow.
