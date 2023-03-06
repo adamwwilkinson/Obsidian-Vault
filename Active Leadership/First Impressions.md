@@ -5,6 +5,6 @@ Related:
 Evaluations are made quickly, 
 ![[Pasted image 20230305101201.png]]
 
-Warmth judgements are made fastest as percieving intent is more important than determing their ability to perform that intent.
+Warmth judgements are made fastest, as perceiving intent is more important than determining their ability to perform that intent.
 
 ![[Pasted image 20230305101929.png]]
