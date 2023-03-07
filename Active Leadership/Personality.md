@@ -3,7 +3,7 @@ Tags:
 Related:
 
 ### Personality Traits
-Behavioural tendencies over time.
+Behavioural tendencies over time and the way of viewing the world.
 
 #### OCEAN
 The big 5 personality traits.
