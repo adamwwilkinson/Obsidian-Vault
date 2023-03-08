@@ -49,4 +49,15 @@ Consist of a capacitor and a resistor. Called so because it's described by a fir
 $$v(t) = V_0e^{\frac {-t} \tau} + V_s(1-e^{\frac {-t} \tau})$$
 The first term is the natural response (stored energy) and the second term is the forced response (independent source)o
 
-![[Energy Storage Circuit Elements#Procedure to Find Response]]
+![[Energy Storage Circuit Elements#Capacitors]]
+
+### Inductor Circuits
+Also a passive element, energy is stored in the magnetic field created by flowing current.
+
+$$\lambda = Li$$
+$$\text{magnetic flux linkage = inductance} \times \text {current}$$
+
+$$v = L \frac {di} {dt}$$
+Across a DC circuit, the inductor is a *short circuit*.
+
+![[Energy Storage Circuit Elements#Inductors]]
