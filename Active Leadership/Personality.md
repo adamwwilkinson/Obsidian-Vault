@@ -1,6 +1,4 @@
 Created: 07/03/2023 at 18:26
-Tags: 
-Related:
 
 ### Personality Traits
 Behavioural tendencies over time and the way of viewing the world.

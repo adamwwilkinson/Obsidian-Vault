@@ -1,6 +1,4 @@
 Created: 05/03/2023 at 10:10
-Tags: 
-Related:
 
 Evaluations are made quickly, 
 ![[Pasted image 20230305101201.png]]

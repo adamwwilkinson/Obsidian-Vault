@@ -1,6 +1,4 @@
 Created: 06/03/2023 at 11:57
-Tags: 
-Related:
 
 ![[Pasted image 20230306115731.png]]
 
@@ -36,3 +34,19 @@ Transformers and transistors are 2 port elements.
 
 because of this we can use,
 ![[Superposition and Equivelent Circuits#The Superposition Principle]]
+
+### Capacitor Circuits
+$$i(t)= C \frac {dv}{dt}$$
+
+Current through a capacitor is zero if voltage across the capacitor is constant. It is therefore an **open circuit** at *DC*.
+
+#### First-order RC Circuit
+Consist of a capacitor and a resistor. Called so because it's described by a first order differential equation.
+
+![[Pasted image 20230308111042.png]]
+
+#### Step Response
+$$v(t) = V_0e^{\frac {-t} \tau} + V_s(1-e^{\frac {-t} \tau})$$
+The first term is the natural response (stored energy) and the second term is the forced response (independent source)o
+
+![[Energy Storage Circuit Elements#Procedure to Find Response]]

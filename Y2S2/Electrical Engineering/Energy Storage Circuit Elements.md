@@ -53,7 +53,7 @@ $RC$ is also known as $\tau$ and is a time constant. After $\tau$ amount of time
 1. Remove all independent sources to determine $R_{eq}, C_{eq}$ to solve for $\tau$.
 2. With C set as an open circuit, use dc-analysis to find the initial capacitor voltage prior to discontinuity.
 3. With C set as an open circuit use dc-analysis of the capacitor voltage with $t = \inf$, this is $V_{inf}$.
-$$v(t) = V_\inf + (V_0 - V_{inf})\exp^{\frac {-t}{\tau}}$$
+$$v(t) = V_\inf + (V_0 - V_{inf})e^{\frac {-t}{\tau}}$$
 
 ## Inductors
 A current carrying conductor will generate a magnetic field around it to store energy.
@@ -93,5 +93,5 @@ At DC, and from all current sources an inductor behaves as a short circuit.
 2. With $L$ set as short circuit, use dc-analysis to find the initial inductor current prior to discontinuity $I_0$.
 3. Again with $L$ set as short circuit, find the value of the inductor current at $t = \inf$
 4. Solution is:
-$$i(t) = I_\inf + (I_{0} - I_\inf)\exp^{-\frac t \tau}$$
+$$i(t) = I_\inf + (I_{0} - I_\inf)e^{-\frac t \tau}$$
 
