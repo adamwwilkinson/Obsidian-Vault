@@ -61,3 +61,10 @@ $$v = L \frac {di} {dt}$$
 Across a DC circuit, the inductor is a *short circuit*.
 
 ![[Energy Storage Circuit Elements#Inductors]]
+
+### RLC Circuits
+![[Pasted image 20230308114351.png]]
+Using *KCL* for this circuit wil give us one equation.
+![[Pasted image 20230308114845.png]]
+
+$$C \frac{d^2v} {dt^2} + \frac 1 R \frac {dv} {dt} + \frac 1 Lv = 0$$
