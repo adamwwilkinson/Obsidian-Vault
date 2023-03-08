@@ -62,7 +62,7 @@ Across a DC circuit, the inductor is a *short circuit*.
 
 [[Energy Storage Circuit Elements#Inductors]]
 
-### RLC Circuits
+### Parallel RLC Circuits
 ![[Pasted image 20230308114351.png]]
 Using *KCL* for this circuit wil give us one equation.
 ![[Pasted image 20230308114845.png]]
@@ -84,13 +84,17 @@ Characterised by $\alpha > \omega_0$ we get two negative real values for $s_1, s
 Characterised by $\alpha = \omega_0$. And we only got one root.
 
 ##### Underdamped
+Characterised by $\alpha < \omega_0$, leads to two complex values for $s_1, s_2$/
 ![[Pasted image 20230308123055.png]]
 ![[Pasted image 20230308123241.png]]
-Characterised by $\alpha < \omega_0$, leads to two complex values for $s_1, s_2$/
+![[Pasted image 20230308123959.png]]
 
 #### Damping Ratio Zeta
 Given by 
 $$\zeta = \frac \alpha {\omega_0}$$
 $\zeta > 1$ overdamped 
 $\zeta > 1$ critically damped
-$\zeta > 1$ under damped 
+$\zeta > 1$ underdamped 
+
+### Series RLC Circuits
+![[Pasted image 20230308124122.png]]
