@@ -47,9 +47,9 @@ Consist of a capacitor and a resistor. Called so because it's described by a fir
 
 #### Step Response
 $$v(t) = V_0e^{\frac {-t} \tau} + V_s(1-e^{\frac {-t} \tau})$$
-The first term is the natural response (stored energy) and the second term is the forced response (independent source)o
+The first term is the natural response (stored energy) and the second term is the forced response (independent source).
 
-![[Energy Storage Circuit Elements#Capacitors]]
+[[Energy Storage Circuit Elements#Capacitors]]
 
 ### Inductor Circuits
 Also a passive element, energy is stored in the magnetic field created by flowing current.
@@ -60,7 +60,7 @@ $$\text{magnetic flux linkage = inductance} \times \text {current}$$
 $$v = L \frac {di} {dt}$$
 Across a DC circuit, the inductor is a *short circuit*.
 
-![[Energy Storage Circuit Elements#Inductors]]
+[[Energy Storage Circuit Elements#Inductors]]
 
 ### RLC Circuits
 ![[Pasted image 20230308114351.png]]
@@ -68,3 +68,29 @@ Using *KCL* for this circuit wil give us one equation.
 ![[Pasted image 20230308114845.png]]
 
 $$C \frac{d^2v} {dt^2} + \frac 1 R \frac {dv} {dt} + \frac 1 Lv = 0$$
+![[Pasted image 20230308121214.png]]
+
+In general, the solution of $v(t)$ is given by the linear combination.
+$$v(t) = A_1 e^{s_1t} + A_2e^{s_2t}$$
+This is a natural response of the d.e. as there is no forcing function.
+![[Pasted image 20230308122438.png]]
+![[Pasted image 20230308122450.png]]
+
+#### Three Distinct Forms of Solution
+##### Overdamped
+Characterised by $\alpha > \omega_0$ we get two negative real values for $s_1, s_2$
+
+##### Critically Damped
+Characterised by $\alpha = \omega_0$. And we only got one root.
+
+##### Underdamped
+![[Pasted image 20230308123055.png]]
+![[Pasted image 20230308123241.png]]
+Characterised by $\alpha < \omega_0$, leads to two complex values for $s_1, s_2$/
+
+#### Damping Ratio Zeta
+Given by 
+$$\zeta = \frac \alpha {\omega_0}$$
+$\zeta > 1$ overdamped 
+$\zeta > 1$ critically damped
+$\zeta > 1$ under damped 
