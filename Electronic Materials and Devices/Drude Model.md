@@ -62,5 +62,5 @@ $$\mu_e = \frac {e \tau} m$$
 $$\rho = \frac {Ne^2\tau} m$$
 
 ### It Doesn't Fit?
-So whenllooking at a table, the equations fit the trend, but doesn't give us the exact right numbers.
+So when looking at a table, the equations fit the trend, but doesn't give us the exact right numbers.
 This is because electrons do affect each other, and we need quantum mechanics to fill the gap.
