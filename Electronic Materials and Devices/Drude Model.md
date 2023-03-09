@@ -41,6 +41,20 @@ $$V_{th} = \sqrt{\frac {3k_BT} m}$$
 
 The average length an electron travels before a collision event is called the *mean free path* $\lambda = v_{th} \tau$.
 
+```ad-info
+Mean free time (scattering time) is the average time an electron experiences a force from the electric field before hitting an atom. The force on the electron is $y$ is the electric field intensity. The acceleration is given by $-e \frac \zeta m$ where $m$ is the mass of the electron. Negative as the electron would move in the opposite directon of the field. When an electron hits an atom we assume the velocity in the direction of electric field would go to zero.
+
+A particular electron before collision with an atom would have velocity 
+$$v(t) = -e \frac \zeta m t$$
+where $t$ is the time from last collision.
+```
+
+```ad-important
+Current is is the average velocity in the direction of the field.
+$$<v> 
+```
+
+
 ### Drift Velocity
 Under an electric field, every electron will have a component of its velocity due to the applied electric field. This is called its *drift velocity* $v_D$.
 
