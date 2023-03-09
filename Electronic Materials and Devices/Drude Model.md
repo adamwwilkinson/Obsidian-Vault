@@ -51,7 +51,8 @@ where $t$ is the time from last collision.
 
 ```ad-important
 Current is is the average velocity in the direction of the field.
-$$<v> 
+$$<v> = -e \frac {\zeta \tau} m t$$
+With $\tau$ being this *mean free time*. This average velocity is called the *drift velocity*.
 ```
 
 
