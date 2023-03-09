@@ -72,9 +72,9 @@ We assume $N$ is independent of electric field.
 $$v_D = -\mu_e \xi$$ where the unknown term is the *mobility constant*.
 
 ### Equations
-$$\rho = eN\mu_e$$
+$$\sigma = \frac 1 \rho = eN\mu_e$$
 $$\mu_e = \frac {e \tau} m$$
-$$\rho = \frac {Ne^2\tau} m$$
+$$\sigma = \frac {Ne^2\tau} m$$
 
 ### It Doesn't Fit?
 So when looking at a table, the equations fit the trend, but doesn't give us the exact right numbers.
