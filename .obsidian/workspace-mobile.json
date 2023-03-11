@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "System's Programming/Operating Systems.md",
+                "file": "Electronic Materials and Devices/Drude Model.md",
                 "mode": "preview",
                 "source": true
               }
@@ -77,7 +77,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "System's Programming/Operating Systems.md",
+            "file": "Electronic Materials and Devices/Drude Model.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "System's Programming/Operating Systems.md",
+            "file": "Electronic Materials and Devices/Drude Model.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -103,20 +103,58 @@
     ],
     "currentTab": 0
   },
-  "ribbon": {
-    "mostRecentAction": ""
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false
+    }
   },
   "active": "9a8b98f0c6fc5006",
   "lastOpenFiles": [
-    "System's Programming/Allocating Memory to Processes.md",
-    "Electrical Engineering/Transformers.md",
-    "System's Programming/The Principle of Referential Locality.md",
-    "System's Programming/Multi-threaded Programming.md",
-    "Engineering Mechanics/Impulse and Momentum of Flow.md",
-    "Engineering Mechanics/Curvilinear Motion.md",
-    "Engineering Mechanics/Rigid Bodies of Motion.md",
-    "Engineering Mechanics/Moment of Inertia.md",
-    "Engineering Mechanics/Rotation About a Fixed Axis.md",
-    "Engineering Mechanics/Rectilinear Kinematics.md"
+    "Circuits and Electronics/Intro to Circuit Network Theory.md",
+    "Circuits and Electronics/RLC Circuits.md",
+    "Electronic Materials and Devices/Drude Model.md",
+    "Y2S2/Engineering Mechanics/Linear and Angular Momentum.md",
+    "Y2S2/System's Programming/Syncing Threads.md",
+    "Y2S2/Engineering Mechanics/Impulse and Momentum of Flow.md",
+    "Y2S2/System's Programming/System-defined Structures.md",
+    "Template/Default.md",
+    "Y2S2/Electrical Engineering/Drawings/Superposition Example Drawing.md",
+    "Car/Engine/Engine Stand.md",
+    "Y2S2/Electrical Engineering/Drawings/KCL Example Drawing.md",
+    "Y2S2/Electrical Engineering/Drawings/Saturation Drawing.md",
+    "Y2S1/Computer Analysis and Visualisation/Excel.md",
+    "Y2S2/Electrical Engineering/Drawings/Node-to-datum Example Drawing.md",
+    "Y2S2/Engineering Mechanics/Rigid Bodies of Motion.md",
+    "Y2S2/Electrical Engineering/Drawings/Practical Voltage Drawing.md",
+    "Y2S2/Indonesian/Memanggil Taksi.md",
+    "Y2S2/Electrical Engineering/Drawings/Dependent Source Drawing.md",
+    "Y2S2/Electrical Engineering/Drawings/Parallel Circuit Drawing.md",
+    "Y2S2/Electrical Engineering/Drawings/Resistive Circuit Drawing.md",
+    "Y2S2/Electrical Engineering/Drawings/Ground Node Drawing.md",
+    "Y2S2/Electrical Engineering/Drawings/Source Transformation Example Drawing.md",
+    "Y2S2/Engineering Mechanics/Propulsion of a Volume.md",
+    "Y2S2/Engineering Mechanics/Energy of Rigid Bodies.md",
+    "Y2S2/Electrical Engineering/Energy Storage Circuit Elements.md",
+    "Y2S2/Electrical Engineering/Drawings/Transmission Line Structures.png",
+    "Y2S2/Electrical Engineering/Drawings/Resistor Drawing.md",
+    "Y2S2/System's Programming/Drawings/Screen Shot 2022-08-08 at 2.41.23 pm.png",
+    "Y2S2/Electrical Engineering/Test/Test 2.pdf",
+    "Y2S2/Indonesian/Tests/Indonesian 3 Mini Test 1.pdf",
+    "Y2S2/Indonesian/Tests/INDO3 Mid-Sem.pdf",
+    "Y2S2/Indonesian/Tests/Indonesian 3 Mini Test 2.pdf",
+    "Y2S2/Indonesian/Tests/Indonesian 3A Test 1.pdf",
+    "Y2S2/Indonesian/Tests/Listening_Test_INDO14032403_Indonesian_3_2022.pdf",
+    "Y2S2/Electrical Engineering/Test/Powered Elements Example.pdf",
+    "Y2S2/Indonesian/Tests/INDO3A Test 3.pdf",
+    "Y2S2/Electrical Engineering/Test/Test 1.pdf",
+    "Y2S2/Indonesian/Tests/Indonesian 4 (INDO14042404) 2022.pdf"
   ]
 }
