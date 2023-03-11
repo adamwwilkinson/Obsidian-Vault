@@ -28,3 +28,22 @@ $E - U$ is kinetic energy
 The second derivative is a measure of the wave-function and hence the larger the curvature the higher the kinetic energy.
 
 ![[Pasted image 20230311160807.png]]
+
+### Unbound Electron Case
+This is the simplest case to use the Schrödinger equation.
+
+For a free electron, the potential energy is 0 everywhere.
+
+![[Pasted image 20230311163255.png]]
+
+The electron has momentum $p = \hbar k$ and this value is known.
+
+```ad-info
+$$k = \text {wave number} = \frac {2\pi} \lambda$$
+```
+
+This is what the wave function looks like in space.
+![[Pasted image 20230311163830.png]]
+![[Pasted image 20230311164040.png]]
+
+The probability of the particle existing anywhere is $A^2$.
