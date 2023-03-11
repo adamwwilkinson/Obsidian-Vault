@@ -4,8 +4,6 @@
   "taskbone-ocr-plugin",
   "obsidian-git",
   "obsidian-languagetool-plugin",
-  "obsidian-admonition",
   "obsidian-minimal-settings",
-  "obsidian-vimrc-support",
-  "obsidian-excalidraw-plugin"
+  "obsidian-vimrc-support"
 ]

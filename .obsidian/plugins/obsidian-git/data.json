@@ -1,6 +1,5 @@
 {
   "commitMessage": "PC manual vault backup: {{date}}",
-  "autoCommitMessage": "PC vault backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 5,
   "autoPushInterval": 0,
@@ -23,5 +22,8 @@
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,
   "showBranchStatusBar": true,
-  "setLastSaveToLastCommit": false
+  "setLastSaveToLastCommit": false,
+  "submoduleRecurseCheckout": false,
+  "gitDir": "",
+  "autoCommitMessage": "PC vault backup: {{date}}"
 }
