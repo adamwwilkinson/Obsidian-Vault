@@ -47,3 +47,6 @@ This is what the wave function looks like in space.
 ![[Pasted image 20230311164040.png]]
 
 The probability of the particle existing anywhere is $A^2$.
+
+### Useful Video
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sPZWtZ8vt1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
