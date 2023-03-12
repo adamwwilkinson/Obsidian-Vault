@@ -36,3 +36,11 @@ $\zeta > 1$ underdamped
 ### Series RLC Circuits
 ![[Pasted image 20230308124122.png]]
 ![[Pasted image 20230308124634.png]]
+
+### RLC Circuits With Sources
+We have just covered the *natural* or *homegenous* response of the RLC circuit. Next we consider the case with an independent source which will create a *forces* response of the circuit.
+
+The complete response is a combination of the forced response
+$$v_f(t) = V_f$$
+and the natural response (from above).
+[[RLC Circuits-1678601356492.jpeg]]
