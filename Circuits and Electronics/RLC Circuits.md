@@ -43,4 +43,3 @@ We have just covered the *natural* or *homegenous* response of the RLC circuit. 
 The complete response is a combination of the forced response
 $$v_f(t) = V_f$$
 and the natural response (from above).
-[[RLC Circuits-1678601356492.jpeg]]
