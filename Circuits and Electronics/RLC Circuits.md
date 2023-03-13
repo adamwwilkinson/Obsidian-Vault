@@ -17,14 +17,22 @@ This is a natural response of the d.e. as there is no forcing function.
 ##### Overdamped
 Characterised by $\alpha > \omega_0$ we get two negative real values for $s_1, s_2$
 
+Given in the form,
+$$i(t) = A_1e^{s_1t} + A_2e^{s_2t}$$
+
 ##### Critically Damped
 Characterised by $\alpha = \omega_0$. And we only got one root.
 
+Given in the form,
+$$i(t) = e^{-\alpha t}(A_1t+A_2)$$
 ##### Underdamped
 Characterised by $\alpha < \omega_0$, leads to two complex values for $s_1, s_2$/
 ![[Pasted image 20230308123055.png]]
 ![[Pasted image 20230308123241.png]]
 ![[Pasted image 20230308123959.png]]
+
+Given in the form, 
+$$$$
 
 #### Damping Ratio Zeta
 Given by 
