@@ -25,6 +25,7 @@ Characterised by $\alpha = \omega_0$. And we only got one root.
 
 Given in the form,
 $$i(t) = e^{-\alpha t}(A_1t+A_2)$$
+
 ##### Underdamped
 Characterised by $\alpha < \omega_0$, leads to two complex values for $s_1, s_2$/
 ![[Pasted image 20230308123055.png]]
@@ -32,7 +33,7 @@ Characterised by $\alpha < \omega_0$, leads to two complex values for $s_1, s_2$
 ![[Pasted image 20230308123959.png]]
 
 Given in the form, 
-$$$$
+$$i(t) = e^{-\alpha t}(B_1 \cos \omega_d t + B_s \sin \omega_d t)$$
 
 #### Damping Ratio Zeta
 Given by 
