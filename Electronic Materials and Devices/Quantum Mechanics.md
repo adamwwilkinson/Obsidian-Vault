@@ -75,4 +75,14 @@ Where $A$ is the amplitude of the free particle wave-function. The units are $J$
 ### Electron with Potential Energy Case
 ![[Quantum Mechanics-1678862824303.jpeg]]
 
-For $z \leq 0$ 
+For $z \leq 0$  the wave function of the free electron still applies, the first wave is the incident wave and the second is the reflected wave.
+
+![[Quantum Mechanics-1678863756174.jpeg]]
+
+For $z > 0$ the solution is of the form,
+![[Quantum Mechanics-1678863813971.jpeg]]
+
+For $E < U_0$, $k'$ is imaginary. This would give
+$$\Phi(z) = Ce^{-k''z}$$
+
+![[Quantum Mechanics-1678864117602.jpeg]]
