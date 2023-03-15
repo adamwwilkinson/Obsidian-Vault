@@ -74,3 +74,5 @@ Where $A$ is the amplitude of the free particle wave-function. The units are $J$
 
 ### Electron with Potential Energy Case
 ![[Quantum Mechanics-1678862824303.jpeg]]
+
+For $z \leq 0$ 
