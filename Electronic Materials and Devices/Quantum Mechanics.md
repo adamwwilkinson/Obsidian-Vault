@@ -86,3 +86,6 @@ For $E < U_0$, $k'$ is imaginary. This would give
 $$\Phi(z) = Ce^{-k''z}$$
 
 ![[Quantum Mechanics-1678864117602.jpeg]]
+
+![[Quantum Mechanics-1678865680990.jpeg]]
+![[Quantum Mechanics-1678865771166.jpeg]]
