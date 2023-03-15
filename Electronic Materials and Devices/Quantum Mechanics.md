@@ -70,4 +70,4 @@ For a free particle, $\frac {p^2} {2m} = \frac {\hbar k^2 } {2m}$
 The probability flux density is 
 $$J = \vert A \vert ^2 \frac {\hbar k} m$$
 
-Where $A$ is the amplitude of the free particle wave-function. The units are $J$ probability per unit area.
+Where $A$ is the amplitude of the free particle wave-function. The units are $J$ probability per unit area. The second term on the right-hand side is velocity.
