@@ -71,3 +71,6 @@ The probability flux density is
 $$J = \vert A \vert ^2 \frac {\hbar k} m$$
 
 Where $A$ is the amplitude of the free particle wave-function. The units are $J$ probability per unit area. The second term on the right-hand side is velocity.
+
+### Electron with Potential Energy Case
+![[Quantum Mechanics-1678862824303.jpeg]]
