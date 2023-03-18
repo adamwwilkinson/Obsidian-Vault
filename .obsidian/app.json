@@ -43,7 +43,14 @@
     "turns",
     "Antifragility",
     "antifragility",
-    "overdamped"
+    "overdamped",
+    "Sinusoids",
+    "sinusoids",
+    "sinusoids",
+    "sinusoid",
+    "underdamped",
+    "Phasor",
+    "params"
   ],
   "lineWrap": true,
   "fileSortOrder": "byModifiedTime",
@@ -55,5 +62,5 @@
     "downscalePercent": 100
   },
   "defaultViewMode": "source",
-  "attachmentFolderPath": "Electronic Materials and Devices"
+  "attachmentFolderPath": "Circuits and Electronics"
 }
