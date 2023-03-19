@@ -42,6 +42,11 @@ $\zeta > 1$ overdamped
 $\zeta > 1$ critically damped
 $\zeta > 1$ underdamped 
 
+```ad-note
+Dampening is based on the values of the resistor, if a circuit has a resonant frequency and it's underdamped, peaks will appear at resonant frequencies.
+```
+![[RLC Circuits-1679199976008.jpeg]]
+
 ### Series RLC Circuits
 ![[Pasted image 20230308124122.png]]
 ![[Pasted image 20230308124634.png]]
