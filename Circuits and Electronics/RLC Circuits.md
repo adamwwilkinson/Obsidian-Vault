@@ -47,6 +47,7 @@ Dampening is based on the values of the resistor, if a circuit has a resonant fr
 ```
 ![[RLC Circuits-1679199976008.jpeg]]
 
+[further reading](https://en.wikipedia.org/wiki/Damping)
 ### Series RLC Circuits
 ![[Pasted image 20230308124122.png]]
 ![[Pasted image 20230308124634.png]]
