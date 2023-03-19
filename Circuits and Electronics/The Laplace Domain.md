@@ -57,3 +57,8 @@ $$c_i = (s - p_i)F(s)\vert_{s=p_i}$$
 ![[The Laplace Domain-1679207032062.jpeg]]
 ![[The Laplace Domain-1679207092093.jpeg]]
 ![[The Laplace Domain-1679207166175.jpeg]]
+
+#### Complex Example
+![[The Laplace Domain-1679207536003.jpeg]]
+![[The Laplace Domain-1679207580329.jpeg]]
+![[The Laplace Domain-1679207622788.jpeg]]
