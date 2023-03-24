@@ -15,3 +15,31 @@ The wave equation must be in the form:
 
 Any other energy value for an electron could not have a wave function to describe it, thus leaving its probability 0.
 ![[Particle in a Box-1679626853073.jpeg]]
+
+### Recap
+We have confined the electron to a location between 0 and $L$, i.e. $\Delta z = L$
+A standing wave can be considered as the summation of two waves travelling in opposite direction with momentum $p = \bar h k = \pm \frac h {2L}$ hence the uncertainty in momentum is $\Delta p = \frac h L$
+$\Delta p \Delta z = h$ as expected from Heinburg's identity.
+
+### Potential Well
+![[Particle in a Box-1679627238687.jpeg]]
+
+If there is a particle in this well with energy $E$ less than $U_0$ then we would expect the particle to be trapped. However, we find that it's only possible for certain values of $E$.
+
+Outside the well the particle has the solution,
+![[Particle in a Box-1679627491077.jpeg]]
+
+By symmetry, the wave function of the particle must be either symmetric or antisymmetric.
+
+Applying the continuity conditions, solutions only exist for the *even* symmetry case as follows,
+![[Particle in a Box-1679627692171.jpeg]]
+
+For the *odd* solutions, we have equations for the symmetric case:
+$$\kappa = k\tan(kL)$$
+and for the anti symmetric case
+$$\kappa = -k\cot(kL)$$
+
+Both $\kappa$ and $k$ depend on $E$ and hence when $E<U_0$ there can only exist solutions for discrete values of $E$.
+
+#### Solutions
+![[Particle in a Box-1679628238153.jpeg]]
