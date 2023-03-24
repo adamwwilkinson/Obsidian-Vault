@@ -8,7 +8,7 @@ The wave packet is a model of a freely moving electron whose position is known i
 
 We can consider this wave packet to be a sum of many constant amplitude plane waves with different wavenumbers $k$ (Fourier tranform of $\phi(x)$).
 
-![[Wave Packet-1679630212196.jpeg]]o
+![[Wave Packet-1679630212196.jpeg]]
 
 The phase velocity of the component waves is given by,
 $$v_P = \frac \omega k$$
@@ -18,3 +18,10 @@ $$v_g = \frac {\partial \omega} {\partial k}$$
 
 For a free, non-relativistic quantum mechanical particle of mass $m$,
 $$E(k) = h\omega = \frac{h^2 k_0^2} {2m}$$
+
+### Uncertainty Principle
+$$\Delta x \Delta k = \frac 1 2$$
+
+For a free electron, we had a single value for wave number or velocity, but we did not know where the electron was on the wave axis. For the wave packet, we have a better idea of where the electron is, but now we have a spread of velocities.
+
+$$\Delta p \Delta x = \frac h 2$$
