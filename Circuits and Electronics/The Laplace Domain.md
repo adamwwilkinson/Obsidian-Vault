@@ -62,3 +62,22 @@ $$c_i = (s - p_i)F(s)\vert_{s=p_i}$$
 ![[The Laplace Domain-1679207536003.jpeg]]
 ![[The Laplace Domain-1679207580329.jpeg]]
 ![[The Laplace Domain-1679207622788.jpeg]]
+
+### Driving Point Impedance
+$$Z_k(s) = \frac {V_k(s)} {I_k(s)}$$
+
+![[Network Functions-1679708083523.jpeg]]
+
+### Properties of Network Functions
+Always long polynomials,
+![[The Laplace Domain-1679708207941.jpeg]]
+- all poles are real or occur in complex conjugate pairs
+- the numerator may have negative coefficients
+- the poles are natural frequencies of the network
+- all network functions of a given network have the same poles provided
+- for any network function the total number of zeroes equals the total number of poles
+
+### S-Plane
+![[The Laplace Domain-1679708521896.jpeg]]
+
+### Scaling
