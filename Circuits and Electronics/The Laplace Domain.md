@@ -64,6 +64,7 @@ $$c_i = (s - p_i)F(s)\vert_{s=p_i}$$
 ![[The Laplace Domain-1679207622788.jpeg]]
 
 ### Driving Point Impedance
+A measure of impedance of a circuit at a specific point an input signal is applied.
 $$Z_k(s) = \frac {V_k(s)} {I_k(s)}$$
 
 ![[Network Functions-1679708083523.jpeg]]
@@ -81,3 +82,23 @@ Always long polynomials,
 ![[The Laplace Domain-1679708521896.jpeg]]
 
 ### Scaling
+In practice, we are often interested in real circuits where the impedance and the frequency are much higher than convenient for arithmatic calculation
+
+We can use magnitude and frequency scaling to convert from a circuit with convenient values to one with practical values.
+
+If we have impedance factor $b$, and frequency factor $a$:
+
+$$R^* = bR$$
+$$L^* = \frac b a L$$
+$$C^* = \frac 1 {ab} C$$
+
+*Driving Point* Impedance Functions:
+$$Z^*(s) = bZ(\frac s a)$$
+
+*Voltage Transfer* Network Functions
+$$G^*_{jk}(s) = G_{jk}(\frac s a)$$
+
+This means the position of poles and zeroes are scaled by $a$.
+
+### Linear Dependent Sources
+![[The Laplace Domain-1679709450824.jpeg]]
