@@ -4,6 +4,8 @@ Often we have circuits with an input and output plot. We apply a voltage at the 
 
 $$H(s) = \frac {V_{out}(s)} {V_{in}(s)}$$
 
-Generally we want to know how $H(s)$ varies over a range of frequencies i.e. $s= jw$.
+Generally we want to know how $H(s)$ varies over a range of frequencies i.e. $s=jw$. We are mainly focused on the magnitude for this unit.
 
 ![[The Bode Plot-1679709665912.jpeg]]
+![[The Bode Plot-1679713711348.jpeg]]
+![[The Bode Plot-1679713927859.jpeg]]
