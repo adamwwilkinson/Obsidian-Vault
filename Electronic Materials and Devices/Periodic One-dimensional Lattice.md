@@ -23,6 +23,8 @@ $l$ here is the seperation of atoms in the crystal.
 ```
 ![[Periodic One-dimensional Lattice-1679631736421.jpeg]]
 
+As we go up bands the kinetic energy increases. 
+$$K_E = \frac {p^2} {2m}$$
 
 ```ad-important
 $n = 1$ is the case where the electron sits close to the nucleus, also known as the *valence band*. The top band is called the *condunction band* as it is most free of the pull from the nucleus, allowing movement.
