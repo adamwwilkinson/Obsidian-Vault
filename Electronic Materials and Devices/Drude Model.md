@@ -1,6 +1,5 @@
 Created: 06/03/2023 at 10:14
 Tags: #topic/conductivity
-Related:
 
 ###  What
 Based on the way gas particles work and interact.
