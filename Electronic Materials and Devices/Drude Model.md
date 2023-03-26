@@ -75,6 +75,14 @@ $$\sigma = \frac 1 \rho = eN\mu_e$$
 $$\mu_e = \frac {e \tau} m$$
 $$\sigma = \frac {Ne^2\tau} m$$
 
+### Factors affecting $\tau$
+$\tau$ is the average time experienced before an electron hits an atom.
+
+Factors that affect it are:
+- material type
+- material quality
+- temperature
+
 ### It Doesn't Fit?
 So when looking at a table, the equations fit the trend, but doesn't give us the exact right numbers.
 This is because electrons do affect each other, and we need quantum mechanics to fill the gap.
