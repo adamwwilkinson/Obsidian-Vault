@@ -28,7 +28,7 @@ The density of free electrons, which in itself is determined by the valency of t
 
 ### Assumptions
 - Treat valence electrons as gas in a container
-- The electrons have an average energy of $\frac {3k_BT} 2$ with Boltzmann constant and $T$ is temperature in kelvin
+- The electrons have an average energy of $\frac {3k_BT} 2$ with Boltzmann constant  ($1.38 \times 10^{-23}$) and $T$ is temperature in kelvin
 - There is no memory after the collision
 - All electrons move independent of each other
 - The conductor is in equilibrium
