@@ -60,5 +60,47 @@ Width, height, and depth is $2\frac \pi L$ and that volume is the volume of one 
 
 ![[Density of States-1679914297641.jpeg]]
 
-### Real Life Equation
+### Real Life Situation
 If we consider a metal in the first column of the periodic table, each atom will have one electron available, and hence $\frac N {L^3}$ is the density of electrons in the metal. We can find the maximum electron energy at T = 0 is around 5 eV with the Fermi velocity of ${10^6 ms^{-1}}$ 
+
+### Density of States
+We worked out how many states we have in our volume but what is the density of these states, i.e. how many states exist an energy change of $\Delta E$.
+
+The density of allowed energy levels $N(E)$ is, 
+![[Density of States-1679914738121.jpeg]]
+
+This is the number of states per change in energy of volume $L^3
+
+#### Density State Per Unit Energy per Unit Volume
+$Z(E)$ is given by
+![[Density of States-1679914809838.jpeg]]
+
+```ad-important
+$Z(E)$ is proportional to $\sqrt E$
+```
+
+Average energy is given,
+![[Density of States-1679914875268.jpeg]]
+
+### Fermi-Dirac Distribution Function
+All this above was for $T = 0K$. The probability of an energy level $E$ being occupied by an electron at temp $T$ is given by,
+$$f(E) = \frac 1 {1 + e^{\frac {E-E_F}{k_B T}}}$$
+```ad-info
+$k_B$ is $1.38 \times 10^{-23} m^2 kg s^{-2} K^{-1}$
+```
+
+![[Density of States-1679915125003.jpeg]]
+
+![[Density of States-1679915369533.jpeg]]
+
+The probability of occupancy for the level at $E_F$ is always 0.5.
+
+### Boltzmann Distribution
+If $E - E_F >> 0$ the *Fermi-Dirac* function can be approximated by the equation,
+$$e^{-\frac {E -E_F} {k_B T}}$$
+which is a lot easier to differentiate.
+
+It's a good approximation if the energy is $3k_B T$ away from the Fermi energy.
+
+### Recap
+![[Density of States-1679915628153.jpeg]]
