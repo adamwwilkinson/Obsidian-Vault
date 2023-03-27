@@ -3,6 +3,16 @@ Created: 24/03/2023 at 12:28
 ### Ek Curves
 ![[Effects Of Periodicity-1679731968860.jpeg]]
 
+```ad-info
+The slope of the curve relates to the sign of the charge of the particle, for a free particle, the slope is proportional to the sign and magnitude of the charge.
+
+If the slope of the curve is positive, it's particle has positive charge. This is because the energy of the particle increases as it's momentum increases, consistnent with a particle of positive charge.
+```
+
+```ad-info
+You can tell is a particle has a relatively large mobility by how pronouced it's curvature is. This is because a more pronounced curvature means a smaller effective mass, which means a larger movility. The effective mass is proportional to the inverse of the curvature of the energy curve.
+```
+
 The weird gaps where the wave number ($k$) is $\frac \pi a$ is because it is where the wave length is *a* i.e. the length of the gap between atoms. At some places it's sat right on the nucleus, where it's hard to escape or it's sat between two nucleus where it's quite easy to escape.
 
 ![[Effects Of Periodicity-1679732148986.jpeg]]
