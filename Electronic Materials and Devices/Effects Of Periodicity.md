@@ -25,3 +25,5 @@ When the Fermi level is in the condunction band, it is a condunctor. When the Fe
 ```
 
 ![[Effects Of Periodicity-1679732602713.jpeg]]
+
+### Effe
