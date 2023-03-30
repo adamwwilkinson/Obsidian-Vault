@@ -50,3 +50,6 @@ Consider a network which provides voltage amplification $K$. If we have an imped
 
 #### Caveats
 Used where there is capacitive feedback. $K$ is assumed to be frequency independent, and the output resistance is assumed to be zero.
+
+#### Proof
+![[2 Port Networks-1680185945633.jpeg]]
