@@ -21,3 +21,7 @@ Generally we want to know how $H(s)$ varies over a range of frequencies i.e. $s=
 ### Example
 ![[The Bode Plot-1679714480485.jpeg]]
 ![[The Bode Plot-1679714492472.jpeg]]
+
+```ad-info
+The flat bit at the bode plot is the pass band, and is where the amplification is supposed to occur.
+```
