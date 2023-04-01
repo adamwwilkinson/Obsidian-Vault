@@ -43,6 +43,9 @@ Useful with admittance parameters.
 A.K.A. ABCD parameters.
 ![[2 Port Networks-1680185469773.jpeg]]
 
+##### Cascading two ABCD Networks
+![[2 Port Networks-1680335944302.jpeg]]
+
 ### Miller Effect
 Consider a network which provides voltage amplification $K$. If we have an impedance $Z$ connected between input and output ports, they can be replaced by equivalent impedance $Z_1$ and $Z_2$.
 ![[2 Port Networks-1680185672766.jpeg]]
