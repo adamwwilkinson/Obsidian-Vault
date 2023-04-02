@@ -43,6 +43,9 @@ Useful with admittance parameters.
 A.K.A. ABCD parameters.
 ![[2 Port Networks-1680185469773.jpeg]]
 
+##### Cascading two ABCD Networks
+![[2 Port Networks-1680335944302.jpeg]]
+
 ### Miller Effect
 Consider a network which provides voltage amplification $K$. If we have an impedance $Z$ connected between input and output ports, they can be replaced by equivalent impedance $Z_1$ and $Z_2$.
 ![[2 Port Networks-1680185672766.jpeg]]
@@ -53,3 +56,15 @@ Used where there is capacitive feedback. $K$ is assumed to be frequency independ
 
 #### Proof
 ![[2 Port Networks-1680185945633.jpeg]]
+
+### Bisection Theorem
+Used to simplify the analysis of a circuit with two input ports, no internal independent sources, and exhibit mirror symmetry.
+
+![[2 Port Networks-1680330648372.jpeg]]
+
+![[2 Port Networks-1680330733243.jpeg]]
+
+![[2 Port Networks-1680330775611.jpeg]]
+
+The original $V_x$ can then by found by,
+$$V_x = V_{xd} + V_{xc}$$
