@@ -25,3 +25,7 @@ Generally we want to know how $H(s)$ varies over a range of frequencies i.e. $s=
 ```ad-info
 The flat bit at the bode plot is the pass band, and is where the amplification is supposed to occur.
 ```
+
+```ad-important
+To approximate how a Bode plot would look, find the dB at $\omega = 0$, then continue through until you hit either a pole, or a zero. If a zero, start a linear line with a gradient of 20dB a decade, and if a pole, start a linear line with a gradient of -20dB a decade. As you hit poles and zeros your lines would steepen down, or steepen up respectively. 
+```
