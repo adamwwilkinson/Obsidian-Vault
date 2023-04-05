@@ -8,4 +8,8 @@ Will we achieve the outcome desired?
 
 ![[Team Confidence-1680665394480.jpeg]]
 
-### Sources of 
+### Sources of Team Confidence
+- dynamic construct
+- practice performance
+- perceptions of cohesion
+- team conflict undermines confidence in team's abilities
