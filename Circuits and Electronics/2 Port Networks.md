@@ -4,10 +4,10 @@ Two port networks have 4 directed variables associated with it. The terminals of
 
 They can represent a *subnetwork or functional block* (amplifier or filter).
 
-![[2 Port Networks-1680184166128.jpeg]]
+![[2 Port Networks-1681208729672.jpeg]]
 
 ### Consider
-![[2 Port Networks-1680184280388.jpeg]]
+![[2 Port Networks-1681208756393.jpeg]]
 $I_1(s)$ can be considered a superposition of two components, one caused by $V_1(s)$ and the other caused by $V_2(s)$. The same can be said for $I_2(s)$. Only two of the four variables are independent. We can express any two of the four in terms of the other two.
 
 There are 6 ways we can express two of the variables in terms of the other two. Which ways depend on the application of the two ports and how the physical component modelled can be measured.
@@ -21,27 +21,24 @@ There are 6 ways we can express two of the variables in terms of the other two. 
 ![[2 Port Networks-1680184975594.jpeg]]
 
 ### Y-parameters
-![[2 Port Networks-1680185091536.jpeg]]
-
-### Example
-![[2 Port Networks-1680184947537.jpeg]]
+![[2 Port Networks-1681208795007.jpeg]]
 
 ### Connecting Two Ports Together
 #### Series
 Useful with impedance parameters.
-![[2 Port Networks-1680185196502.jpeg]]
+![[2 Port Networks-1681208938452.jpeg]]
 ![[2 Port Networks-1680185293936.jpeg]]
 
 #### Parallel
 Useful with admittance parameters.
-![[2 Port Networks-1680185324158.jpeg]]
+![[2 Port Networks-1681208966229.jpeg]]
 ![[2 Port Networks-1680185331742.jpeg]]
 
 #### Transmission Parameters
-![[2 Port Networks-1680185442874.jpeg]]
+![[2 Port Networks-1681209010787.jpeg]]
 
 A.K.A. ABCD parameters.
-![[2 Port Networks-1680185469773.jpeg]]
+![[2 Port Networks-1681209030415.jpeg]]
 
 ##### Cascading two ABCD Networks
 ![[2 Port Networks-1680335944302.jpeg]]
