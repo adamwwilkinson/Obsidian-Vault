@@ -19,4 +19,4 @@ If given a box, we can say the flow of charges in the box is given by $J_p(x) - 
 $$D = BkT$$
 Where $B$ is viscosity, $k$ is Boltzmann constant and $T$ is absolute temperature.
 
-In electronic conductions $B = \frac {\mu} {e}$
+In electronic conduction $B = \frac {\mu} {e}$
