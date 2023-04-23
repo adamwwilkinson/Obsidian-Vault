@@ -15,3 +15,6 @@ Created: 23/04/2023 at 15:49
 - situational elements
 
 ### Avoiding Groupthink
+- leader should avoid expressing opinions when assignning tasks
+- ensure group actively explores alternative strategies
+- have a group member actively play the role of devil's advocate
