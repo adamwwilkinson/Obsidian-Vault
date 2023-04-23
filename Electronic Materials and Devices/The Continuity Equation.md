@@ -14,3 +14,9 @@ If given a box, we can say the flow of charges in the box is given by $J_p(x) - 
 ![[The Continuity Equation-1682235504143.jpeg]]
 ![[The Continuity Equation-1682235511973.jpeg]]
 ![[The Continuity Equation-1682235528307.jpeg]]
+
+### Relationship between Viscosity and Diffusion
+$$D = BkT$$
+Where $B$ is viscosity, $k$ is Boltzmann constant and $T$ is absolute temperature.
+
+In electronic conductions $B = \frac {\mu} {e}$
