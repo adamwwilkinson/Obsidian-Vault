@@ -32,3 +32,18 @@ $$J_{\mathrm{TOTAL}} = J_n + J_p$$
 The difference in mobility for holes, and electrons are roughly the same. In an n-type material, the ratio of the drift current of holes to electrons is the same as the ratio of holes compared to electrons.  This mean in an n-type, the drift current of holes is negligeble. Same is true for p-type material, where the drift current of electrons is negligible.
 
 The diffusion current on the other hand is of the same order of magnitude whether for holes or electrons, this means either cannot be ignored.
+
+### Fick's Second Law
+In 1 dimension,
+$$\frac {\partial C} {\partial t} = \frac \partial {\partial x}(D \frac {\partial C} {\partial x})$$
+
+Where $t$ is time and $C$ is concentration.
+$C$ behaves as,
+$$C = \frac {M} {\sqrt {4 \pi Dt}} e^{-\frac {x^2}{4Dt}}$$
+
+Where $M = \int_{- \inf}^\inf C dx$.
+
+![[Diffusion-1682234091184.jpeg]]
+
+### Heat Flow
+The movement of heat is very similar to the diffusion.
