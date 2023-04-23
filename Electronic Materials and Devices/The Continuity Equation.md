@@ -6,3 +6,11 @@ If given a box, we can say the flow of charges in the box is given by $J_p(x) - 
 
 ### Considering the Conservation of Holes in the Box
 ![[The Continuity Equation-1682235268368.jpeg]]
+
+#### At steady-state
+![[The Continuity Equation-1682235346286.jpeg]]
+
+### Final Equations
+![[The Continuity Equation-1682235504143.jpeg]]
+![[The Continuity Equation-1682235511973.jpeg]]
+![[The Continuity Equation-1682235528307.jpeg]]
