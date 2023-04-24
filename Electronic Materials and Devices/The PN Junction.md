@@ -27,3 +27,5 @@ The same maths works for p-type materials.
 *Dopant ions*  cannot move because they are covalently bonded in the crystal.
 
 The electric potential barrier will increase in magnitude until eventually it will balance the flow of holes and electrons caused by the chemical-energy difference.
+
+A hole moving from n-type region to a p-type region increases the chemical potential energy, which a hole moving from p-type to n-type decreases it.
