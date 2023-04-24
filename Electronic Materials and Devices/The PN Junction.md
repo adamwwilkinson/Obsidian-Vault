@@ -13,4 +13,6 @@ Considering a layer of n-type semiconductor with density $N_D$, we also assume t
 
 The potential energy to cause movement due to population is called *chemical potential* $\mu^c$.
 The chemical potential of electrons is $\mu^c_e$, and is defined as follows,
-$$(\mu_e^c)$$
+$$(\mu_e^c)_N = \mu_i^c + kT ln(\frac {N_D} {n_I})$$
+$\mu_i^c$ is the intrinsic Fermi energy $E_i$, and is constant at equilibrium.
+$\mu_i^c$ represents the amount of energy required to add an electron to a pure, undoped, crystal of a semiconductor, while $(\mu_e^c)_N$ is the energy required to add an electron to a crystal that has been doped by impurities.
