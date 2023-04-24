@@ -18,4 +18,4 @@ $\mu_i^c$ is the intrinsic Fermi energy $E_i$, and is constant at equilibrium.
 $\mu_i^c$ represents the amount of energy required to add an electron to a pure, undoped, crystal of a semiconductor, while $(\mu_e^c)_N$ is the energy required to add an electron to a crystal that has been doped by impurities.
 ![[The PN Junction-1682330526115.jpeg]]
 
-It 
+It takes less energy to put a hole in n-t
