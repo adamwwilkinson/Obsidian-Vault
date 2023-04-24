@@ -11,4 +11,6 @@ The movement of majority carriers are due to diffusion, and the movement of mino
 ### Chemical Potential
 Considering a layer of n-type semiconductor with density $N_D$, we also assume the density of free electrons match this.
 
-The potential energy to cause movement due to population 
+The potential energy to cause movement due to population is called *chemical potential* $\mu^c$.
+The chemical potential of electrons is $\mu^c_e$, and is defined as follows,
+$$(\mu_e$$
