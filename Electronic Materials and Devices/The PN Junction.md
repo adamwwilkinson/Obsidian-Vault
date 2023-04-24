@@ -26,4 +26,4 @@ The same maths works for p-type materials.
 ![[The PN Junction-1682330618390.jpeg]]
 *Dopant ions*  cannot move because they are covalently bonded in the crystal.
 
-The electric pot
+The electric potential barrier will increase in magnitude until eventually it will balance the flow of holes and electrons caused by the chemical-energy difference.
