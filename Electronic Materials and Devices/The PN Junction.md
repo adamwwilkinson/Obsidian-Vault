@@ -13,4 +13,4 @@ Considering a layer of n-type semiconductor with density $N_D$, we also assume t
 
 The potential energy to cause movement due to population is called *chemical potential* $\mu^c$.
 The chemical potential of electrons is $\mu^c_e$, and is defined as follows,
-$$(\mu_e$$
+$$(\mu_e^c)$$
