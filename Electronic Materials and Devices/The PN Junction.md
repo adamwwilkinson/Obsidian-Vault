@@ -29,3 +29,19 @@ The same maths works for p-type materials.
 The electric potential barrier will increase in magnitude until eventually it will balance the flow of holes and electrons caused by the chemical-energy difference.
 
 A hole moving from n-type region to a p-type region increases the chemical potential energy, which a hole moving from p-type to n-type decreases it.
+
+### Principle of Detailed Balance
+####  Moving from N to P
+![[The PN Junction-1682331225978.jpeg]]
+
+#### Moving from P to N
+![[The PN Junction-1682331255751.jpeg]]
+
+### Voltage
+Combining the equations above,
+![[The PN Junction-1682331296330.jpeg]]
+
+Where $\phi$  is out built in voltage.
+
+$$\phi = V_T ln(\frac {N_A N_D} {n_i^2}) $$
+$V_T = \frac {kT} {e}$
