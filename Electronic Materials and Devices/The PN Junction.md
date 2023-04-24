@@ -7,3 +7,8 @@ There are two forces, the electrons moving due to diffusion, but the electric fi
 The movement of majority carriers are due to diffusion, and the movement of minority carriers are due to the electric field.
 
 ![[The PN Junction-1682329930949.jpeg]]
+
+### Chemical Potential
+Considering a layer of n-type semiconductor with density $N_D$, we also assume the density of free electrons match this.
+
+The potential energy to cause movement due to population 
