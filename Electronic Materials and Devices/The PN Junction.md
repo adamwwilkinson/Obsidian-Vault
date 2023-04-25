@@ -62,4 +62,4 @@ $$(\mu_e^c)_P + e\phi = (\mu_e^c)_N$$
 #### PN Junctions
 ![[The PN Junction-1682395435668.jpeg]]
 
-The green line is the Electrochemical potential energy, as it is flat and constant, that means the forces are in balance. Were we to adjust the line we can generate a current a
+The green line is the Electrochemical potential energy, as it is flat and constant, that means the forces are in balance. Were we to adjust the line we can generate a current 
