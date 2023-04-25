@@ -6,4 +6,4 @@ Created: 25/04/2023 at 13:26
 ### Evidence
 - presence of others heightens physiological arousal only if task is complex
 - when performing simple tasks, presense of others makes us perform them faster
-- presense of others 
+- presense of others makes us perform complex tasks less accura
