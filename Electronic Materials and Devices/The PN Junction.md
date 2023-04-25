@@ -69,10 +69,13 @@ The green line is the Electrochemical potential energy, as it is flat and consta
 This is how a diode works, where depending on whether the voltage is increased or reduced, determines whether a current flows or not. When the voltage is equal to $\phi_{BI}$, no net current flow. If the barrier height is increased, it reduces the current. Reduce the barrier height and there is a large flow of current.
 ```
 
-### Maths Explaning the Graphs
+### Maths Explaining the Graphs
 Assign electrochemical potential energy for electrons $E_{Fe}$ and $E{Fh}$ for holes, and find the equilibrium where these energies are the same.
 
 The Fermi-energi $E_F$ is the average kinetic energy of free electrons. The electrons that move from the N-region to the P-region increase their electric potential energy by losing kinetic energy. A similar statement can be made for holes.
 
 The Fermi-energy for a *uniform* semiconductor is given by
 $$E_F = E_i + kTln(\frac {n} {n_i})$$
+
+As the PN-junction is not uniform, $n$ is a function of $x$ and thus,
+$$E_F = E_i + kTln(\frac {n(x)} {n_i})$$
