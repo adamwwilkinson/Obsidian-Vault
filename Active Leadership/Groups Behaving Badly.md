@@ -2,4 +2,5 @@ Created: 25/04/2023 at 13:08
 
 ### Problems of Empathy, Compassion, and Moral Judgement
 - atrocities commited in the name of passion
-- em
+- empathy blinds and binds
+- 'Re'
