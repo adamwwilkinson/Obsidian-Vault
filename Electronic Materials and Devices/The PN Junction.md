@@ -89,5 +89,5 @@ On the P-side, $E_i(x) = E_i + e\phi_{BI}$
 
 In between these two extremes, $E_I(x) = E_i + e\phi(x)$
 
-In the *neutral* N-region, the electrons have zero potential energy and hence the electro-chemical potential is purely the chemical potential, and is e
+In the *neutral* N-region, the electrons have zero potential energy and hence the electro-chemical potential is purely the chemical potential, and is equal to the Fermi energy for electreo
 
