@@ -45,3 +45,8 @@ Where $\phi$  is out built in voltage.
 
 $$\phi = V_T ln(\frac {N_A N_D} {n_i^2}) $$
 $V_T = \frac {kT} {e}$ is the thermal voltage which is 25.9mV at 300K.
+
+Can also be written as,
+![[The PN Junction-1682394715952.jpeg]]
+
+### G
