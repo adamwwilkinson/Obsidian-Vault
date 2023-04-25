@@ -53,4 +53,4 @@ Can also be written as,
 ![[The PN Junction-1682394823258.jpeg]]
 
 We can interpret this to mean
-$$(\mu_e^c)_P + e\phi = )$$
+$$(\mu_e^c)_P + e\phi = (\mu_e)$$
