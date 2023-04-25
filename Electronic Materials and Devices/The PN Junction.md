@@ -79,3 +79,4 @@ $$E_F = E_i + kTln(\frac {n} {n_i})$$
 
 As the PN-junction is not uniform, $n$ is a function of $x$ and thus,
 $$E_F = E_i + kTln(\frac {n(x)} {n_i})$$
+
