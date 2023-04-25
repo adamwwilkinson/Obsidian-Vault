@@ -49,4 +49,8 @@ $V_T = \frac {kT} {e}$ is the thermal voltage which is 25.9mV at 300K.
 Can also be written as,
 ![[The PN Junction-1682394715952.jpeg]]
 
-### The Electro-chemical POt
+### The Electro-chemical Potential
+![[The PN Junction-1682394823258.jpeg]]
+
+We can interpret this to mean
+$$(\mu_e^c)_P + e\phi = )$$
