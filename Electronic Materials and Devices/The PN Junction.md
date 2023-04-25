@@ -75,3 +75,4 @@ Assign electrochemical potential energy for electrons $E_{Fe}$ and $E{Fh}$ for h
 The Fermi-energi $E_F$ is the average kinetic energy of free electrons. The electrons that move from the N-region to the P-region increase their electric potential energy by losing kinetic energy. A similar statement can be made for holes.
 
 The Fermi-energy for a *uniform* semiconductor is given by
+$$E_F = E_i + kTln(\frac {n} {n_i})$$
