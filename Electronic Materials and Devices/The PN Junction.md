@@ -80,3 +80,14 @@ $$E_F = E_i + kTln(\frac {n} {n_i})$$
 As the PN-junction is not uniform, $n$ is a function of $x$ and thus,
 $$E_F = E_i + kTln(\frac {n(x)} {n_i})$$
 
+$E_i$ is also a function of x.
+
+$$E_F = E_i(x) + kTln(\frac {n(x)} {n_i}) = \mathrm {constant}$$
+
+On the N-side, $E_i(x) = E_i$
+On the P-side, $E_i(x) = E_i + e\phi_{BI}$
+
+In between these two extremes, $E_I(x) = E_i + e\phi(x)$
+
+In the *neutral* N-region, the electrons have zero potential energy and hence the electro-chemical potential is purely the chemical potential, and is e
+
