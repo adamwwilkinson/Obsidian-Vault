@@ -65,4 +65,5 @@ $$(\mu_e^c)_P + e\phi = (\mu_e^c)_N$$
 The green line is the Electrochemical potential energy, as it is flat and constant, that means the forces are in balance. If we disturb the balance, a current is generated. Using an external voltage, less current will be flowing. Making the voltage lower, less than $\phi_{BI}$, there is less resistance for the electrons moving from the N side to the P side.
 
 ```ad-important
+![[The PN Junction-1682395674533.jpeg]]
 ```
