@@ -7,3 +7,4 @@ Created: 25/04/2023 at 13:08
 
 ### Moral Disengagement
 ![[Groups Behaving Badly-1682399981586.jpeg]]
+![[Groups Behaving Badly-1682400037281.jpeg]]
