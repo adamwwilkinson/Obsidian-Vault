@@ -97,4 +97,5 @@ A similar argument can be made for the holes in the neutral P=region.
 $$E^P_{Fe} = E_{Fe} = E_F = E_{Fp} = E^N_{Fh}$$
 
 #### Graph for Holes
+![[The PN Junction-1682397631262.jpeg]]
 
