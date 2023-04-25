@@ -100,5 +100,4 @@ $$E^P_{Fe} = E_{Fe} = E_F = E_{Fp} = E^N_{Fh}$$
 ![[The PN Junction-1682397631262.jpeg]]
 
 ### Drawing the Band Diagram for a PN-junction in Equilibrium
-
-
+![[The PN Junction-1682398512505.jpeg]]
