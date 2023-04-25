@@ -66,4 +66,5 @@ The green line is the Electrochemical potential energy, as it is flat and consta
 
 ```ad-important
 ![[The PN Junction-1682395674533.jpeg]]
+This is how a diode works, where depending on whether the voltage is increased or reduced, determines whether a current flows or not. When the voltage is equal to $\phi_{BI}$, no net current flow. If the barrier height is increased, it reduces the current. Reduce the barrier height and there is a large flow of current.
 ```
