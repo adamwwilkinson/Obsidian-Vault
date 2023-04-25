@@ -89,5 +89,12 @@ On the P-side, $E_i(x) = E_i + e\phi_{BI}$
 
 In between these two extremes, $E_I(x) = E_i + e\phi(x)$
 
-In the *neutral* N-region, the electrons have zero potential energy and hence the electro-chemical potential is purely the chemical potential, and is equal to the Fermi energy for electreo
+In the *neutral* N-region, the electrons have zero potential energy and hence the electro-chemical potential is purely the chemical potential, and is equal to the Fermi energy for electrons
+$$E_F = E_i + kTln(\frac {N_D} {n_i})$$
+
+A similar argument can be made for the holes in the neutral P=region.
+
+$$E^P_{Fe} = E_{Fe} = E_F = E_{Fp} = E^N_{Fh}$$
+
+#### Graph for Holes
 
