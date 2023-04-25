@@ -54,3 +54,10 @@ Can also be written as,
 
 We can interpret this to mean
 $$(\mu_e^c)_P + e\phi = (\mu_e^c)_N$$
+
+### Energy-x Graphs
+#### Intrinsic or single type of material
+![[The PN Junction-1682395238532.jpeg]]
+
+#### PN Junctions
+![[The PN Junction-1682395331773.jpeg]]
