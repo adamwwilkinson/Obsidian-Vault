@@ -8,3 +8,4 @@ Extremely popular dde to inherent advantages, can be made smaller, consume less 
 ![[MOSFET Transistors-1682500139777.jpeg]]
 
 ### Structure of NMOS Transistor
+![[MOSFET Transistors-1682500183631.jpeg]]
