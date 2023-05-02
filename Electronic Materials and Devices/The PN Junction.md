@@ -4,7 +4,7 @@ In the P region a large negative charge is created and in the N region a large p
 
 There are two forces, the electrons moving due to diffusion, but the electric fields send them back again and in the end there is a balance. 
 
-The movement of majority carriers are due to diffusion, and the movement of minority carriers are due to the electric field.
+The movement of majority carriers is due to diffusion, and the movement of minority carriers are due to the electric field.
 
 ![[The PN Junction-1682329930949.jpeg]]
 
@@ -101,3 +101,58 @@ $$E^P_{Fe} = E_{Fe} = E_F = E_{Fp} = E^N_{Fh}$$
 
 ### Drawing the Band Diagram for a PN-junction in Equilibrium
 ![[The PN Junction-1682398512505.jpeg]]
+
+### Finding the Chemical Potential Energies
+![[The PN Junction-1682738461252.jpeg]]
+
+The reason the intrinsic Fermi energy is higher on the P-side than the N-side is because it is subject to the electric field.
+#### Holes
+$$E_i - E_F = k_BT ln \frac {N_A} {n_i}$$
+$$E_f - E_i = k_BT ln \frac {N_D} {n_i}$$
+Adding these two values up, the green side and the blue side, actaully gives *$e\phi_{BI}$*. This shows how the built in voltage can be changed by playing with $N_D$ or $N_A$.
+
+## Drift and Diffusion Currents
+![[The PN Junction-1682738985499.jpeg]]
+```ad-important
+The electrons that go from N-side to P-side is the diffusion current, while the electrons that go from P-side ot N-side is the drift current.
+```
+
+Thinking of holes as bubbles will help to imagine its behaviour.
+There are 4 types of currents, drift, and diffusion for both electrons and holes.
+
+### Poisson's Equation
+$$\nabla (\nabla \phi) = \nabla^2 \phi = -\frac \rho \epsilon $$
+Where $\epsilon$ is the electric permittivity, and $\rho$ is the charge density.
+
+As electric potential does not vary except along the x-axis we can simplify it to
+$$\frac {d^2 \phi(x)} {dx^2} = - \frac {\rho(x)} {\epsilon}$$
+$$\frac {d^2 \phi(x)} {dx^2} = -\frac e \epsilon [p(x) - n(x) + N_D(x) - N_A(x)]$$
+##### What charges do we have available
+On the right-hand side, we have holes which are positively charged, electrons which are negatively charged, donors which are positively charged, acceptors which are negative charged.
+
+### Simplifying Analysis
+We can divide the diode into three regions.
+![[The PN Junction-1682739863305.jpeg]]
+
+#### Depletion Approximation
+Let's assume that in the space charge regions, there are no free holes or electrons as they have been pushed out. This means in the neutral regions there is no charge, and the charges in the space charge regions are only due to dopants.
+
+This simplifies [[#Poisson's Equation]] to
+$$\frac {d^2 \phi(x)} {dx^2} = -\frac e \epsilon [N_D(x) - N_A(x)]$$
+
+### Solving the Equation in two steps:
+1. Solving the electric field intensity $\zeta$
+2. Solving the electric potential $\phi$
+![[The PN Junction-1682740152212.jpeg]]
+![[The PN Junction-1682740659813.jpeg]]
+![[The PN Junction-1682742796007.jpeg]]
+![[The PN Junction-1682742832247.jpeg]]
+
+### Useful Equations
+$$N_A x_p = N_D x_n$$
+![[The PN Junction-1682742942263.jpeg]]
+$$n(x) = n_i\exp(\frac {E_F - E_i(x)} {kT})$$
+
+### Law of the Junction
+$$n(x) = N_D \exp \left( -\frac {\phi(x)}{V_T} \right)$$
+![[The PN Junction-1683014722007.jpeg]]

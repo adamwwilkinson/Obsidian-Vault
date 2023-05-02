@@ -126,3 +126,13 @@ Because of [[#Channel Length Modulation]], the current is not actually contant b
 
 ### Summary
 ![[MOSFET Transistors-1682506829878.jpeg]]
+
+### MOSFET as a Switch
+#### Low Power
+Digital logic operates a MOSFET in either cut-off or ohmic region. In both regions, the product of the source current and drain to source voltage can be made very small.
+
+![[MOSFET Transistors-1682754551053.jpeg]]
+
+### MOSFET as an Amplifier
+Small signal 'linear amplifiers' usually operate in MOSFET in the saturation region.
+![[MOSFET Transistors-1682754927163.jpeg]]
