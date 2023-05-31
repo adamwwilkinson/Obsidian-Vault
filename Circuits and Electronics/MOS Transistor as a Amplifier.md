@@ -1,5 +1,4 @@
 Created: 16/05/2023 at 11:28
-
 ### Symbols
 ![[MOS Transistor as a Amplifier-1684207861397.jpeg]]
 
@@ -86,3 +85,49 @@ Having the resistor $R_S$ tends to stabilise against any variations as,
 ![[MOS Transistor as a Amplifier-1684237207215.jpeg]]![[MOS Transistor as a Amplifier-1684237233240.jpeg]]
 ![[MOS Transistor as a Amplifier-1684237307119.jpeg]]
 ![[MOS Transistor as a Amplifier-1684240661301.jpeg]]
+
+## What Happens at High Frequency
+Capacitors are short for low frequency signals when drawing the equivalent circuit.
+
+For DC biasing circuits we see them to be open circuits.
+
+Limited by internal capicatances:
+- gate capacitance
+- junction capacitance
+
+### Gate Capacitance
+![[MOS Transistor as a Amplifier-1685414843091.jpeg]]
+
+### Junction Capacitance
+Due to the depletion regions with the drain and source.
+![[MOS Transistor as a Amplifier-1685414946846.jpeg]]
+
+### High Frequency Model
+![[MOS Transistor as a Amplifier-1685414983057.jpeg]]
+
+#### Simplified Model
+![[MOS Transistor as a Amplifier-1685415040873.jpeg]]
+
+### MOSFET Unity Gain Frequency
+Current gain,
+$$\frac{i_{out}}{i_{in}} = \frac{g_m}{sC_{gs} + sC_{gd}}$$
+
+Unit-gain frequency,
+$$f_t = \frac{g_m}{2\pi(C_{gs} + C_{gd})}$$
+
+This is the frequency at which the current gain is 1.
+
+### Frequency Response
+#### Low Frequency
+![[MOS Transistor as a Amplifier-1685416575626.jpeg]]
+
+This happens if there are no coupling capacitors.
+When we do have them,
+![[MOS Transistor as a Amplifier-1685416610091.jpeg]]
+
+### Example
+![[MOS Transistor as a Amplifier-1685417037996.jpeg]]
+
+#### High Frequency
+All the coupling capacitors can be short circuited.
+![[MOS Transistor as a Amplifier-1685417148742.jpeg]]![[MOS Transistor as a Amplifier-1685417554809.jpeg]]
