@@ -81,7 +81,9 @@ When combining signals, the operations are applied in the following order:
 This will be looked at further later.
 
 ### Periodic Sampling
-For a digital sample to be periodic, typically it will have a $\pi$ in it's equation describing it.
+For a digital sample to be periodic, typically it will have a $\pi$ in its equation describing it. Formally, for discrete signals the sinusoid is a periodic function of $n$ only for certain values of $\Omega$, where
+$$\Omega = 2\pi \frac{m}{N_0} = 2\pi F$$
+$N_0$ is the fundamental period. The $m$ says how many sinusoidal periods are required for the signal to repeat.
 
 ### Sinc Funtions
 Given by either:

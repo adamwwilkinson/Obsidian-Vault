@@ -49,3 +49,36 @@ Changing the software on the microprocessor allows for different fucntionality.
 Roughly every 1.5 years, there is a double in the number of components and speed. Every other technical system has only a few percent improvement per year.
 
 This is due to *miniaturiazation* of components rather than any design improvements. Smaller components reduce signal runtime as well as allow more components to be packed into the same space.
+
+### Embedded Systems
+Conected to sensors and actuators, and are often programmed once.
+
+A combination of hardware and software that is designed to perform a dedicated function.
+
+#### Automobiles
+Modern cars have 70 sensors, tradionally they had 50 different embedded controls.
+
+Nowadays there is only 1 powerful car controller.
+
+#### Cost
+##### System on Chip
+System on a chip, custom chip (SoC)
+Production setup up to $1000000.
+
+##### System on Board
+More economical for smaller production runs
+
+##### Chiplets
+Between SoC and PCB
+
+#### Performance
+Slower than PCs but more resiliant.
+
+#### Design of Embedded Systems
+- Reliability (Continous operation, no reboot)
+- Cost-effectiveness (Matching requirements, no over-design)
+- Space (Limited phyical dimensions)
+- Space (Limited memory, reduce program code and data)
+- Energy (Limited battery life, reduce power consumption)
+- Safety (No harm to people or environment)
+- Security (Protection agains misuse, hard to do software updates)
