@@ -75,7 +75,7 @@ When combining signals, the operations are applied in the following order:
 - Scaling
 - Time Reversal
 
-#### Convolution
+#### [[Continous-Time LTI Systems and Laplace Transform#Convolution]]
 ![[Pre-requisite Knowledge-1690345457810.jpeg]]
 
 This will be looked at further later.
