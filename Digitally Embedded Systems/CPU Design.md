@@ -39,3 +39,10 @@ NOP is for no operation.
 #### Restrictions
 - Program never stops (cannot branch/loop)
 - Calculate with constant values only (cannot load/store data to/from memory)
+
+### Simple CPU 2
+![[CPU Design-1692106976546.jpeg]]
+#### Timing
+![[CPU Design-1692106943670.jpeg]]
+#### Commands
+![[CPU Design-1692107096040.jpeg]]
