@@ -186,6 +186,8 @@ A combination of P, I, and D controller.
 - trade-offs: response time vs stability
 - noise limits max proportional gain
 
+![[Control-1695541773998.jpeg]]
+
 ### PID Parameter Tuning
 #### Manual Tuning
 1. Select typical operating setting for desired speed, turn off integral and derivite part turn off integral and derivative part, then increase $K_P$ to max or until oscillation occurs
@@ -216,3 +218,20 @@ Using two PID controllers to the left and right motor, we can control the speed 
 
 #### Turning
 ![[Control-1694852634118.jpeg]]
+
+### Timing a Function
+```c
+int main() {
+	TimerHandle t1;
+	t1 = OSAttachTimer(1, PIDcont); // runs once every 100 hz
+	while (KEYRead() != KEY4) { // check for end key
+	// set desired speed with input keys
+	}
+	OSDetachTimer(t1);
+	return 0;
+}
+
+void PIDcont() {
+	// implementation here
+}
+```
